@@ -7,7 +7,6 @@
 - `human_study_responses/`: anonymized answers, ratings, and structured surveys.
 
 Install `requirements.txt` for local processing or `requirements-vllm.txt` in a separate GPU environment.
-Versions reflect the current Mac and Tigerfish environments, not historical lockfiles.
 Git LFS is required to download the large frequency-data file.
 Run generation scripts from `generation/`. Experiment commands run from the package root.
 Replace `MODEL` with a launcher alias (e.g., `qwen9b`), `MODEL_ID` with its checkpoint ID,
