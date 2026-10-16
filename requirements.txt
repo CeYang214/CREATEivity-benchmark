@@ -1,10 +1,9 @@
-# Unpinned functional dependencies; not a historical environment lockfile.
-Pillow
-numpy
-scikit-learn
-torch
-transformers
-wordfreq
-nltk
-openai
-requests
+Pillow==11.1.0
+numpy==2.1.3
+scikit-learn==1.6.1
+torch==2.10.0
+transformers==5.2.0
+wordfreq==3.1.1
+nltk==3.9.1
+openai==2.20.0
+requests==2.32.3
