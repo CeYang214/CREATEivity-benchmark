@@ -1,0 +1,401 @@
+participant_id,puzzle_id,puzzle_index,concept_label,relation,gave_up,solved_correct,correct_attempt_number,time_to_first_guess_ms,solving_time_ms,total_puzzle_time_ms,puzzle_validity,puzzle_difficulty,guesses_count,guess_1,guess_1_correct,guess_1_match_method,guess_1_elapsed_ms,guess_2,guess_2_correct,guess_2_match_method,guess_2_elapsed_ms,guess_3,guess_3_correct,guess_3_match_method,guess_3_elapsed_ms
+P001,IR082,1,track,partof,1,0,,88238,144616,190458,no,5,1,LEAP,0,none,88238,,,,,,,,
+P001,IR085,2,zipper,partof,0,0,,62643,111884,139322,maybe,5,3,S+,0,none,62643,START WITH S,0,none,73503,VERBS,0,none,110352
+P001,IR024,3,camera equipment,isa,0,0,,13656,55723,93330,no,5,3,AMERICAN,0,none,13656,Baby,0,none,46460,Delivery,0,none,53991
+P001,IR063,4,snack,isa,0,0,,113016,124689,172351,maybe,4,3,Pray,0,none,113016,Pose,0,none,118152,Chip,0,none,123289
+P001,IR009,5,bread,isa,0,1,1,62876,62998,129560,yes,2,1,BREAD,1,exact,62876,,,,,,,,
+P001,IR008,6,skeleton,partof,0,0,,17451,39692,72962,yes,4,3,Jacket,0,none,17451,Spine,0,none,26408,Arch,0,none,38052
+P001,IR041,7,courtroom,partof,0,0,,38647,110350,162957,no,4,3,PLOT,0,none,38647,Chart,0,none,45905,Fight,0,none,108505
+P001,IR056,8,tree,isa,1,0,,19431,77140,118902,no,5,2,Matter,0,none,19431,Earth,0,none,60429,,,,
+P001,IR013,9,cocktail,isa,0,1,1,26506,26625,97548,yes,1,1,Cocktail,1,exact,26506,,,,,,,,
+P001,IR076,10,boat,partof,0,0,,27151,73491,121997,maybe,3,3,Names,0,none,27151,Verb,0,none,63609,Game,0,none,71745
+P001,IR049,11,music genre,isa,0,0,,20397,33956,99856,yes,2,3,Valley,0,none,20397,Silicon,0,none,26068,Bars,0,none,32572
+P001,IR086,12,bird,isa,0,0,,19562,55971,96963,maybe,4,3,Price,0,none,19562,Measure,0,none,43963,Leader,0,none,54201
+P001,IR026,13,cheese,isa,1,0,,31676,54629,81331,maybe,4,2,Material,0,none,31676,Fill,0,none,49769,,,,
+P001,IR016,14,computer,partof,0,0,,20243,30063,51618,yes,5,3,Boy,0,none,20243,Girl,0,none,24409,Kid,0,none,28340
+P001,IR019,15,dance,isa,0,0,,18454,31577,70580,maybe,4,3,Deceive,0,none,18454,Lie,0,none,22387,Scam,0,none,29778
+P001,IR043,16,fish,isa,0,0,,373598,421660,441653,maybe,4,3,Chop,0,none,373598,Cards,0,none,383803,Sport,0,none,419606
+P002,IR041,1,courtroom,partof,0,0,,28651,109647,194302,yes,4,3,wood,0,none,28651,bar,0,none,45680,brown,0,none,107919
+P002,IR055,2,airport,partof,0,0,,269113,389295,487494,no,5,3,wood,0,none,269113,rod,0,none,346629,carnival,0,none,387781
+P002,IR035,3,malware,isa,0,0,,24279,48969,80964,yes,3,3,disease,0,none,24279,greece,0,none,32894,animal,0,none,46931
+P002,IR083,4,toilet,partof,0,0,,1063924,1107825,1139391,maybe,5,3,carnival,0,none,1063924,game,0,none,1089991,war,0,none,1106093
+P002,IR039,5,landform,isa,0,0,,74558,101856,144045,no,5,3,submarine,0,none,74558,motion,0,none,92388,dj,0,none,100340
+P002,IR042,6,mammal,isa,0,0,,29976,67224,1456452,yes,4,3,cricket,0,none,29976,sports,0,none,36311,sticks,0,none,65853
+P002,IR086,7,bird,isa,0,1,1,60579,60698,117462,yes,3,1,birds,1,exact,60579,,,,,,,,
+P002,IR075,8,car,partof,0,1,1,46660,46777,85286,yes,2,1,car,1,exact,46660,,,,,,,,
+P002,IR067,9,gemstone cut,isa,0,0,,21789,89293,132297,no,5,3,teeth,0,none,21789,heart,0,none,79492,teeth,0,none,87856
+P002,IR023,10,fastener,isa,0,0,,24175,90942,116271,maybe,5,3,farm,0,none,24175,battery,0,none,64596,paint,0,none,89186
+P002,IR030,11,weapon,isa,0,0,,18668,40427,70595,maybe,5,3,insect,0,none,18668,amphibian,0,none,30375,fish,0,none,38737
+P002,IR070,12,topology,isa,0,1,2,32540,77157,125416,yes,3,2,fish,0,none,32540,rings,1,gemini,75585,,,,
+P002,IR015,13,data type,isa,0,0,,13231,48604,84379,maybe,5,3,coil,0,none,13231,spotlight,0,none,31565,music,0,none,46988
+P002,IR006,14,board game,isa,0,0,,113027,138828,184961,maybe,4,3,sign,0,none,113027,operation,0,none,126701,examine,0,none,137317
+P002,IR004,15,beverage,isa,0,1,2,26933,51926,101479,yes,3,2,arm,0,none,26933,drink,1,gemini,50450,,,,
+P002,IR005,16,plant,partof,1,0,,,15466,69638,no,5,0,,,,,,,,,,,,
+P003,IR043,1,fish,isa,1,0,,53852,110137,209298,maybe,4,1,things that can cut,0,none,53852,,,,,,,,
+P003,IR053,2,data structure,isa,0,1,1,16539,18105,40868,yes,2,1,data structures,1,gemini,16539,,,,,,,,
+P003,IR020,3,book,partof,1,0,,,50299,88102,maybe,4,0,,,,,,,,,,,,
+P003,IR065,4,golf club,isa,1,0,,39316,59617,114745,maybe,4,2,holes,0,none,39316,metal,0,none,56525,,,,
+P003,IR038,5,knot,isa,1,0,,14298,33537,62377,no,5,2,lift,0,none,14298,transport,0,none,30602,,,,
+P003,IR026,6,cheese,isa,1,0,,,29368,61637,maybe,4,0,,,,,,,,,,,,
+P003,IR018,7,cleaning,usedfor,1,0,,,6665,66898,no,5,0,,,,,,,,,,,,
+P003,IR084,8,screw,partof,1,0,,,21675,44954,no,5,0,,,,,,,,,,,,
+P003,IR030,9,weapon,isa,1,0,,,40699,65184,no,5,0,,,,,,,,,,,,
+P003,IR077,10,gun,partof,1,0,,,24948,70413,no,4,0,,,,,,,,,,,,
+P003,IR070,11,topology,isa,1,0,,,24350,49764,no,5,0,,,,,,,,,,,,
+P003,IR067,12,gemstone cut,isa,1,0,,,16845,89607,no,5,0,,,,,,,,,,,,
+P003,IR041,13,courtroom,partof,1,0,,,29905,44687,maybe,5,0,,,,,,,,,,,,
+P003,IR082,14,track,partof,1,0,,,4378,27268,no,4,0,,,,,,,,,,,,
+P003,IR008,15,skeleton,partof,1,0,,,10436,30380,no,5,0,,,,,,,,,,,,
+P003,IR035,16,malware,isa,1,0,,14788,17698,32405,maybe,5,1,hidden,0,none,14788,,,,,,,,
+P004,IR076,1,boat,partof,0,0,,28000,127071,172482,maybe,4,3,orion,0,none,28000,sagittarius,0,none,73882,shooting,0,none,125017
+P004,IR008,2,skeleton,partof,0,0,,157783,181746,218865,no,4,3,bow,0,none,157783,mystic,0,none,168716,fly,0,none,179965
+P004,IR045,3,length unit,isa,0,0,,16644,39416,68881,yes,3,3,prison,0,none,16644,veins,0,none,28196,iron,0,none,38174
+P004,IR019,4,dance,isa,0,0,,16889,28683,53848,maybe,3,3,kumbucha,0,none,16889,fish oil,0,none,23137,scales,0,none,27074
+P004,IR067,5,gemstone cut,isa,0,0,,31603,54500,78510,maybe,3,3,blood,0,none,31603,life,0,none,41855,beat,0,none,52944
+P004,IR003,6,bag,isa,0,0,,23697,41325,73954,no,4,3,break,0,none,23697,delivery,0,none,30682,driving,0,none,39652
+P004,IR075,7,car,partof,0,0,,17114,53618,76882,yes,2,3,ivory,0,none,17114,storage,0,none,41041,wardrobe,0,none,52253
+P004,IR057,8,flower,partof,0,0,,10952,103334,156080,maybe,3,3,adam,0,none,10952,botox,0,none,15312,blades,0,none,101637
+P004,P054,9,mythical creature,isa,0,0,,12507,37757,109049,no,4,3,children,0,none,12507,christmas,0,none,22386,alcohol,0,none,35883
+P004,IR089,10,musical instrument,isa,0,0,,20622,111268,128178,yes,3,3,urine,0,none,20622,diabetes,0,none,41524,signal,0,none,109724
+P004,IR034,11,bed,partof,0,0,,26943,50771,70813,maybe,5,4,sunny,0,none,26943,summer,0,none,32855,spring,0,none,47563
+P004,IR078,12,cyclone,partof,0,0,,12398,72710,95929,no,4,3,opening,0,none,12398,shadows,0,none,35421,attention,0,none,71157
+P004,IR024,13,camera equipment,isa,0,0,,73933,100936,124301,maybe,5,3,thanksgiving,0,none,73933,construction,0,none,94887,crane,0,none,98943
+P004,IR037,14,blender,partof,0,0,,116441,132929,153345,no,3,3,baseball,0,none,116441,singing,0,none,121426,construction,0,none,130992
+P004,IR058,15,political party,symbolof,0,0,,18669,28667,48729,no,5,3,mythical,0,none,18669,enchanted,0,none,23180,forest,0,none,27121
+P004,IR020,16,book,partof,0,0,,7937,22234,59879,no,5,3,life,0,none,7937,iron,0,none,15550,lucky,0,none,20567
+P005,IR072,1,tree,partof,1,0,,,30879,77371,maybe,4,0,,,,,,,,,,,,
+P005,IR007,2,river,partof,0,1,1,41427,41733,82802,maybe,4,1,river,1,exact,41427,,,,,,,,
+P005,IR024,3,camera equipment,isa,1,0,,,35641,58581,no,5,0,,,,,,,,,,,,
+P005,IR075,4,car,partof,1,0,,,25516,47112,no,5,0,,,,,,,,,,,,
+P005,IR078,5,cyclone,partof,1,0,,53441,103579,150468,no,5,2,make up,0,none,53441,blue,0,none,97322,,,,
+P005,IR071,6,suit,isa,0,0,,27980,52052,91672,maybe,5,3,poker,0,none,27980,playing cards,0,none,39380,card,0,none,50145
+P005,IR017,7,console,isa,1,0,,86400,120751,155396,yes,5,2,tetris,0,none,86400,game,0,none,101453,,,,
+P005,IR016,8,computer,partof,0,1,1,49545,49836,152111,yes,4,1,computer,1,exact,49545,,,,,,,,
+P005,IR083,9,toilet,partof,1,0,,,28085,57280,no,5,0,,,,,,,,,,,,
+P005,IR023,10,fastener,isa,1,0,,18092,41094,70249,maybe,5,1,weather,0,none,18092,,,,,,,,
+P005,P007,11,ship,isa,1,0,,,72177,104096,maybe,5,0,,,,,,,,,,,,
+P005,IR040,12,mountain,partof,1,0,,,77089,106897,maybe,5,0,,,,,,,,,,,,
+P005,IR050,13,deity,isa,1,0,,,104472,130585,no,5,0,,,,,,,,,,,,
+P005,IR047,14,metalworking,usedfor,1,0,,,37697,50983,maybe,5,0,,,,,,,,,,,,
+P005,IR031,15,guitar,partof,0,1,1,57384,57846,84937,yes,3,1,guitar,1,exact,57384,,,,,,,,
+P005,IR036,16,clasp,isa,1,0,,,78589,103501,yes,5,0,,,,,,,,,,,,
+P006,IR078,1,cyclone,partof,0,0,,31483,63001,96655,no,3,3,color,0,none,31483,dairy,0,none,45173,storm,0,none,61347
+P006,IR011,2,shoe,isa,0,0,,22125,42749,70812,no,4,3,work,0,none,22125,trial,0,none,26294,move,0,none,41228
+P006,IR004,3,beverage,isa,0,0,,10253,32816,52850,yes,3,3,party,0,none,10253,milk,0,none,24269,party,0,none,31523
+P006,IR013,4,cocktail,isa,0,1,1,10433,10530,24753,yes,1,1,cocktail,1,exact,10433,,,,,,,,
+P006,IR071,5,suit,isa,0,0,,36556,45519,65191,maybe,3,3,job,0,none,36556,work,0,none,39243,shine,0,none,43994
+P006,IR020,6,book,partof,0,0,,14200,35169,52301,maybe,3,3,bug,0,none,14200,insect,0,none,29577,nature,0,none,33573
+P006,IR065,7,golf club,isa,0,0,,18336,29029,77453,no,3,3,kitchen,0,none,18336,metal,0,none,24030,food,0,none,27572
+P006,IR044,8,strike,isa,0,0,,7804,25960,44086,no,4,3,fishing,0,none,7804,law,0,none,20612,trail,0,none,23841
+P006,IR036,9,clasp,isa,0,0,,26576,37282,63549,no,3,3,airoplane,0,none,26576,arcoratics,0,none,31724,acrobatics,0,none,35751
+P006,IR085,10,zipper,partof,0,0,,26138,53335,81179,no,4,3,Deceipt,0,none,26138,Gear,0,none,46664,Mechanic,0,none,51656
+P006,IR075,11,car,partof,0,0,,12548,32860,56446,maybe,4,3,tree,0,none,12548,Planr,0,none,17021,Leather,0,none,30290
+P006,IR059,12,programming construct,isa,0,0,,7431,26420,46267,maybe,4,3,Git,0,none,7431,Restrain,0,none,19287,Test,0,none,24751
+P006,IR029,13,cereal,partof,0,0,,20859,31688,45542,no,4,3,Sense,0,none,20859,hear,0,none,26446,Corn,0,none,29932
+P006,IR006,14,board game,isa,0,0,,30169,42238,63591,no,4,3,Careful,0,none,30169,Investigate,0,none,34326,Intense,0,none,40792
+P006,IR037,15,blender,partof,0,0,,10999,21798,39034,no,5,3,Green,0,none,10999,Vegetable,0,none,16459,Mint,0,none,20526
+P006,IR066,16,stitch,isa,0,0,,51896,60914,74113,no,4,3,link,0,none,51896,light,0,none,56406,rise,0,none,59136
+P007,IR053,1,data structure,isa,1,0,,45767,78432,142614,yes,4,2,music?,0,none,45767,orders,0,none,75050,,,,
+P007,IR018,2,cleaning,usedfor,1,0,,22917,52013,94232,no,5,2,colonies,0,none,22917,growth,0,none,40513,,,,
+P007,IR040,3,mountain,partof,1,0,,35399,58951,115869,no,5,2,body parts,0,none,35399,body parts,0,none,36889,,,,
+P007,IR045,4,length unit,isa,1,0,,,47967,163718,maybe,4,0,,,,,,,,,,,,
+P007,IR039,5,landform,isa,0,0,,19094,54098,146532,yes,4,3,the letter S,0,none,19094,burn,0,none,29008,asmr,0,none,52820
+P007,IR064,6,feature,isa,1,0,,20567,32131,172349,no,5,1,story,0,none,20567,,,,,,,,
+P007,IR017,7,console,isa,1,0,,,41996,98310,yes,3,0,,,,,,,,,,,,
+P007,IR084,8,screw,partof,1,0,,,42462,162590,yes,4,0,,,,,,,,,,,,
+P007,IR016,9,computer,partof,1,0,,,30913,135216,maybe,4,0,,,,,,,,,,,,
+P007,IR033,10,clock,partof,1,0,,10653,19775,43875,yes,4,1,cards,0,none,10653,,,,,,,,
+P007,IR049,11,music genre,isa,1,0,,,24851,101937,yes,3,0,,,,,,,,,,,,
+P007,IR008,12,skeleton,partof,1,0,,25451,29161,85927,maybe,3,1,bones,0,none,25451,,,,,,,,
+P007,IR062,13,shape,isa,1,0,,24455,31304,64837,yes,3,1,card suits,0,none,24455,,,,,,,,
+P007,IR079,14,web browser,partof,0,1,1,6289,7744,71888,yes,2,1,browsers,1,gemini,6289,,,,,,,,
+P007,IR027,15,fruit,isa,0,1,1,18917,19040,37768,yes,2,1,fruits,1,exact,18917,,,,,,,,
+P007,IR051,16,pen,partof,1,0,,,25008,60698,yes,4,0,,,,,,,,,,,,
+P008,IR077,1,gun,partof,0,1,1,20348,20602,64046,yes,4,1,Gun,1,exact,20348,,,,,,,,
+P008,IR057,2,flower,partof,1,0,,,90844,119477,maybe,5,0,,,,,,,,,,,,
+P008,IR019,3,dance,isa,0,1,1,23232,23344,46325,yes,4,1,Dance,1,exact,23232,,,,,,,,
+P008,IR010,4,garment,isa,0,1,2,27887,35988,57943,yes,3,2,Cloth,0,none,27887,Clothing,1,gemini,34404,,,,
+P008,IR043,5,fish,isa,0,1,1,28984,29091,49144,yes,4,1,Fish,1,exact,28984,,,,,,,,
+P008,IR014,6,glass,partof,0,1,1,24085,24198,38411,yes,2,1,Glass,1,exact,24085,,,,,,,,
+P008,IR042,7,mammal,isa,0,1,1,25848,27705,42856,yes,2,1,animal,1,gemini,25848,,,,,,,,
+P008,IR009,8,bread,isa,0,1,1,32725,32840,47727,yes,1,1,Bread,1,exact,32725,,,,,,,,
+P008,IR003,9,bag,isa,1,0,,29006,53056,70764,yes,4,2,Drug,0,none,29006,Dealer,0,none,49323,,,,
+P008,IR060,10,punctuation mark,isa,0,1,1,30330,32261,46096,yes,2,1,Punctuation,1,gemini,30330,,,,,,,,
+P008,IR054,11,pasta,isa,0,1,3,14629,39213,54154,yes,4,3,Gas,0,none,14629,Beach,0,none,33898,Pasta,1,exact,38994
+P008,IR069,12,pastry,isa,0,1,1,21759,22025,36090,yes,3,1,Pastry,1,exact,21759,,,,,,,,
+P008,IR028,13,chess piece,isa,0,1,1,24170,25941,40785,yes,2,1,Chess,1,gemini,24170,,,,,,,,
+P008,P027,14,money,isa,0,1,1,23688,25344,40764,yes,2,1,Coin,1,gemini,23688,,,,,,,,
+P008,P007,15,ship,isa,0,0,,21953,45736,67923,yes,3,3,Wood,0,none,21953,baking,0,none,31076,Astronomy,0,none,44139
+P008,IR047,16,metalworking,usedfor,0,0,,48374,83294,99980,yes,4,3,Fish,0,none,48374,Trek,0,none,61577,Sports,0,none,81844
+P009,IR040,1,mountain,partof,0,0,,92848,151332,216578,yes,4,3,back,0,none,92848,pad,0,none,103997,support,0,none,149695
+P009,IR001,2,jewelry,isa,0,0,,99286,246062,282297,maybe,4,3,trapped,0,none,99286,sports,0,none,151950,Inside,0,none,244665
+P009,IR079,3,web browser,partof,0,1,1,102647,104209,138730,yes,2,1,Browser,1,gemini,102647,,,,,,,,
+P009,IR044,4,strike,isa,0,0,,114098,190573,322775,yes,4,3,sewing,0,none,114098,crafting,0,none,177129,hang,0,none,189029
+P009,IR046,5,metal,isa,0,1,1,48408,48547,115173,yes,2,1,metal,1,exact,48408,,,,,,,,
+P009,P007,6,ship,isa,0,0,,75973,195969,257134,yes,4,3,wood,0,none,75973,bamboo,0,none,105105,cooking,0,none,194202
+P009,IR021,7,stage,partof,0,0,,209908,257676,288941,yes,5,3,airport,0,none,209908,kitchen,0,none,240690,aviation,0,none,256207
+P009,IR047,8,metalworking,usedfor,0,0,,37263,106071,143047,maybe,5,3,agile,0,none,37263,slipping,0,none,93247,grip,0,none,104480
+P009,IR036,9,clasp,isa,0,0,,25900,408674,446068,maybe,5,3,sea,0,none,25900,board,0,none,149033,bar,0,none,406983
+P009,IR037,10,blender,partof,0,0,,1564500,2449154,2483862,yes,4,3,drop,0,none,1564500,tension,0,none,2334277,release,0,none,2447594
+P009,IR043,11,fish,isa,0,0,,230741,638217,671089,yes,3,3,lift,0,none,230741,layer,0,none,287375,jump,0,none,636289
+P009,IR076,12,boat,partof,1,0,,295266,454819,516517,maybe,4,2,range,0,none,295266,field,0,none,371833,,,,
+P009,IR019,13,dance,isa,0,1,1,244658,244762,279892,yes,1,1,dance,1,exact,244658,,,,,,,,
+P009,IR033,14,clock,partof,1,0,,686434,735770,800386,yes,3,2,stone,0,none,686434,royal,0,none,732968,,,,
+P009,IR085,15,zipper,partof,0,0,,396478,706458,768922,yes,4,3,Teeth,0,none,396478,bite,0,none,528661,crown,0,none,704872
+P009,IR026,16,cheese,isa,0,1,1,677215,677401,698465,yes,1,1,cheese,1,exact,677215,,,,,,,,
+P010,IR001,1,jewelry,isa,0,0,,92559,116260,153326,yes,4,3,corner,0,none,92559,ring,0,none,107366,trapped,0,none,114751
+P010,IR037,2,blender,partof,0,0,,73351,231214,258127,maybe,5,3,curve,0,none,73351,diamond,0,none,158817,tag,0,none,229769
+P010,IR046,3,metal,isa,0,0,,114731,136320,164660,yes,4,3,grip,0,none,114731,Handle,0,none,120238,Retractable,0,none,134844
+P010,IR083,4,toilet,partof,0,1,2,8051,45306,84964,maybe,3,2,war,0,none,8051,toliet,1,gemini,43759,,,,
+P010,IR030,5,weapon,isa,0,1,1,58878,58982,105558,yes,3,1,weapon,1,exact,58878,,,,,,,,
+P010,IR066,6,stitch,isa,0,1,1,37937,38044,63411,yes,3,1,stitches,1,exact,37937,,,,,,,,
+P010,IR054,7,pasta,isa,0,1,1,86750,86857,109423,yes,4,1,pasta,1,exact,86750,,,,,,,,
+P010,IR079,8,web browser,partof,0,0,,33519,45215,68064,yes,3,3,web,0,none,33519,webpage,0,none,37163,internet,0,none,43471
+P010,IR065,9,golf club,isa,0,1,2,76169,87392,106869,yes,4,2,golf,0,none,76169,clubs,1,gemini,85558,,,,
+P010,IR060,10,punctuation mark,isa,0,0,,45519,247113,271921,maybe,5,3,aligned,0,none,45519,line,0,none,242714,tape,0,none,245457
+P010,P007,11,ship,isa,0,1,1,76161,76271,107564,maybe,5,1,ship,1,exact,76161,,,,,,,,
+P010,IR077,12,gun,partof,0,1,1,46158,46269,80446,yes,3,1,gun,1,exact,46158,,,,,,,,
+P010,IR007,13,river,partof,0,1,2,11161,23056,42377,yes,3,2,sex,0,none,11161,river,1,exact,22948,,,,
+P010,IR062,14,shape,isa,0,1,2,32317,63632,82919,maybe,3,2,card,0,none,32317,shape,1,exact,63511,,,,
+P010,IR040,15,mountain,partof,0,1,2,60577,66156,98177,no,4,2,land,0,none,60577,mountain,1,exact,66036,,,,
+P010,IR033,16,clock,partof,1,0,,57258,117193,139773,no,5,1,teeth,0,none,57258,,,,,,,,
+P011,IR003,1,bag,isa,0,0,,53383,90387,150027,maybe,5,3,Drive,0,none,53383,Traffic,0,none,66937,Drive in,0,none,88487
+P011,IR021,2,stage,partof,0,0,,26751,49716,96125,no,5,3,Trap,0,none,26751,Fish,0,none,34403,Mouse,0,none,47661
+P011,IR029,3,cereal,partof,0,0,,44800,61211,95819,maybe,5,3,Cover,0,none,44800,Protection,0,none,50792,Falling,0,none,59427
+P011,IR046,4,metal,isa,0,1,1,20781,22795,63183,maybe,2,1,Elements,1,gemini,20781,,,,,,,,
+P011,IR006,5,board game,isa,0,0,,17192,60860,88204,maybe,4,3,Uncertainty,0,none,17192,Mystery,0,none,25153,Spy,0,none,59110
+P011,IR005,6,plant,partof,0,0,,28785,44191,69345,yes,3,3,Rob,0,none,28785,Thief,0,none,34393,Break,0,none,42517
+P011,IR039,7,landform,isa,0,0,,11933,27513,50156,maybe,5,3,Heat sink,0,none,11933,Microwave,0,none,20188,Oven,0,none,25394
+P011,IR056,8,tree,isa,0,0,,36481,47964,72042,maybe,4,3,Passenger,0,none,36481,Stuff,0,none,40867,Delivery,0,none,46366
+P011,IR004,9,beverage,isa,0,0,,77611,133510,168392,yes,4,3,Taxi,0,none,77611,Buying something,0,none,112628,Deal,0,none,131329
+P011,IR027,10,fruit,isa,1,0,,74178,91900,143115,maybe,3,1,Frank ocean,0,none,74178,,,,,,,,
+P011,IR089,11,musical instrument,isa,1,0,,,21271,43445,yes,3,0,,,,,,,,,,,,
+P011,IR054,12,pasta,isa,0,0,,41582,120558,142128,yes,3,3,Cuddle,0,none,41582,Car parts,0,none,109217,Terminal,0,none,118759
+P011,IR062,13,shape,isa,0,0,,16179,106907,139322,yes,3,3,Card,0,none,16179,Cars,0,none,99007,Cut,0,none,105413
+P011,IR048,14,film,partof,0,0,,14249,63436,91464,yes,2,3,Passport,0,none,14249,Taylor swift,0,none,33813,Music,0,none,61263
+P011,IR060,15,punctuation mark,isa,1,0,,,28088,61554,maybe,5,0,,,,,,,,,,,,
+P011,P027,16,money,isa,0,0,,25277,42384,68000,yes,3,3,Car,0,none,25277,Sound,0,none,30334,Horn,0,none,40592
+P012,IR009,1,bread,isa,0,0,,65073,98920,149740,no,5,3,wipe,0,none,65073,clean,0,none,81815,liquid,0,none,96557
+P012,IR057,2,flower,partof,0,0,,58894,97546,139269,maybe,5,3,eating,0,none,58894,body,0,none,85236,sharp,0,none,95773
+P012,IR014,3,glass,partof,0,0,,25397,46258,87646,maybe,5,3,gravel,0,none,25397,hiking,0,none,38704,wilderness,0,none,44571
+P012,IR020,4,book,partof,0,0,,67712,91464,149151,yes,5,3,vegetable,0,none,67712,nutrients,0,none,81392,calcium,0,none,89421
+P012,IR007,5,river,partof,0,1,1,19802,19910,42763,yes,2,1,river,1,exact,19802,,,,,,,,
+P012,IR011,6,shoe,isa,0,0,,23582,38394,67034,yes,5,3,animal,0,none,23582,liquid,0,none,30564,farm,0,none,36581
+P012,IR065,7,golf club,isa,0,0,,96193,137621,159593,maybe,5,3,fix,0,none,96193,metal,0,none,116625,tools,0,none,135209
+P012,IR069,8,pastry,isa,0,0,,104653,126554,162819,maybe,5,3,peace,0,none,104653,neutrality,0,none,117653,europe,0,none,124727
+P012,P027,9,money,isa,0,0,,38142,56586,90274,yes,4,3,forest,0,none,38142,park,0,none,46765,nature,0,none,54999
+P012,IR045,10,length unit,isa,0,0,,16356,71446,106247,yes,4,3,football,0,none,16356,measurement,0,none,35599,prison,0,none,68755
+P012,IR051,11,pen,partof,0,0,,92868,112909,147242,yes,5,3,sauna,0,none,92868,spa,0,none,98184,bathhouse,0,none,111168
+P012,IR048,12,film,partof,0,0,,20550,84750,100609,yes,4,3,memories,0,none,20550,moving,0,none,76185,experiences,0,none,82953
+P012,IR008,13,skeleton,partof,0,0,,96136,119501,138869,yes,5,3,construction,0,none,96136,architecture,0,none,105670,standing up,0,none,117686
+P012,IR028,14,chess piece,isa,0,0,,48836,92417,107502,maybe,5,3,Rome,0,none,48836,Medieval age,0,none,57603,Catholic church,0,none,90769
+P012,IR062,15,shape,isa,0,1,3,52068,67202,86593,yes,3,3,quadrilateral,0,none,52068,polygon,0,none,58875,shapes,1,gemini,65412
+P012,IR024,16,camera equipment,isa,0,0,,46451,102545,128764,no,5,3,puppet,0,none,46451,toy,0,none,56208,food,0,none,100264
+P013,IR058,1,political party,symbolof,0,1,1,73749,73932,104817,maybe,4,1,political party,1,exact,73749,,,,,,,,
+P013,IR076,2,boat,partof,1,0,,48753,59099,88537,no,5,2,draw,0,none,48753,to draw,0,none,54320,,,,
+P013,IR052,3,operating system,partof,0,0,,54763,92767,116579,maybe,5,3,Mario,0,none,54763,elbow,0,none,65413,programming,0,none,91329
+P013,IR023,4,fastener,isa,0,0,,11321,34438,51788,no,5,3,dark mode,0,none,11321,energy,0,none,26271,charge,0,none,32554
+P013,IR021,5,stage,partof,0,0,,23425,50562,66009,no,5,3,theatre,0,none,23425,trap,0,none,37258,trap,0,none,49092
+P013,IR005,6,plant,partof,0,0,,35001,51896,76300,maybe,5,3,sound,0,none,35001,crack,0,none,43367,sharp,0,none,50284
+P013,IR072,7,tree,partof,0,1,1,14623,14780,38006,yes,3,1,tree,1,exact,14623,,,,,,,,
+P013,IR041,8,courtroom,partof,0,1,1,161606,163658,183156,yes,3,1,court,1,gemini,161606,,,,,,,,
+P013,IR068,9,cake,isa,0,0,,15800,28391,43633,no,5,3,sheet,0,none,15800,flow,0,none,22450,currency,0,none,26834
+P013,IR067,10,gemstone cut,isa,0,1,2,44287,55968,75454,maybe,4,2,diamond,0,none,44287,cushion cut,1,gemini,54303,,,,
+P013,IR083,11,toilet,partof,0,1,1,16790,16994,35224,maybe,4,1,toilet,1,exact,16790,,,,,,,,
+P013,IR056,12,tree,isa,0,0,,10826,28632,39793,no,5,3,black,0,none,10826,blackbox,0,none,21026,box,0,none,26976
+P013,IR007,13,river,partof,0,1,3,14716,27999,49166,maybe,3,3,part,0,none,14716,body parts,0,none,22666,river,1,exact,27883
+P013,P054,14,mythical creature,isa,0,1,1,25051,26810,73468,maybe,4,1,fairies,1,gemini,25051,,,,,,,,
+P013,IR030,15,weapon,isa,0,1,1,18727,18945,34394,yes,2,1,weapons,1,exact,18727,,,,,,,,
+P013,IR026,16,cheese,isa,0,1,1,101206,101323,117773,yes,3,1,cheese,1,exact,101206,,,,,,,,
+P014,IR079,1,web browser,partof,1,0,,301475,317324,385173,maybe,5,1,cook,0,none,301475,,,,,,,,
+P014,IR021,2,stage,partof,0,0,,21246,172974,267667,maybe,5,3,snimal,0,none,21246,animal,0,none,24969,string,0,none,171635
+P014,IR017,3,console,isa,0,0,,62467,137364,178917,no,5,3,ring,0,none,62467,light,0,none,122969,space,0,none,135185
+P014,IR069,4,pastry,isa,1,0,,98123,108134,170220,yes,5,2,war,0,none,98123,battle,0,none,104019,,,,
+P014,IR048,5,film,partof,0,0,,82696,100090,140097,maybe,4,3,trail,0,none,82696,frame,0,none,88611,travel,0,none,98320
+P014,IR054,6,pasta,isa,1,0,,37082,137482,184118,no,5,2,sea,0,none,37082,three,0,none,99198,,,,
+P014,IR018,7,cleaning,usedfor,0,0,,11285,69989,145939,no,5,3,nature,0,none,11285,bob,0,none,37400,water,0,none,68095
+P014,IR052,8,operating system,partof,1,0,,62802,109789,186806,maybe,5,2,ball,0,none,62802,bird,0,none,84957,,,,
+P014,IR014,9,glass,partof,0,1,2,52320,58922,96683,yes,3,2,wine,0,none,52320,wine glass,1,gemini,56995,,,,
+P014,IR035,10,malware,isa,0,1,3,14610,43663,56945,yes,2,3,computer bg,0,none,14610,computer bug,0,none,19200,malware,1,exact,43565
+P014,IR042,11,mammal,isa,0,0,,48116,93042,123541,yes,4,3,wood,0,none,48116,power,0,none,81595,press,0,none,91164
+P014,IR009,12,bread,isa,1,0,,103214,124381,143338,no,5,2,thin,0,none,103214,frgrance,0,none,118453,,,,
+P014,IR036,13,clasp,isa,1,0,,61098,85572,130071,yes,5,2,restaurant,0,none,61098,netball,0,none,81027,,,,
+P014,IR031,14,guitar,partof,0,0,,63124,89279,120765,yes,4,3,bone,0,none,63124,curve,0,none,71112,port,0,none,87626
+P014,IR085,15,zipper,partof,1,0,,61619,77978,111590,maybe,5,2,set,0,none,61619,shut,0,none,73764,,,,
+P014,IR056,16,tree,isa,0,0,,54657,74894,93747,no,5,3,parts,0,none,54657,geometry,0,none,64316,math,0,none,73471
+P015,IR055,1,airport,partof,0,0,,11212,55062,85451,no,4,3,Animals,0,none,11212,natural objects,0,none,36585,animals,0,none,53366
+P015,IR010,2,garment,isa,1,0,,25129,50339,67401,no,4,2,electronics,0,none,25129,warfare,0,none,39756,,,,
+P015,IR045,3,length unit,isa,1,0,,15100,17252,35832,no,4,1,connectors,0,none,15100,,,,,,,,
+P015,IR034,4,bed,partof,1,0,,,18216,35275,no,5,0,,,,,,,,,,,,
+P015,IR063,5,snack,isa,1,0,,,15376,41207,no,5,0,,,,,,,,,,,,
+P015,IR013,6,cocktail,isa,1,0,,7689,13571,32004,no,4,2,drive,0,none,7689,drive,0,none,12760,,,,
+P015,IR015,7,data type,isa,1,0,,24406,26855,40440,no,5,1,rope,0,none,24406,,,,,,,,
+P015,IR009,8,bread,isa,1,0,,,6325,20252,no,5,0,,,,,,,,,,,,
+P015,IR019,9,dance,isa,1,0,,,6244,20460,no,5,0,,,,,,,,,,,,
+P015,IR044,10,strike,isa,1,0,,,3775,18651,no,4,0,,,,,,,,,,,,
+P015,IR042,11,mammal,isa,1,0,,,3157,18740,no,5,0,,,,,,,,,,,,
+P015,IR001,12,jewelry,isa,1,0,,,2033,13292,no,4,0,,,,,,,,,,,,
+P015,IR014,13,glass,partof,1,0,,,1549,18428,no,5,0,,,,,,,,,,,,
+P015,IR051,14,pen,partof,1,0,,,2042,14010,no,4,0,,,,,,,,,,,,
+P015,IR066,15,stitch,isa,1,0,,,1230,9372,no,4,0,,,,,,,,,,,,
+P015,IR085,16,zipper,partof,1,0,,,1468,13028,no,5,0,,,,,,,,,,,,
+P016,IR034,1,bed,partof,1,0,,234800,386759,514024,maybe,4,2,spring,0,none,234800,city,0,none,309049,,,,
+P016,IR067,2,gemstone cut,isa,1,0,,117109,121004,233120,yes,5,1,life,0,none,117109,,,,,,,,
+P016,IR015,3,data type,isa,1,0,,60277,107737,226839,yes,3,1,fishing,0,none,60277,,,,,,,,
+P016,IR023,4,fastener,isa,1,0,,294800,302107,382246,no,4,2,power,0,none,294800,energy,0,none,298912,,,,
+P016,IR068,5,cake,isa,1,0,,148168,151563,241892,maybe,4,1,sheet,0,none,148168,,,,,,,,
+P016,IR078,6,cyclone,partof,0,1,1,128838,131022,174163,yes,3,1,hurricane,1,gemini,128838,,,,,,,,
+P016,IR050,7,deity,isa,1,0,,,70580,153972,yes,4,0,,,,,,,,,,,,
+P016,IR042,8,mammal,isa,0,1,1,62969,65017,123396,yes,2,1,animal,1,gemini,62969,,,,,,,,
+P016,IR045,9,length unit,isa,0,1,1,266907,269172,302712,maybe,3,1,unit,1,gemini,266907,,,,,,,,
+P016,IR055,10,airport,partof,0,1,1,335057,335762,374629,yes,3,1,airport,1,exact,335057,,,,,,,,
+P016,IR010,11,garment,isa,1,0,,,125343,167645,yes,3,0,,,,,,,,,,,,
+P016,IR084,12,screw,partof,0,1,1,114605,115302,142709,yes,3,1,screw,1,exact,114605,,,,,,,,
+P016,IR059,13,programming construct,isa,0,1,1,103883,105809,147362,yes,2,1,structure,1,gemini,103883,,,,,,,,
+P016,IR029,14,cereal,partof,0,1,1,76572,78814,119981,yes,2,1,grain,1,gemini,76572,,,,,,,,
+P016,IR058,15,political party,symbolof,1,0,,8755,40247,108622,maybe,3,2,lives,0,none,8755,head,0,none,23071,,,,
+P016,IR051,16,pen,partof,1,0,,,88620,111901,maybe,4,0,,,,,,,,,,,,
+P017,IR086,1,bird,isa,0,0,,44751,91556,165868,maybe,5,3,pope kite,0,none,44751,pope kite ca ne,0,none,66390,i dont know,0,none,87095
+P017,IR062,2,shape,isa,0,0,,27552,47536,61237,no,5,3,phoenix,0,none,27552,phoenix,0,none,27710,peocook,0,none,43980
+P017,IR046,3,metal,isa,1,0,,,36486,57987,yes,4,0,,,,,,,,,,,,
+P017,IR026,4,cheese,isa,0,0,,12536,47275,86990,maybe,5,3,rope,0,none,12536,rope,0,none,12796,brick,0,none,30890
+P017,IR004,5,beverage,isa,1,0,,,30444,65434,maybe,4,0,,,,,,,,,,,,
+P017,IR072,6,tree,partof,1,0,,,135835259,135846809,no,5,0,,,,,,,,,,,,
+P017,IR060,7,punctuation mark,isa,0,1,3,80405,113764,143745,yes,3,3,column,0,none,80405,excel,0,none,90123,puncuation,1,gemini,111321
+P017,IR059,8,programming construct,isa,1,0,,,66770,98539,maybe,4,0,,,,,,,,,,,,
+P017,IR077,9,gun,partof,1,0,,,59695,72775,no,5,0,,,,,,,,,,,,
+P017,IR038,10,knot,isa,1,0,,,65386,88259,yes,3,0,,,,,,,,,,,,
+P017,IR015,11,data type,isa,0,0,,126915,130526,154930,yes,2,3,f lo t,0,none,126915,float,0,none,128315,floa t,0,none,128155
+P017,IR082,12,track,partof,1,0,,,31410,47071,no,5,0,,,,,,,,,,,,
+P017,IR066,13,stitch,isa,1,0,,,42059,63064,yes,3,0,,,,,,,,,,,,
+P017,IR049,14,music genre,isa,0,1,1,684231144,684234215,684253022,yes,2,1,music,1,gemini,684231144,,,,,,,,
+P017,IR028,15,chess piece,isa,0,1,2,24117,80038,100340,yes,3,2,chess,0,none,24117,part of chess,1,gemini,77580,,,,
+P017,IR071,16,suit,isa,0,1,3,27103,64960,84398,yes,2,3,chromeheart,0,none,27103,card,0,none,37944,cardsuite,1,gemini,62687
+P018,IR050,1,deity,isa,0,0,,20235,44104,82153,no,5,3,water,0,none,20235,circle,0,none,31902,round,0,none,42452
+P018,IR029,2,cereal,partof,0,0,,11645,37253,94913,no,5,3,hair,0,none,11645,straw,0,none,22013,strings,0,none,35714
+P018,IR089,3,musical instrument,isa,1,0,,17382,32166,59064,maybe,4,1,signal,0,none,17382,,,,,,,,
+P018,IR017,4,console,isa,1,0,,17573,20024,52373,maybe,4,1,control,0,none,17573,,,,,,,,
+P018,IR013,5,cocktail,isa,1,0,,,18172,62611,no,5,0,,,,,,,,,,,,
+P018,IR054,6,pasta,isa,1,0,,18952,21628,56603,no,5,1,wheel,0,none,18952,,,,,,,,
+P018,IR077,7,gun,partof,1,0,,16371,18774,65604,maybe,5,1,liquid,0,none,16371,,,,,,,,
+P018,IR034,8,bed,partof,1,0,,,9820,46029,no,5,0,,,,,,,,,,,,
+P018,IR018,9,cleaning,usedfor,1,0,,,25233,45934,no,5,0,,,,,,,,,,,,
+P018,IR059,10,programming construct,isa,1,0,,19884,22199,48132,no,5,1,string,0,none,19884,,,,,,,,
+P018,IR052,11,operating system,partof,1,0,,22836,25692,45985,no,5,1,ocean,0,none,22836,,,,,,,,
+P018,IR049,12,music genre,isa,1,0,,,14247,68231,no,5,0,,,,,,,,,,,,
+P018,IR027,13,fruit,isa,1,0,,,9068,73154,no,5,0,,,,,,,,,,,,
+P018,IR066,14,stitch,isa,1,0,,,19928,58815,no,5,0,,,,,,,,,,,,
+P018,IR063,15,snack,isa,1,0,,16187,18684,54253,no,5,1,"chip, roll, yoga",0,none,16187,,,,,,,,
+P018,IR064,16,feature,isa,1,0,,,10373,76564,no,5,0,,,,,,,,,,,,
+P019,IR041,1,courtroom,partof,1,0,,59077,102993,176987,yes,5,1,b,0,none,59077,,,,,,,,
+P019,IR027,2,fruit,isa,1,0,,25974,54747,98536,yes,4,2,time,0,none,25974,day,0,none,51174,,,,
+P019,IR063,3,snack,isa,0,1,1,34901,35006,93708,yes,3,1,snack,1,exact,34901,,,,,,,,
+P019,IR068,4,cake,isa,0,1,1,81269,81369,127286,yes,3,1,cake,1,exact,81269,,,,,,,,
+P019,IR070,5,topology,isa,1,0,,,53834,78624,maybe,5,0,,,,,,,,,,,,
+P019,IR083,6,toilet,partof,1,0,,,51228,86997,maybe,5,0,,,,,,,,,,,,
+P019,IR039,7,landform,isa,1,0,,,22290,59023,maybe,5,0,,,,,,,,,,,,
+P019,IR016,8,computer,partof,0,1,1,37732,37832,54020,yes,1,1,computer,1,exact,37732,,,,,,,,
+P019,IR044,9,strike,isa,1,0,,,57683,78258,maybe,5,0,,,,,,,,,,,,
+P019,IR006,10,board game,isa,1,0,,,30726,58376,maybe,5,0,,,,,,,,,,,,
+P019,P027,11,money,isa,0,1,1,47995,48090,73583,yes,3,1,money,1,exact,47995,,,,,,,,
+P019,IR005,12,plant,partof,1,0,,,48164,73754,yes,5,0,,,,,,,,,,,,
+P019,IR007,13,river,partof,0,1,1,22352,22477,37344,yes,1,1,river,1,exact,22352,,,,,,,,
+P019,IR064,14,feature,isa,1,0,,,62569,94955,maybe,5,0,,,,,,,,,,,,
+P019,IR040,15,mountain,partof,1,0,,,35483,52899,maybe,5,0,,,,,,,,,,,,
+P019,IR010,16,garment,isa,1,0,,,38062,57070,maybe,5,0,,,,,,,,,,,,
+P020,IR057,1,flower,partof,0,0,,13357,203146,349926,maybe,4,3,apple,0,none,13357,sharp,0,none,69272,butter,0,none,201684
+P020,IR037,2,blender,partof,0,0,,187810,448482,778460,no,5,3,ball,0,none,187810,drop,0,none,388719,point,0,none,446858
+P020,IR059,3,programming construct,isa,0,0,,286472,427480,490041,no,5,3,switch,0,none,286472,knot,0,none,404103,node,0,none,425220
+P020,IR069,4,pastry,isa,0,1,3,65388,119893,216730,yes,3,3,bread,0,none,65388,cheese,0,none,76349,pastry,1,exact,119782
+P020,IR028,5,chess piece,isa,0,1,1,77960,79352,96419,yes,2,1,chess,1,gemini,77960,,,,,,,,
+P020,IR011,6,shoe,isa,0,0,,46255,138213,207771,yes,4,3,head,0,none,46255,jack,0,none,104807,wedge,0,none,136635
+P020,P054,7,mythical creature,isa,0,1,1,48766,50298,69021,yes,3,1,creature,1,gemini,48766,,,,,,,,
+P020,IR064,8,feature,isa,0,0,,332091,423538,491806,yes,5,3,line,0,none,332091,cast,0,none,363339,SNS,0,none,421656
+P020,IR049,9,music genre,isa,0,1,1,47369,49004,68099,yes,2,1,music,1,gemini,47369,,,,,,,,
+P020,IR033,10,clock,partof,0,1,1,80327,81580,102552,yes,3,1,watch,1,gemini,80327,,,,,,,,
+P020,IR052,11,operating system,partof,1,0,,126995,217257,255890,maybe,5,2,shell,0,none,126995,organ,0,none,208135,,,,
+P020,IR076,12,boat,partof,0,0,,334735,505466,530192,yes,5,3,set,0,none,334735,draw,0,none,459826,hand,0,none,503595
+P020,IR058,13,political party,symbolof,0,1,2,36295,52992,67237,maybe,3,2,politics,0,none,36295,party,1,gemini,51179,,,,
+P020,IR079,14,web browser,partof,0,1,2,31316,75745,96322,yes,3,2,cutter,0,none,31316,web browser,1,exact,75635,,,,
+P020,IR086,15,bird,isa,1,0,,,208591,253635,maybe,4,0,,,,,,,,,,,,
+P020,IR068,16,cake,isa,0,0,,74886,114925,130889,yes,4,3,bed,0,none,74886,sheet,0,none,78751,flow,0,none,113364
+P021,IR070,1,topology,isa,1,0,,78532,103208,327928,maybe,3,2,Star Signs,0,none,78532,Branches,0,none,98964,,,,
+P021,IR038,2,knot,isa,0,1,2,19407,44188,436866,maybe,4,2,Curve,0,none,19407,Bow,1,gemini,42746,,,,
+P021,IR082,3,track,partof,0,0,,117427,201805,440137,yes,2,3,switch,0,none,117427,flip,0,none,155609,Stripes,0,none,200442
+P021,IR031,4,guitar,partof,0,1,2,41133,48987,147615,yes,1,2,Instrument,0,none,41133,Guitar,1,exact,48833,,,,
+P021,IR086,5,bird,isa,0,0,,174337,283991,402415,maybe,4,3,raise,0,none,174337,High,0,none,190536,Fly,0,none,282617
+P021,IR050,6,deity,isa,0,0,,1917291,2385328,2458111,yes,4,3,Liquid,0,none,1917291,Liquid,0,none,1917160,heat,0,none,2383560
+P021,IR034,7,bed,partof,0,1,2,249505,411325,459556,yes,2,2,spring,0,none,249505,Bed,1,exact,411205,,,,
+P021,IR055,8,airport,partof,0,1,2,174447,245713,263848,yes,2,2,hook,0,none,174447,Airport,1,exact,245531,,,,
+P021,IR015,9,data type,isa,0,1,1,293151,294838,314418,yes,2,1,Datatypes,1,gemini,293151,,,,,,,,
+P021,IR046,10,metal,isa,0,1,1,259021,259142,316970,yes,3,1,Metals,1,exact,259021,,,,,,,,
+P021,IR063,11,snack,isa,1,0,,142462,198589,376472,maybe,4,1,Power,0,none,142462,,,,,,,,
+P021,IR035,12,malware,isa,0,0,,41086,89707,207386,yes,2,3,virus,0,none,41086,security,0,none,56363,Cyber Attack,0,none,87869
+P021,IR001,13,jewelry,isa,0,0,,98070,179815,225203,maybe,4,3,Game,0,none,98070,Sports,0,none,115224,Magnet,0,none,178269
+P021,IR048,14,film,partof,0,1,1,31353,33051,44702,yes,1,1,Movie,1,gemini,31353,,,,,,,,
+P021,IR089,15,musical instrument,isa,0,0,,46884,119620,138001,yes,4,3,recording,0,none,46884,Band,0,none,105117,Orchestra,0,none,118084
+P021,IR024,16,camera equipment,isa,0,0,,90308,108551,134369,yes,3,3,lifting,0,none,90308,loading,0,none,101828,moving,0,none,106793
+P022,IR029,1,cereal,partof,1,0,,164431,343324,371471,yes,4,2,hair,0,none,164431,corn,0,none,179382,,,,
+P022,IR055,2,airport,partof,0,1,1,15039,15207,32029,yes,2,1,airport,1,exact,15039,,,,,,,,
+P022,P007,3,ship,isa,0,1,1,10924,11101,25477,yes,2,1,ship,1,exact,10924,,,,,,,,
+P022,IR011,4,shoe,isa,0,1,1,8230,8417,19709,yes,1,1,shoe,1,exact,8230,,,,,,,,
+P022,IR023,5,fastener,isa,0,1,1,5952,6154,16325,yes,2,1,fastener,1,exact,5952,,,,,,,,
+P022,IR051,6,pen,partof,0,1,1,8002,8167,17677,yes,2,1,pen,1,exact,8002,,,,,,,,
+P022,IR084,7,screw,partof,0,1,1,8950,9110,46552,yes,2,1,screw,1,exact,8950,,,,,,,,
+P022,IR047,8,metalworking,usedfor,0,0,,5617,59373,66936,maybe,5,3,garden,0,none,5617,volcano,0,none,47575,toothpaste,0,none,57786
+P022,IR001,9,jewelry,isa,0,0,,19167,25944,29632,maybe,5,3,wrong-9-alpha,0,none,19167,wrong-9-bravo,0,none,21706,wrong-9-charlie,0,none,24448
+P022,IR030,10,weapon,isa,0,0,,2186,9658,12685,maybe,5,3,wrong-10-alpha,0,none,2186,wrong-10-bravo,0,none,4733,wrong-10-charlie,0,none,7491
+P022,IR033,11,clock,partof,0,0,,2180,9338,12679,maybe,5,3,wrong-11-alpha,0,none,2180,wrong-11-bravo,0,none,4718,wrong-11-charlie,0,none,7470
+P022,IR043,12,fish,isa,0,0,,2156,9592,33906,yes,4,3,wrong-12-alpha,0,none,2156,wrong-12-bravo,0,none,4697,wrong-12-charlie,0,none,7447
+P022,IR013,13,cocktail,isa,0,0,,15714,21439,39511,yes,4,3,insect,0,none,15714,vehicle,0,none,17533,tool,0,none,19575
+P022,IR053,14,data structure,isa,0,0,,10182,16073,24773,yes,4,3,forest,0,none,10182,storage,0,none,11989,organization,0,none,14021
+P022,IR050,15,deity,isa,0,0,,8051,21856,29462,yes,4,3,kitchen,0,none,8051,planet,0,none,9871,nature,0,none,19928
+P022,IR065,16,golf club,isa,0,0,,7143,20121,27411,yes,4,3,vehicle,0,none,7143,metal,0,none,8959,hardware,0,none,17910
+P023,IR048,1,film,partof,1,0,,,44609,74199,maybe,5,0,,,,,,,,,,,,
+P023,IR057,2,flower,partof,1,0,,,19052,54664,no,5,0,,,,,,,,,,,,
+P023,IR089,3,musical instrument,isa,1,0,,17800,32224,65251,no,5,1,alert,0,none,17800,,,,,,,,
+P023,IR047,4,metalworking,usedfor,1,0,,23590,39525,55192,no,5,1,force,0,none,23590,,,,,,,,
+P023,P027,5,money,isa,1,0,,14294,23526,55028,yes,4,1,extinct,0,none,14294,,,,,,,,
+P023,IR003,6,bag,isa,1,0,,13991,46425,70940,no,5,2,travel,0,none,13991,transport,0,none,40624,,,,
+P023,IR064,7,feature,isa,1,0,,,23769,42768,no,5,0,,,,,,,,,,,,
+P023,IR021,8,stage,partof,1,0,,24818,42838,62235,no,5,1,trap,0,none,24818,,,,,,,,
+P023,IR028,9,chess piece,isa,1,0,,9632,12871,30950,yes,4,1,mythical,0,none,9632,,,,,,,,
+P023,IR006,10,board game,isa,1,0,,11376,32439,52077,maybe,5,2,risk,0,none,11376,danger,0,none,29975,,,,
+P023,IR036,11,clasp,isa,1,0,,,19305,39830,maybe,5,0,,,,,,,,,,,,
+P023,IR052,12,operating system,partof,1,0,,,32480,52249,maybe,5,0,,,,,,,,,,,,
+P023,IR039,13,landform,isa,1,0,,28711,38855,56361,maybe,5,1,sound,0,none,28711,,,,,,,,
+P023,IR005,14,plant,partof,1,0,,,10971,31635,maybe,5,0,,,,,,,,,,,,
+P023,IR071,15,suit,isa,1,0,,9414,53488,70364,maybe,4,1,cuts,0,none,9414,,,,,,,,
+P023,IR035,16,malware,isa,0,1,1,76369,76500,102870,yes,4,1,malware,1,exact,76369,,,,,,,,
+P024,IR038,1,knot,isa,0,0,,16900,38299,75437,yes,4,3,Curve,0,none,16900,bend,0,none,25067,hook,0,none,36905
+P024,IR078,2,cyclone,partof,0,0,,21847,50539,83886,maybe,5,3,Sense,0,none,21847,sight,0,none,29389,music,0,none,48961
+P024,IR068,3,cake,isa,0,0,,15896,62634,100660,yes,4,3,paper,0,none,15896,dry,0,none,36102,clean,0,none,60670
+P024,IR060,4,punctuation mark,isa,0,0,,24806,45190,109051,maybe,5,3,finish,0,none,24806,tired,0,none,40500,dry,0,none,43839
+P024,IR003,5,bag,isa,0,0,,8927,67030,132409,maybe,5,3,Manual,0,none,8927,Transport,0,none,37255,mechanical,0,none,65718
+P024,IR084,6,screw,partof,0,0,,20840,67276,97910,yes,5,3,side,0,none,20840,presentation,0,none,37226,art,0,none,65938
+P024,IR056,7,tree,isa,0,0,,22826,59264,114104,maybe,5,3,shape,0,none,22826,dimension,0,none,37840,volume,0,none,57799
+P024,IR058,8,political party,symbolof,0,0,,29501,74076,107884,yes,4,3,Nature,0,none,29501,animal,0,none,58865,ice age,0,none,72287
+P024,IR053,9,data structure,isa,0,0,,184445,204398,221585,yes,4,3,stack,0,none,184445,grow,0,none,187399,time,0,none,202888
+P024,IR031,10,guitar,partof,0,0,,10960,129378,155841,yes,4,3,bottle,0,none,10960,connect,0,none,27157,Attach,0,none,128034
+P024,IR072,11,tree,partof,0,0,,44541,72611,114134,maybe,5,3,jewel,0,none,44541,packing,0,none,48718,gold,0,none,71116
+P024,IR010,12,garment,isa,0,0,,22029,37160,69744,no,5,3,computer,0,none,22029,fish,0,none,26755,Internet,0,none,35791
+P024,IR082,13,track,partof,0,0,,21082,67172,180560,maybe,4,3,Light,0,none,21082,jump,0,none,57432,suit,0,none,65840
+P024,IR071,14,suit,isa,0,0,,7454,30378,51012,yes,2,3,friend,0,none,7454,torture,0,none,26530,love,0,none,28877
+P024,P054,15,mythical creature,isa,0,0,,49740,79508,99009,yes,3,3,odyssey,0,none,49740,fight,0,none,59761,sea,0,none,78097
+P024,IR016,16,computer,partof,0,0,,28352,47118,70581,yes,4,3,quick,0,none,28352,temperature,0,none,31912,stop,0,none,45985
+P025,IR075,1,car,partof,1,0,,60482,133952,203874,yes,4,2,trunk,0,none,60482,wood,0,none,99454,,,,
+P025,IR070,2,topology,isa,0,0,,22059,128433,177071,maybe,5,3,eternity,0,none,22059,destiny,0,none,74225,ring,0,none,126979
+P025,IR053,3,data structure,isa,0,1,2,19701,27111,55786,yes,2,2,programming,0,none,19701,data structures,1,gemini,25392,,,,
+P025,P054,4,mythical creature,isa,1,0,,66800,88162,126006,yes,4,2,brownie,0,none,66800,siren,0,none,73297,,,,
+P025,IR020,5,book,partof,1,0,,,149334,175229,yes,4,0,,,,,,,,,,,,
+P025,IR069,6,pastry,isa,1,0,,17297,50438,96629,yes,4,1,country,0,none,17297,,,,,,,,
+P025,IR031,7,guitar,partof,0,0,,23195,63545,81151,yes,5,3,song,0,none,23195,lyrics,0,none,29209,point,0,none,62020
+P025,IR014,8,glass,partof,1,0,,148753,151388,181979,yes,5,1,drink,0,none,148753,,,,,,,,
+P025,IR072,9,tree,partof,1,0,,94626,99376,135743,maybe,4,1,handle,0,none,94626,,,,,,,,
+P025,IR018,10,cleaning,usedfor,1,0,,29544,48285,91711,maybe,5,2,reef,0,none,29544,ecosystem,0,none,43231,,,,
+P025,IR011,11,shoe,isa,1,0,,,52177,82726,maybe,5,0,,,,,,,,,,,,
+P025,IR017,12,console,isa,1,0,,,65340,89741,maybe,5,0,,,,,,,,,,,,
+P025,IR004,13,beverage,isa,1,0,,23565,41577,61170,yes,4,2,greeting,0,none,23565,waving,0,none,33207,,,,
+P025,IR027,14,fruit,isa,1,0,,47532,67939,106911,maybe,4,1,color,0,none,47532,,,,,,,,
+P025,IR038,15,knot,isa,1,0,,,12809,33437,maybe,5,0,,,,,,,,,,,,
+P025,IR044,16,strike,isa,1,0,,28515,31807,63374,maybe,5,1,road,0,none,28515,,,,,,,,

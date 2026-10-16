@@ -1,0 +1,2684 @@
+{
+  "allenai/Molmo2-8B": {
+    "zeroshot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 7,
+              "total": 155,
+              "accuracy": 0.04516129032258064
+            },
+            "human80": {
+              "correct": 6,
+              "total": 80,
+              "accuracy": 0.075
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 5,
+              "total": 155,
+              "accuracy": 0.03225806451612903
+            },
+            "human80": {
+              "correct": 4,
+              "total": 80,
+              "accuracy": 0.05
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.025806451612903226,
+          "sample_standard_deviation": 0.014426245016127675
+        },
+        "human80": {
+          "mean_accuracy": 0.04,
+          "sample_standard_deviation": 0.02404423007708918
+        }
+      }
+    },
+    "detailed": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 5,
+              "total": 155,
+              "accuracy": 0.03225806451612903
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.01935483870967742,
+          "sample_standard_deviation": 0.009123958466923194
+        },
+        "human80": {
+          "mean_accuracy": 0.02,
+          "sample_standard_deviation": 0.011180339887498949
+        }
+      }
+    },
+    "stepwise": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 6,
+              "total": 155,
+              "accuracy": 0.03870967741935484
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 6,
+              "total": 155,
+              "accuracy": 0.03870967741935484
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.025806451612903226,
+          "sample_standard_deviation": 0.012069862537980456
+        },
+        "human80": {
+          "mean_accuracy": 0.0275,
+          "sample_standard_deviation": 0.010458250331675942
+        }
+      }
+    },
+    "two_shot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.005161290322580645,
+          "sample_standard_deviation": 0.005397806622800487
+        },
+        "human80": {
+          "mean_accuracy": 0.01,
+          "sample_standard_deviation": 0.010458250331675944
+        }
+      }
+    },
+    "text_only": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 44,
+              "total": 155,
+              "accuracy": 0.2838709677419355
+            },
+            "human80": {
+              "correct": 32,
+              "total": 80,
+              "accuracy": 0.4
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 42,
+              "total": 155,
+              "accuracy": 0.2709677419354839
+            },
+            "human80": {
+              "correct": 33,
+              "total": 80,
+              "accuracy": 0.4125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 40,
+              "total": 155,
+              "accuracy": 0.25806451612903225
+            },
+            "human80": {
+              "correct": 31,
+              "total": 80,
+              "accuracy": 0.3875
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 40,
+              "total": 155,
+              "accuracy": 0.25806451612903225
+            },
+            "human80": {
+              "correct": 30,
+              "total": 80,
+              "accuracy": 0.375
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 38,
+              "total": 155,
+              "accuracy": 0.24516129032258063
+            },
+            "human80": {
+              "correct": 28,
+              "total": 80,
+              "accuracy": 0.35
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.2632258064516129,
+          "sample_standard_deviation": 0.014711940969021144
+        },
+        "human80": {
+          "mean_accuracy": 0.385,
+          "sample_standard_deviation": 0.024044230077089185
+        }
+      }
+    }
+  },
+  "Qwen/Qwen3.5-9B": {
+    "zeroshot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.0064516129032258064,
+          "sample_standard_deviation": 0.0064516129032258064
+        },
+        "human80": {
+          "mean_accuracy": 0.007500000000000001,
+          "sample_standard_deviation": 0.011180339887498949
+        }
+      }
+    },
+    "detailed": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.01032258064516129,
+          "sample_standard_deviation": 0.0035336939193881685
+        },
+        "human80": {
+          "mean_accuracy": 0.015000000000000001,
+          "sample_standard_deviation": 0.005590169943749474
+        }
+      }
+    },
+    "stepwise": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.01032258064516129,
+          "sample_standard_deviation": 0.00577049800645107
+        },
+        "human80": {
+          "mean_accuracy": 0.02,
+          "sample_standard_deviation": 0.011180339887498949
+        }
+      }
+    },
+    "two_shot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 4,
+              "total": 80,
+              "accuracy": 0.05
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 7,
+              "total": 155,
+              "accuracy": 0.04516129032258064
+            },
+            "human80": {
+              "correct": 6,
+              "total": 80,
+              "accuracy": 0.075
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 13,
+              "total": 155,
+              "accuracy": 0.08387096774193549
+            },
+            "human80": {
+              "correct": 8,
+              "total": 80,
+              "accuracy": 0.1
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 5,
+              "total": 155,
+              "accuracy": 0.03225806451612903
+            },
+            "human80": {
+              "correct": 5,
+              "total": 80,
+              "accuracy": 0.0625
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.04258064516129032,
+          "sample_standard_deviation": 0.024396994066050372
+        },
+        "human80": {
+          "mean_accuracy": 0.065,
+          "sample_standard_deviation": 0.024044230077089182
+        }
+      }
+    },
+    "text_only": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 42,
+              "total": 155,
+              "accuracy": 0.2709677419354839
+            },
+            "human80": {
+              "correct": 29,
+              "total": 80,
+              "accuracy": 0.3625
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 50,
+              "total": 155,
+              "accuracy": 0.3225806451612903
+            },
+            "human80": {
+              "correct": 35,
+              "total": 80,
+              "accuracy": 0.4375
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 41,
+              "total": 155,
+              "accuracy": 0.2645161290322581
+            },
+            "human80": {
+              "correct": 28,
+              "total": 80,
+              "accuracy": 0.35
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 49,
+              "total": 155,
+              "accuracy": 0.3161290322580645
+            },
+            "human80": {
+              "correct": 32,
+              "total": 80,
+              "accuracy": 0.4
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 44,
+              "total": 155,
+              "accuracy": 0.2838709677419355
+            },
+            "human80": {
+              "correct": 28,
+              "total": 80,
+              "accuracy": 0.35
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.29161290322580646,
+          "sample_standard_deviation": 0.026364924828003275
+        },
+        "human80": {
+          "mean_accuracy": 0.38,
+          "sample_standard_deviation": 0.038119876704942275
+        }
+      }
+    }
+  },
+  "Qwen/Qwen3.8-27B": {
+    "zeroshot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 7,
+              "total": 155,
+              "accuracy": 0.04516129032258064
+            },
+            "human80": {
+              "correct": 7,
+              "total": 80,
+              "accuracy": 0.0875
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 5,
+              "total": 155,
+              "accuracy": 0.03225806451612903
+            },
+            "human80": {
+              "correct": 5,
+              "total": 80,
+              "accuracy": 0.0625
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 4,
+              "total": 80,
+              "accuracy": 0.05
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 6,
+              "total": 155,
+              "accuracy": 0.03870967741935484
+            },
+            "human80": {
+              "correct": 6,
+              "total": 80,
+              "accuracy": 0.075
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.03354838709677419,
+          "sample_standard_deviation": 0.008411874071229224
+        },
+        "human80": {
+          "mean_accuracy": 0.0625,
+          "sample_standard_deviation": 0.019764235376052368
+        }
+      }
+    },
+    "detailed": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 6,
+              "total": 155,
+              "accuracy": 0.03870967741935484
+            },
+            "human80": {
+              "correct": 5,
+              "total": 80,
+              "accuracy": 0.0625
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 8,
+              "total": 155,
+              "accuracy": 0.05161290322580645
+            },
+            "human80": {
+              "correct": 5,
+              "total": 80,
+              "accuracy": 0.0625
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 13,
+              "total": 155,
+              "accuracy": 0.08387096774193549
+            },
+            "human80": {
+              "correct": 8,
+              "total": 80,
+              "accuracy": 0.1
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 12,
+              "total": 155,
+              "accuracy": 0.07741935483870968
+            },
+            "human80": {
+              "correct": 8,
+              "total": 80,
+              "accuracy": 0.1
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.05548387096774194,
+          "sample_standard_deviation": 0.024819850402156576
+        },
+        "human80": {
+          "mean_accuracy": 0.0675,
+          "sample_standard_deviation": 0.03601215072721983
+        }
+      }
+    },
+    "stepwise": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.014193548387096775,
+          "sample_standard_deviation": 0.008411874071229224
+        },
+        "human80": {
+          "mean_accuracy": 0.0175,
+          "sample_standard_deviation": 0.014252192813739224
+        }
+      }
+    },
+    "two_shot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 21,
+              "total": 155,
+              "accuracy": 0.13548387096774195
+            },
+            "human80": {
+              "correct": 10,
+              "total": 80,
+              "accuracy": 0.125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 19,
+              "total": 155,
+              "accuracy": 0.12258064516129032
+            },
+            "human80": {
+              "correct": 12,
+              "total": 80,
+              "accuracy": 0.15
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 20,
+              "total": 155,
+              "accuracy": 0.12903225806451613
+            },
+            "human80": {
+              "correct": 13,
+              "total": 80,
+              "accuracy": 0.1625
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 17,
+              "total": 155,
+              "accuracy": 0.10967741935483871
+            },
+            "human80": {
+              "correct": 12,
+              "total": 80,
+              "accuracy": 0.15
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 21,
+              "total": 155,
+              "accuracy": 0.13548387096774195
+            },
+            "human80": {
+              "correct": 12,
+              "total": 80,
+              "accuracy": 0.15
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.12645161290322582,
+          "sample_standard_deviation": 0.01079561324560098
+        },
+        "human80": {
+          "mean_accuracy": 0.1475,
+          "sample_standard_deviation": 0.013693063937629153
+        }
+      }
+    },
+    "text_only": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 59,
+              "total": 155,
+              "accuracy": 0.38064516129032255
+            },
+            "human80": {
+              "correct": 41,
+              "total": 80,
+              "accuracy": 0.5125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 64,
+              "total": 155,
+              "accuracy": 0.4129032258064516
+            },
+            "human80": {
+              "correct": 40,
+              "total": 80,
+              "accuracy": 0.5
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 55,
+              "total": 155,
+              "accuracy": 0.3548387096774194
+            },
+            "human80": {
+              "correct": 40,
+              "total": 80,
+              "accuracy": 0.5
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 61,
+              "total": 155,
+              "accuracy": 0.3935483870967742
+            },
+            "human80": {
+              "correct": 40,
+              "total": 80,
+              "accuracy": 0.5
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 65,
+              "total": 155,
+              "accuracy": 0.41935483870967744
+            },
+            "human80": {
+              "correct": 42,
+              "total": 80,
+              "accuracy": 0.525
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.39225806451612905,
+          "sample_standard_deviation": 0.025967241029029815
+        },
+        "human80": {
+          "mean_accuracy": 0.5075,
+          "sample_standard_deviation": 0.011180339887498952
+        }
+      }
+    }
+  },
+  "google/gemma-4-12B-it": {
+    "zeroshot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 15,
+              "total": 155,
+              "accuracy": 0.0967741935483871
+            },
+            "human80": {
+              "correct": 10,
+              "total": 80,
+              "accuracy": 0.125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 15,
+              "total": 155,
+              "accuracy": 0.0967741935483871
+            },
+            "human80": {
+              "correct": 7,
+              "total": 80,
+              "accuracy": 0.0875
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 16,
+              "total": 155,
+              "accuracy": 0.1032258064516129
+            },
+            "human80": {
+              "correct": 8,
+              "total": 80,
+              "accuracy": 0.1
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 13,
+              "total": 155,
+              "accuracy": 0.08387096774193549
+            },
+            "human80": {
+              "correct": 7,
+              "total": 80,
+              "accuracy": 0.0875
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 16,
+              "total": 155,
+              "accuracy": 0.1032258064516129
+            },
+            "human80": {
+              "correct": 10,
+              "total": 80,
+              "accuracy": 0.125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.0967741935483871,
+          "sample_standard_deviation": 0.007901579815429605
+        },
+        "human80": {
+          "mean_accuracy": 0.105,
+          "sample_standard_deviation": 0.018957188610128878
+        }
+      }
+    },
+    "detailed": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 5,
+              "total": 155,
+              "accuracy": 0.03225806451612903
+            },
+            "human80": {
+              "correct": 4,
+              "total": 80,
+              "accuracy": 0.05
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 5,
+              "total": 155,
+              "accuracy": 0.03225806451612903
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.025806451612903226,
+          "sample_standard_deviation": 0.006451612903225806
+        },
+        "human80": {
+          "mean_accuracy": 0.022500000000000003,
+          "sample_standard_deviation": 0.01854049621773916
+        }
+      }
+    },
+    "stepwise": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 5,
+              "total": 155,
+              "accuracy": 0.03225806451612903
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 4,
+              "total": 155,
+              "accuracy": 0.025806451612903226
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.02064516129032258,
+          "sample_standard_deviation": 0.009569288370446016
+        },
+        "human80": {
+          "mean_accuracy": 0.0325,
+          "sample_standard_deviation": 0.011180339887498947
+        }
+      }
+    },
+    "two_shot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 6,
+              "total": 155,
+              "accuracy": 0.03870967741935484
+            },
+            "human80": {
+              "correct": 4,
+              "total": 80,
+              "accuracy": 0.05
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 6,
+              "total": 155,
+              "accuracy": 0.03870967741935484
+            },
+            "human80": {
+              "correct": 4,
+              "total": 80,
+              "accuracy": 0.05
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 7,
+              "total": 155,
+              "accuracy": 0.04516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 8,
+              "total": 155,
+              "accuracy": 0.05161290322580645
+            },
+            "human80": {
+              "correct": 4,
+              "total": 80,
+              "accuracy": 0.05
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 6,
+              "total": 155,
+              "accuracy": 0.03870967741935484
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.04258064516129032,
+          "sample_standard_deviation": 0.005770498006451069
+        },
+        "human80": {
+          "mean_accuracy": 0.04,
+          "sample_standard_deviation": 0.016298006013006624
+        }
+      }
+    },
+    "text_only": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 62,
+              "total": 155,
+              "accuracy": 0.4
+            },
+            "human80": {
+              "correct": 45,
+              "total": 80,
+              "accuracy": 0.5625
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 63,
+              "total": 155,
+              "accuracy": 0.4064516129032258
+            },
+            "human80": {
+              "correct": 42,
+              "total": 80,
+              "accuracy": 0.525
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 66,
+              "total": 155,
+              "accuracy": 0.4258064516129032
+            },
+            "human80": {
+              "correct": 47,
+              "total": 80,
+              "accuracy": 0.5875
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 67,
+              "total": 155,
+              "accuracy": 0.432258064516129
+            },
+            "human80": {
+              "correct": 45,
+              "total": 80,
+              "accuracy": 0.5625
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 69,
+              "total": 155,
+              "accuracy": 0.44516129032258067
+            },
+            "human80": {
+              "correct": 47,
+              "total": 80,
+              "accuracy": 0.5875
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.42193548387096774,
+          "sample_standard_deviation": 0.01858691650437153
+        },
+        "human80": {
+          "mean_accuracy": 0.5650000000000001,
+          "sample_standard_deviation": 0.025617376914898998
+        }
+      }
+    }
+  },
+  "OpenGVLab/InternVL3_5-8B-HF": {
+    "zeroshot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.005161290322580645,
+          "sample_standard_deviation": 0.005397806622800487
+        },
+        "human80": {
+          "mean_accuracy": 0.007500000000000001,
+          "sample_standard_deviation": 0.006846531968814577
+        }
+      }
+    },
+    "detailed": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 3,
+              "total": 80,
+              "accuracy": 0.0375
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.012903225806451613,
+          "sample_standard_deviation": 0.007901579815429606
+        },
+        "human80": {
+          "mean_accuracy": 0.025,
+          "sample_standard_deviation": 0.015309310892394862
+        }
+      }
+    },
+    "stepwise": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.0025806451612903226,
+          "sample_standard_deviation": 0.00577049800645107
+        },
+        "human80": {
+          "mean_accuracy": 0.005,
+          "sample_standard_deviation": 0.011180339887498949
+        }
+      }
+    },
+    "two_shot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.003870967741935484,
+          "sample_standard_deviation": 0.0035336939193881685
+        },
+        "human80": {
+          "mean_accuracy": 0.0025,
+          "sample_standard_deviation": 0.005590169943749474
+        }
+      }
+    },
+    "text_only": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 33,
+              "total": 155,
+              "accuracy": 0.2129032258064516
+            },
+            "human80": {
+              "correct": 25,
+              "total": 80,
+              "accuracy": 0.3125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 32,
+              "total": 155,
+              "accuracy": 0.2064516129032258
+            },
+            "human80": {
+              "correct": 25,
+              "total": 80,
+              "accuracy": 0.3125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 31,
+              "total": 155,
+              "accuracy": 0.2
+            },
+            "human80": {
+              "correct": 26,
+              "total": 80,
+              "accuracy": 0.325
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 29,
+              "total": 155,
+              "accuracy": 0.1870967741935484
+            },
+            "human80": {
+              "correct": 22,
+              "total": 80,
+              "accuracy": 0.275
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 35,
+              "total": 155,
+              "accuracy": 0.22580645161290322
+            },
+            "human80": {
+              "correct": 28,
+              "total": 80,
+              "accuracy": 0.35
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.2064516129032258,
+          "sample_standard_deviation": 0.01442624501612767
+        },
+        "human80": {
+          "mean_accuracy": 0.315,
+          "sample_standard_deviation": 0.027099354235848486
+        }
+      }
+    }
+  },
+  "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16": {
+    "zeroshot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.0064516129032258064,
+          "sample_standard_deviation": 0.0
+        },
+        "human80": {
+          "mean_accuracy": 0.0125,
+          "sample_standard_deviation": 0.0
+        }
+      }
+    },
+    "detailed": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 2,
+              "total": 155,
+              "accuracy": 0.012903225806451613
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 3,
+              "total": 155,
+              "accuracy": 0.01935483870967742
+            },
+            "human80": {
+              "correct": 2,
+              "total": 80,
+              "accuracy": 0.025
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.014193548387096775,
+          "sample_standard_deviation": 0.0028852490032255356
+        },
+        "human80": {
+          "mean_accuracy": 0.025,
+          "sample_standard_deviation": 0.0
+        }
+      }
+    },
+    "stepwise": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 1,
+              "total": 155,
+              "accuracy": 0.0064516129032258064
+            },
+            "human80": {
+              "correct": 1,
+              "total": 80,
+              "accuracy": 0.0125
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.0064516129032258064,
+          "sample_standard_deviation": 0.0
+        },
+        "human80": {
+          "mean_accuracy": 0.0125,
+          "sample_standard_deviation": 0.0
+        }
+      }
+    },
+    "two_shot": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 0,
+              "total": 155,
+              "accuracy": 0.0
+            },
+            "human80": {
+              "correct": 0,
+              "total": 80,
+              "accuracy": 0.0
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.0,
+          "sample_standard_deviation": 0.0
+        },
+        "human80": {
+          "mean_accuracy": 0.0,
+          "sample_standard_deviation": 0.0
+        }
+      }
+    },
+    "text_only": {
+      "runs": [
+        {
+          "run": "run1",
+          "scopes": {
+            "all155": {
+              "correct": 53,
+              "total": 155,
+              "accuracy": 0.3419354838709677
+            },
+            "human80": {
+              "correct": 35,
+              "total": 80,
+              "accuracy": 0.4375
+            }
+          }
+        },
+        {
+          "run": "run2",
+          "scopes": {
+            "all155": {
+              "correct": 52,
+              "total": 155,
+              "accuracy": 0.33548387096774196
+            },
+            "human80": {
+              "correct": 34,
+              "total": 80,
+              "accuracy": 0.425
+            }
+          }
+        },
+        {
+          "run": "run3",
+          "scopes": {
+            "all155": {
+              "correct": 53,
+              "total": 155,
+              "accuracy": 0.3419354838709677
+            },
+            "human80": {
+              "correct": 35,
+              "total": 80,
+              "accuracy": 0.4375
+            }
+          }
+        },
+        {
+          "run": "run4",
+          "scopes": {
+            "all155": {
+              "correct": 52,
+              "total": 155,
+              "accuracy": 0.33548387096774196
+            },
+            "human80": {
+              "correct": 34,
+              "total": 80,
+              "accuracy": 0.425
+            }
+          }
+        },
+        {
+          "run": "run5",
+          "scopes": {
+            "all155": {
+              "correct": 54,
+              "total": 155,
+              "accuracy": 0.34838709677419355
+            },
+            "human80": {
+              "correct": 36,
+              "total": 80,
+              "accuracy": 0.45
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "all155": {
+          "mean_accuracy": 0.3406451612903226,
+          "sample_standard_deviation": 0.005397806622800475
+        },
+        "human80": {
+          "mean_accuracy": 0.435,
+          "sample_standard_deviation": 0.010458250331675953
+        }
+      }
+    }
+  }
+}

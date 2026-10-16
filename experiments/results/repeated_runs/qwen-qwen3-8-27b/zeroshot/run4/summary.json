@@ -1,0 +1,29 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "scopes": {
+    "all155": {
+      "concept:zeroshot": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 4,
+            "total": 155,
+            "accuracy": 0.025806451612903226
+          }
+        }
+      }
+    },
+    "human80": {
+      "concept:zeroshot": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 4,
+            "total": 80,
+            "accuracy": 0.05
+          }
+        }
+      }
+    }
+  }
+}

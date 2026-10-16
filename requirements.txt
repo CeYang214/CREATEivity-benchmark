@@ -1,0 +1,10 @@
+# Unpinned functional dependencies; not a historical environment lockfile.
+Pillow
+numpy
+scikit-learn
+torch
+transformers
+wordfreq
+nltk
+openai
+requests

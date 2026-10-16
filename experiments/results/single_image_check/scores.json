@@ -1,0 +1,88 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "matching": "Normalized exact match to the shared concept; no synonyms.",
+  "aggregation": "Count a puzzle once if a label from any of its three separate single-image trials matches.",
+  "statuses": {
+    "ok": 465
+  },
+  "all155": {
+    "invalid_outputs": [
+      "1:IR001:1",
+      "1:IR018:2",
+      "1:IR020:1",
+      "1:IR051:2",
+      "1:IR075:1",
+      "1:M300_038:0",
+      "1:M300_051:0",
+      "1:M300_058:1",
+      "1:M300_064:1"
+    ],
+    "top1": {
+      "puzzles_matched": 0,
+      "puzzles": 155,
+      "puzzle_percent": 0.0,
+      "puzzle_ids": [],
+      "image_trials_matched": 0,
+      "image_trials": 465,
+      "matches": []
+    },
+    "top5": {
+      "puzzles_matched": 1,
+      "puzzles": 155,
+      "puzzle_percent": 0.6451612903225806,
+      "puzzle_ids": [
+        "P027"
+      ],
+      "image_trials_matched": 1,
+      "image_trials": 465,
+      "matches": [
+        {
+          "puzzle_id": "P027",
+          "target_slot": 1,
+          "shared_concept": "money",
+          "matched_label": "money",
+          "rank": 4,
+          "task_key": "1:P027:1"
+        }
+      ]
+    }
+  },
+  "human80": {
+    "invalid_outputs": [
+      "1:IR001:1",
+      "1:IR018:2",
+      "1:IR020:1",
+      "1:IR051:2",
+      "1:IR075:1"
+    ],
+    "top1": {
+      "puzzles_matched": 0,
+      "puzzles": 80,
+      "puzzle_percent": 0.0,
+      "puzzle_ids": [],
+      "image_trials_matched": 0,
+      "image_trials": 240,
+      "matches": []
+    },
+    "top5": {
+      "puzzles_matched": 1,
+      "puzzles": 80,
+      "puzzle_percent": 1.25,
+      "puzzle_ids": [
+        "P027"
+      ],
+      "image_trials_matched": 1,
+      "image_trials": 240,
+      "matches": [
+        {
+          "puzzle_id": "P027",
+          "target_slot": 1,
+          "shared_concept": "money",
+          "matched_label": "money",
+          "rank": 4,
+          "task_key": "1:P027:1"
+        }
+      ]
+    }
+  }
+}

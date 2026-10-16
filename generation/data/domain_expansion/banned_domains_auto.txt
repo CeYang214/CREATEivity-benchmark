@@ -1,0 +1,329 @@
+accessories
+agriculture
+airlines
+airport
+airports
+amphibians
+ancient civilizations
+animals
+anthropology
+apps and websites
+architecture
+art
+assembly
+astronomy
+bag
+bags
+ball types
+bathroom items
+bed
+bedroom items
+beverage
+beverages
+biology
+bird
+birds
+blender
+board game
+board games
+boat
+boats
+bodies of water
+body parts
+bones
+book
+book genres
+book titles
+bread
+breads
+bridges
+bug
+business
+cake
+camera equipment
+candles
+capitals and countries
+car
+car brands
+card games
+card ranks
+card suits
+cartoon characters
+castles
+cat breed
+cat breeds
+celestial bodies
+cereal
+cheese
+cheeses
+chemical elements
+chemistry
+chess piece
+chess pieces
+children's books
+cities
+clasp
+cleaning
+clock
+clocks and watches
+clothing
+clothing items
+cocktail
+cocktails
+coffee drinks
+coins
+colors
+company brands
+computer
+computer parts
+computer science
+condiments
+console
+console generations
+constellations
+containers
+countries
+courtroom
+currencies
+cyclone
+daily activities
+dance
+dance styles
+dances
+data structure
+data type
+deity
+dinosaurs
+diseases and disorders
+dog breeds
+drinks
+economics
+education
+emotions
+energy
+energy sources
+engineering
+entertainment
+environment
+fabric
+fabrics
+fairy tale characters
+famous authors
+famous composers
+famous inventors
+famous landmarks
+famous painters
+famous scientists
+farm animals
+fashion
+fastener
+fasteners
+feature
+festivals
+film
+film and tv
+finance
+first aid items
+fish
+flags
+flora
+flower
+flowers
+fonts
+food
+foods
+footwear
+fruit
+fruits
+fungi
+furniture
+games
+gaming
+garden tools
+gardening tool
+garment
+gems
+gems and minerals
+gemstone cut
+gemstones
+genre
+geography
+glass
+golf club
+grains
+guitar
+gun
+hats
+health
+health symptoms
+herbs
+historical empires
+history
+hobbies
+holidays
+home appliances
+house plants
+household
+household objects
+human senses
+insects
+internet terms
+jewelry
+kitchen tools
+kitchen utensils
+knot
+knots
+landform
+landforms
+languages
+lathe
+law
+legendary heroes
+length unit
+letters and alphabets
+linguistics
+literature
+locks and keys
+logo styles
+malware
+mammal
+mammals
+manufacturing
+marine creatures
+martial arts
+math
+measurement units
+medical specialties
+medicine
+metal
+metals
+metalworking
+military
+military rank
+mobile apps
+money
+money and currency
+mountain
+mountains
+movie characters
+movie genres
+movies
+music
+music genre
+music genres
+musical eras
+musical instrument
+musical instruments
+mythical creature
+mythical creatures
+mythological creatures
+mythological gods
+mythology
+national dishes
+natural disasters
+nautical terms
+news
+number
+numbers
+nuts
+occupations
+office supplies
+operating system
+operating systems
+organs
+pasta
+pasta shapes
+pastries
+pastry
+patterns
+pen
+personality traits
+pets
+philosophy
+phobias
+phone features
+physics
+planes
+planets
+plant
+plants
+poetic forms
+political party
+politics
+profession
+programming construct
+programming languages
+psychology
+public transportation
+punctuation
+punctuation mark
+religion
+reptiles
+restaurant
+restaurant types
+rings
+river
+rivers
+road signs
+school supplies
+science
+screw
+sea animals
+seasons
+shape
+shapes
+ship
+shoe
+shoes
+shop types
+skeleton
+snack
+snacks
+social media
+sociology
+soups and stews
+space
+spices
+sports
+sports equipment
+sports teams
+stage
+stitch
+stitches
+stones
+strike
+suit
+superheroes
+sweets and desserts
+teas and infusions
+technology
+telecommunications
+times of day
+toilet
+tools
+topology
+towers
+toys
+toys and games
+track
+trains
+transportation
+travel
+tree
+trees
+tv genres
+vegetable
+vegetables
+vehicles
+video game franchises
+weapon
+weapons
+weather
+weather phenomena
+web browser
+web browsers
+wildlife
+world cuisines
+zipper
+zodiac constellations
+zodiac signs

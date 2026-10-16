@@ -1,0 +1,29 @@
+{
+  "model": "OpenGVLab/InternVL3_5-8B-HF",
+  "scopes": {
+    "all155": {
+      "concept:zeroshot": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 2,
+            "total": 155,
+            "accuracy": 0.012903225806451613
+          }
+        }
+      }
+    },
+    "human80": {
+      "concept:zeroshot": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 1,
+            "total": 80,
+            "accuracy": 0.0125
+          }
+        }
+      }
+    }
+  }
+}

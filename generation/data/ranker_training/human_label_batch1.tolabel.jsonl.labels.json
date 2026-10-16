@@ -1,0 +1,676 @@
+{
+  "labels": {
+    "engineering__011__bolt": {
+      "decision": "drop",
+      "note": ""
+    },
+    "finance__010__index": {
+      "decision": "drop",
+      "note": ""
+    },
+    "transportation__008__coach": {
+      "decision": "keep",
+      "note": ""
+    },
+    "law__001__bench": {
+      "decision": "keep",
+      "note": ""
+    },
+    "movies__003__editor": {
+      "decision": "drop",
+      "note": ""
+    },
+    "business__007__note": {
+      "decision": "keep",
+      "note": ""
+    },
+    "geography__005__bar": {
+      "decision": "keep",
+      "note": ""
+    },
+    "computer-science__008__switch": {
+      "decision": "keep",
+      "note": ""
+    },
+    "history__005__spear": {
+      "decision": "keep",
+      "note": ""
+    },
+    "environment__004__channel": {
+      "decision": "keep",
+      "note": ""
+    },
+    "environment__007__ozone": {
+      "decision": "drop",
+      "note": ""
+    },
+    "architecture__001__bay": {
+      "decision": "unsure",
+      "note": ""
+    },
+    "physics__017__coil": {
+      "decision": "keep",
+      "note": ""
+    },
+    "philosophy__001__straw-man": {
+      "decision": "keep",
+      "note": ""
+    },
+    "engineering__016__diode": {
+      "decision": "drop",
+      "note": ""
+    },
+    "music__001__snare": {
+      "decision": "keep",
+      "note": ""
+    },
+    "sociology__010__networking": {
+      "decision": "drop",
+      "note": ""
+    },
+    "sweets-and-desserts__011__sprinkle": {
+      "decision": "drop",
+      "note": ""
+    },
+    "snacks__004__salsa": {
+      "decision": "keep",
+      "note": ""
+    },
+    "travel__013__suite": {
+      "decision": "unsure",
+      "note": ""
+    },
+    "politics__007__member": {
+      "decision": "drop",
+      "note": ""
+    },
+    "law__006__bond": {
+      "decision": "drop",
+      "note": ""
+    },
+    "law__010__file": {
+      "decision": "keep",
+      "note": ""
+    },
+    "news__007__anchor": {
+      "decision": "keep",
+      "note": ""
+    },
+    "astronomy__003__brown": {
+      "decision": "unsure",
+      "note": ""
+    },
+    "politics__003__secretary": {
+      "decision": "drop",
+      "note": ""
+    },
+    "politics__001__chair": {
+      "decision": "keep",
+      "note": ""
+    },
+    "math__010__module": {
+      "decision": "unsure",
+      "note": ""
+    },
+    "art__012__block": {
+      "decision": "keep",
+      "note": ""
+    },
+    "sociology__003__circle": {
+      "decision": "unsure",
+      "note": "not sure about the puzzle's feasibility"
+    },
+    "movies__015__stand": {
+      "decision": "keep",
+      "note": ""
+    },
+    "music__009__control": {
+      "decision": "drop",
+      "note": "very similar meaning in my opinion"
+    },
+    "health__002__vein": {
+      "decision": "keep",
+      "note": ""
+    },
+    "religion__005__deacon": {
+      "decision": "drop",
+      "note": "not clear in enough "
+    },
+    "transportation__001__trunk": {
+      "decision": "keep",
+      "note": ""
+    },
+    "beverages__010__press": {
+      "decision": "drop",
+      "note": "hard to find pics i think and the pic is for the actually meaning not alternative meaning"
+    },
+    "food__002__crown": {
+      "decision": "keep",
+      "note": ""
+    },
+    "medicine__003__barrel": {
+      "decision": "keep",
+      "note": ""
+    },
+    "biology__005__epithelium": {
+      "decision": "drop",
+      "note": "i dont really know this word"
+    },
+    "fruits__002__pear": {
+      "decision": "keep",
+      "note": ""
+    },
+    "wildlife__003__crest": {
+      "decision": "unsure",
+      "note": "not sure if the pic would be accurate"
+    },
+    "space__001__nose": {
+      "decision": "keep",
+      "note": ""
+    },
+    "beverages__006__kettle": {
+      "decision": "keep",
+      "note": "choose kettle drum"
+    },
+    "sports__004__handlebar": {
+      "decision": "drop",
+      "note": "very similar meaning?"
+    },
+    "history__005__treaty": {
+      "decision": "drop",
+      "note": "hard to find pics"
+    },
+    "gaming__004__trigger": {
+      "decision": "unsure",
+      "note": "not sure if this is good enough"
+    },
+    "religion__011__scripture": {
+      "decision": "drop",
+      "note": "the alternative meaning is hard to get a pic/hard to guess from the pic"
+    },
+    "anthropology__013__pot": {
+      "decision": "drop",
+      "note": "not sure if this puzzle category is good"
+    },
+    "fashion__005__lace": {
+      "decision": "keep",
+      "note": ""
+    },
+    "gaming__010__rook": {
+      "decision": "drop",
+      "note": "the alternative meaning is not ideal"
+    },
+    "social-media__010__stream": {
+      "decision": "keep",
+      "note": ""
+    },
+    "wildlife__007__stripe": {
+      "decision": "drop",
+      "note": "very similar meaning"
+    },
+    "politics__013__county": {
+      "decision": "drop",
+      "note": "no alternative meaning"
+    },
+    "sports__013__glove": {
+      "decision": "drop",
+      "note": "very similar meaning"
+    },
+    "news__014__rag": {
+      "decision": "drop",
+      "note": "not a good puzzle"
+    },
+    "geography__013__county": {
+      "decision": "drop",
+      "note": "no available alternative meaning"
+    },
+    "fashion__017__band": {
+      "decision": "keep",
+      "note": ""
+    },
+    "linguistics__012__character": {
+      "decision": "keep",
+      "note": ""
+    },
+    "sports__010__mallet": {
+      "decision": "drop",
+      "note": "the pictures would be very similar i think"
+    },
+    "geography__017__spur": {
+      "decision": "keep",
+      "note": ""
+    },
+    "geography__003__mesa": {
+      "decision": "drop",
+      "note": "the alternative meaning is not common enough I think"
+    },
+    "music__014__disk": {
+      "decision": "drop",
+      "note": "very similar meanings"
+    },
+    "condiments__009__sugar": {
+      "decision": "drop",
+      "note": "same meanings"
+    },
+    "sociology__009__trust": {
+      "decision": "drop",
+      "note": "hard to guess from the pic/low imageability"
+    },
+    "engineering__009__valve": {
+      "decision": "drop",
+      "note": "very similar meanings"
+    },
+    "beverages__002__glass": {
+      "decision": "drop",
+      "note": "basically the same meanings"
+    },
+    "sports__012__guard": {
+      "decision": "keep",
+      "note": ""
+    },
+    "gaming__007__coin": {
+      "decision": "drop",
+      "note": "very similar meanings"
+    },
+    "literature__006__speaker": {
+      "decision": "unsure",
+      "note": "a device that produces sound but a person who gives a speech would be the same meaning as the candidate"
+    },
+    "physics__013__glass": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "computer-science__014__button": {
+      "decision": "keep",
+      "note": ""
+    },
+    "entertainment__001__tango": {
+      "decision": "drop",
+      "note": "hard to recognize this specific nongeneral color"
+    },
+    "math__011__root": {
+      "decision": "keep",
+      "note": ""
+    },
+    "history__002__renaissance": {
+      "decision": "unsure",
+      "note": ""
+    },
+    "transportation__003__boot": {
+      "decision": "keep",
+      "note": ""
+    },
+    "education__013__assistant": {
+      "decision": "drop",
+      "note": "very similar meanings"
+    },
+    "finance__012__spread": {
+      "decision": "unsure",
+      "note": "not sure if the candidate and the category is good enough"
+    },
+    "health__003__anvil": {
+      "decision": "keep",
+      "note": ""
+    },
+    "law__012__exhibit": {
+      "decision": "drop",
+      "note": "hard to find a good pic"
+    },
+    "politics__002__floor": {
+      "decision": "keep",
+      "note": ""
+    },
+    "snacks__004__zipper": {
+      "decision": "drop",
+      "note": "same meaning no?"
+    },
+    "computer-science__010__gateway": {
+      "decision": "keep",
+      "note": ""
+    },
+    "religion__005__vest": {
+      "decision": "unsure",
+      "note": "not sure if the candidate itself is good or not"
+    },
+    "sociology__013__size": {
+      "decision": "drop",
+      "note": "not sure if the category is good or not"
+    },
+    "entertainment__007__bass": {
+      "decision": "keep",
+      "note": ""
+    },
+    "linguistics__008__sign": {
+      "decision": "keep",
+      "note": ""
+    },
+    "grains__003__grain": {
+      "decision": "keep",
+      "note": ""
+    },
+    "politics__004__speaker": {
+      "decision": "keep",
+      "note": ""
+    },
+    "science__010__venus": {
+      "decision": "keep",
+      "note": "mayne its good "
+    },
+    "technology__006__bridge": {
+      "decision": "keep",
+      "note": ""
+    },
+    "movies__008__cut": {
+      "decision": "keep",
+      "note": ""
+    },
+    "literature__011__journal": {
+      "decision": "keep",
+      "note": ""
+    },
+    "food__004__pit": {
+      "decision": "keep",
+      "note": ""
+    },
+    "science__002__mercury": {
+      "decision": "keep",
+      "note": ""
+    },
+    "math__003__section": {
+      "decision": "unsure",
+      "note": "hard to get a good pic i think"
+    },
+    "sports__003__string": {
+      "decision": "keep",
+      "note": ""
+    },
+    "movies__004__director": {
+      "decision": "drop",
+      "note": "very similar meaning"
+    },
+    "sports__011__corner": {
+      "decision": "keep",
+      "note": ""
+    },
+    "geography__007__point": {
+      "decision": "keep",
+      "note": ""
+    },
+    "architecture__001__panel": {
+      "decision": "keep",
+      "note": ""
+    },
+    "grains__006__corn": {
+      "decision": "keep",
+      "note": ""
+    },
+    "social-media__004__thread": {
+      "decision": "keep",
+      "note": ""
+    },
+    "technology__005__router": {
+      "decision": "keep",
+      "note": ""
+    },
+    "space__008__telescope": {
+      "decision": "drop",
+      "note": "same meaning/pics"
+    },
+    "movies__012__filter": {
+      "decision": "keep",
+      "note": ""
+    },
+    "food__013__sage": {
+      "decision": "keep",
+      "note": ""
+    },
+    "science__015__leaf": {
+      "decision": "keep",
+      "note": ""
+    },
+    "fruits__002__apple": {
+      "decision": "drop",
+      "note": "same meaning"
+    },
+    "astronomy__011__pier": {
+      "decision": "keep",
+      "note": ""
+    },
+    "psychology__012__modeling": {
+      "decision": "keep",
+      "note": ""
+    },
+    "space__004__probe": {
+      "decision": "unsure",
+      "note": "not sure if this is good enough"
+    },
+    "news__002__cut": {
+      "decision": "keep",
+      "note": ""
+    },
+    "history__013__chancellor": {
+      "decision": "drop",
+      "note": "very similar meanings"
+    },
+    "art__004__oil": {
+      "decision": "drop",
+      "note": "is the relation claim correct?"
+    },
+    "finance__008__bill": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "medicine__012__tube": {
+      "decision": "unsure",
+      "note": "not sure if this is good enough"
+    },
+    "space__012__ring": {
+      "decision": "keep",
+      "note": ""
+    },
+    "medicine__010__bell": {
+      "decision": "keep",
+      "note": ""
+    },
+    "physics__005__shield": {
+      "decision": "drop",
+      "note": "not suer if the category is good enough maybe too niche"
+    },
+    "sweets-and-desserts__001__mint": {
+      "decision": "drop",
+      "note": "same meaning"
+    },
+    "sociology__001__head": {
+      "decision": "drop",
+      "note": "not suer if the category is good enough"
+    },
+    "economics__015__tariff": {
+      "decision": "drop",
+      "note": "simialr meanings"
+    },
+    "computer-science__005__stack": {
+      "decision": "keep",
+      "note": ""
+    },
+    "sociology__009__school": {
+      "decision": "drop",
+      "note": "same meanings"
+    },
+    "space__002__fin": {
+      "decision": "keep",
+      "note": ""
+    },
+    "travel__006__visa": {
+      "decision": "keep",
+      "note": ""
+    },
+    "travel__005__ticket": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "computer-science__013__window": {
+      "decision": "keep",
+      "note": ""
+    },
+    "travel__005__shuttle": {
+      "decision": "keep",
+      "note": ""
+    },
+    "beverages__006__carafe": {
+      "decision": "drop",
+      "note": "same meanings"
+    },
+    "architecture__010__sill": {
+      "decision": "drop",
+      "note": ""
+    },
+    "anthropology__002__rib": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "astronomy__001__dwarf": {
+      "decision": "keep",
+      "note": ""
+    },
+    "technology__009__tape": {
+      "decision": "keep",
+      "note": ""
+    },
+    "condiments__002__horseradish": {
+      "decision": "drop",
+      "note": "same meanings"
+    },
+    "business__003__staff": {
+      "decision": "keep",
+      "note": ""
+    },
+    "politics__006__delegate": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "music__013__tape": {
+      "decision": "keep",
+      "note": ""
+    },
+    "computer-science__007__tree": {
+      "decision": "keep",
+      "note": ""
+    },
+    "math__009__field": {
+      "decision": "unsure",
+      "note": "not sure if the category is good"
+    },
+    "wildlife__013__hide": {
+      "decision": "keep",
+      "note": ""
+    },
+    "physics__004__ring": {
+      "decision": "keep",
+      "note": ""
+    },
+    "math__001__cone": {
+      "decision": "keep",
+      "note": ""
+    },
+    "fashion__010__corduroy": {
+      "decision": "drop",
+      "note": "basically no alternative meaning"
+    },
+    "snacks__002__chip": {
+      "decision": "keep",
+      "note": ""
+    },
+    "biology__016__probe": {
+      "decision": "drop",
+      "note": "maybe too niche"
+    },
+    "entertainment__002__salsa": {
+      "decision": "keep",
+      "note": ""
+    },
+    "law__008__bench": {
+      "decision": "keep",
+      "note": ""
+    },
+    "geography__006__bank": {
+      "decision": "keep",
+      "note": ""
+    },
+    "weather__006__bulb": {
+      "decision": "keep",
+      "note": ""
+    },
+    "education__013__chapter": {
+      "decision": "unsure",
+      "note": "maybe good "
+    },
+    "fashion__009__button": {
+      "decision": "keep",
+      "note": ""
+    },
+    "geography__008__spring": {
+      "decision": "keep",
+      "note": ""
+    },
+    "psychology__007__scale": {
+      "decision": "keep",
+      "note": ""
+    },
+    "medicine__008__capsule": {
+      "decision": "keep",
+      "note": ""
+    },
+    "education__001__hall": {
+      "decision": "drop",
+      "note": "would be the same meaning/too broad"
+    },
+    "business__006__bill": {
+      "decision": "drop",
+      "note": ""
+    },
+    "engineering__015__capacitor": {
+      "decision": "drop",
+      "note": ""
+    },
+    "music__015__album": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "engineering__007__shaft": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "gaming__008__token": {
+      "decision": "drop",
+      "note": "similar meanings"
+    },
+    "fruits__011__peach": {
+      "decision": "drop",
+      "note": "not a general color"
+    },
+    "math__005__node": {
+      "decision": "keep",
+      "note": ""
+    },
+    "social-media__006__business": {
+      "decision": "drop",
+      "note": "same meanings"
+    },
+    "snacks__003__bar": {
+      "decision": "keep",
+      "note": ""
+    },
+    "psychology__004__scale": {
+      "decision": "keep",
+      "note": ""
+    },
+    "social-media__015__view": {
+      "decision": "drop",
+      "note": "hard to find a pic to show the meanings"
+    },
+    "chemistry__008__stand": {
+      "decision": "drop",
+      "note": "same broad meaning"
+    }
+  }
+}

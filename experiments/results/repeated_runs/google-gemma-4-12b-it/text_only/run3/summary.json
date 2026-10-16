@@ -1,0 +1,29 @@
+{
+  "model": "google/gemma-4-12B-it",
+  "scopes": {
+    "all155": {
+      "concept:text_only": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 66,
+            "total": 155,
+            "accuracy": 0.4258064516129032
+          }
+        }
+      }
+    },
+    "human80": {
+      "concept:text_only": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 47,
+            "total": 80,
+            "accuracy": 0.5875
+          }
+        }
+      }
+    }
+  }
+}

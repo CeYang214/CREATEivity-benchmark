@@ -1,0 +1,29 @@
+{
+  "model": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+  "scopes": {
+    "all155": {
+      "concept:text_only": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 54,
+            "total": 155,
+            "accuracy": 0.34838709677419355
+          }
+        }
+      }
+    },
+    "human80": {
+      "concept:text_only": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 36,
+            "total": 80,
+            "accuracy": 0.45
+          }
+        }
+      }
+    }
+  }
+}

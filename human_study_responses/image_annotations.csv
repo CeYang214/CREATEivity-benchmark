@@ -1,0 +1,1201 @@
+participant_id,puzzle_id,puzzle_index,triplet_index,word_id,word,concept_label,fit_rating,word_clarity_rating,confusing_verdict,disagree_verdict,thought_word_verdict,word_concept_alignment,image_helpfulness
+P001,IR082,1,1,trains__005__tie,tie,track,0,0,yes,no,yes,no,
+P001,IR082,1,2,trains__007__frog,frog,track,0,0,yes,no,yes,no,
+P001,IR082,1,3,trains__008__switch,switch,track,0,0,yes,yes,yes,yes,
+P001,IR085,2,1,fasteners__005__teeth,teeth,zipper,0,0,yes,yes,yes,yes,
+P001,IR085,2,2,fasteners__006__slider,slider,zipper,0,0,yes,some_extent,yes,some_extent,
+P001,IR085,2,3,fasteners__007__tape,tape,zipper,0,0,yes,no,yes,no,
+P001,IR024,3,1,film-and-tv__002__crane,crane,camera equipment,0,0,no,yes,no,yes,
+P001,IR024,3,2,film-and-tv__003__slider,slider,camera equipment,0,0,yes,idk,yes,idk,
+P001,IR024,3,3,film-and-tv__001__dolly,dolly,camera equipment,0,0,no,yes,no,yes,
+P001,IR063,4,1,snacks__001__chip,chip,snack,0,0,yes,yes,yes,yes,
+P001,IR063,4,2,snacks__003__cracker,cracker,snack,0,0,no,yes,no,yes,
+P001,IR063,4,3,snacks__002__pretzel,pretzel,snack,0,0,no,yes,no,yes,
+P001,IR009,5,1,breads__001__roll,roll,bread,5,0,yes,yes,yes,yes,5
+P001,IR009,5,2,breads__002__twist,twist,bread,5,0,yes,yes,yes,yes,5
+P001,IR009,5,3,breads__004__loaf,loaf,bread,5,0,yes,yes,yes,yes,5
+P001,IR008,6,1,bones__005__spine,spine,skeleton,0,0,yes,yes,yes,yes,
+P001,IR008,6,2,bones__007__arch,arch,skeleton,0,0,yes,some_extent,yes,some_extent,
+P001,IR008,6,3,bones__006__cage,cage,skeleton,0,0,yes,yes,yes,yes,
+P001,IR041,7,1,law__003__box,box,courtroom,0,0,yes,no,yes,no,
+P001,IR041,7,2,law__001__bar,bar,courtroom,0,0,yes,idk,yes,idk,
+P001,IR041,7,3,law__005__dock,dock,courtroom,0,0,no,no,no,no,
+P001,IR056,8,1,plants__008__box,box,tree,0,0,yes,no,yes,no,
+P001,IR056,8,2,plants__007__ash,ash,tree,0,0,no,yes,no,yes,
+P001,IR056,8,3,plants__009__plane,plane,tree,0,0,yes,no,yes,no,
+P001,IR013,9,1,cocktails__004__grasshopper,grasshopper,cocktail,4,0,yes,some_extent,yes,some_extent,4
+P001,IR013,9,2,cocktails__003__sidecar,sidecar,cocktail,5,0,yes,yes,yes,yes,5
+P001,IR013,9,3,cocktails__001__screwdriver,screwdriver,cocktail,5,0,yes,yes,yes,yes,5
+P001,IR076,10,1,vehicles__009__deck,deck,boat,0,0,yes,yes,yes,yes,
+P001,IR076,10,2,vehicles__010__bow,bow,boat,0,0,yes,idk,yes,idk,
+P001,IR076,10,3,vehicles__011__boom,boom,boat,0,0,yes,idk,yes,idk,
+P001,IR049,11,1,music-genres__003__pop,pop,music genre,0,0,yes,yes,yes,yes,
+P001,IR049,11,2,music-genres__001__rock,rock,music genre,0,0,no,yes,no,yes,
+P001,IR049,11,3,music-genres__002__metal,metal,music genre,0,0,no,yes,no,yes,
+P001,IR086,12,1,birds__003__cardinal,cardinal,bird,0,0,yes,yes,yes,yes,
+P001,IR086,12,2,birds__001__kite,kite,bird,0,0,yes,idk,yes,idk,
+P001,IR086,12,3,birds__002__crane,crane,bird,0,0,yes,yes,yes,yes,
+P001,IR026,13,1,food__005__string,string,cheese,0,0,no,yes,no,yes,
+P001,IR026,13,2,food__004__brick,brick,cheese,0,0,yes,no,yes,no,
+P001,IR026,13,3,food__006__jack,jack,cheese,0,0,no,yes,no,yes,
+P001,IR016,14,1,computer-science__005__mouse,mouse,computer,0,0,yes,yes,yes,yes,
+P001,IR016,14,2,computer-science__007__bus,bus,computer,0,0,yes,no,yes,no,
+P001,IR016,14,3,computer-science__006__fan,fan,computer,0,0,yes,no,yes,no,
+P001,IR019,15,1,dance-styles__001__twist,twist,dance,0,0,yes,yes,yes,yes,
+P001,IR019,15,2,dance-styles__003__tap,tap,dance,0,0,yes,yes,yes,yes,
+P001,IR019,15,3,dance-styles__004__jig,jig,dance,0,0,no,idk,no,idk,
+P001,IR043,16,1,marine-creatures__005__mullet,mullet,fish,0,0,no,yes,no,yes,
+P001,IR043,16,2,marine-creatures__004__jack,jack,fish,0,0,yes,no,yes,no,
+P001,IR043,16,3,marine-creatures__001__skate,skate,fish,0,0,yes,yes,yes,yes,
+P002,IR041,1,1,law__003__box,box,courtroom,0,0,yes,yes,yes,yes,
+P002,IR041,1,2,law__001__bar,bar,courtroom,0,0,yes,yes,yes,yes,
+P002,IR041,1,3,law__005__dock,dock,courtroom,0,0,yes,no,yes,no,
+P002,IR055,2,1,planes__007__gate,gate,airport,0,0,yes,yes,yes,yes,
+P002,IR055,2,2,planes__006__apron,apron,airport,0,0,no,no,no,no,
+P002,IR055,2,3,planes__008__carousel,carousel,airport,0,0,yes,some_extent,yes,some_extent,
+P002,IR035,3,1,internet-terms__008__worm,worm,malware,0,0,yes,yes,yes,yes,
+P002,IR035,3,2,internet-terms__007__virus,virus,malware,0,0,yes,yes,yes,yes,
+P002,IR035,3,3,internet-terms__009__trojan,trojan,malware,0,0,yes,yes,yes,yes,
+P002,IR083,4,1,bathroom-items__001__tank,tank,toilet,0,0,yes,some_extent,yes,some_extent,
+P002,IR083,4,2,bathroom-items__003__float,float,toilet,0,0,no,no,no,no,
+P002,IR083,4,3,bathroom-items__002__bowl,bowl,toilet,0,0,yes,yes,yes,yes,
+P002,IR039,5,1,landforms__004__sound,sound,landform,0,0,yes,no,yes,no,
+P002,IR039,5,2,landforms__003__spit,spit,landform,0,0,no,no,no,no,
+P002,IR039,5,3,landforms__002__basin,basin,landform,0,0,yes,yes,yes,yes,
+P002,IR042,6,1,mammals__004__seal,seal,mammal,0,0,yes,yes,yes,yes,
+P002,IR042,6,2,mammals__002__ram,ram,mammal,0,0,no,some_extent,no,some_extent,
+P002,IR042,6,3,mammals__001__bat,bat,mammal,0,0,yes,yes,yes,yes,
+P002,IR086,7,1,birds__003__cardinal,cardinal,bird,3,0,yes,yes,yes,yes,3
+P002,IR086,7,2,birds__001__kite,kite,bird,5,0,yes,yes,yes,yes,5
+P002,IR086,7,3,birds__002__crane,crane,bird,5,0,yes,yes,yes,yes,5
+P002,IR075,8,1,vehicles__008__horn,horn,car,1,0,no,yes,no,yes,1
+P002,IR075,8,2,vehicles__007__trunk,trunk,car,5,0,yes,yes,yes,yes,5
+P002,IR075,8,3,vehicles__006__boot,boot,car,5,0,yes,yes,yes,yes,5
+P002,IR067,9,1,stones__004__princess,princess,gemstone cut,0,0,yes,no,yes,no,
+P002,IR067,9,2,stones__001__cushion,cushion,gemstone cut,0,0,yes,no,yes,no,
+P002,IR067,9,3,stones__003__heart,heart,gemstone cut,0,0,yes,no,yes,no,
+P002,IR023,10,1,fasteners__001__bolt,bolt,fastener,0,0,no,idk,no,idk,
+P002,IR023,10,2,fasteners__003__staple,staple,fastener,0,0,no,idk,no,idk,
+P002,IR023,10,3,fasteners__004__toggle,toggle,fastener,0,0,yes,idk,yes,idk,
+P002,IR030,11,1,history__002__club,club,weapon,0,0,no,yes,no,yes,
+P002,IR030,11,2,history__003__mace,mace,weapon,0,0,no,some_extent,no,some_extent,
+P002,IR030,11,3,history__001__pike,pike,weapon,0,0,no,idk,no,idk,
+P002,IR070,12,1,telecommunications__005__star,star,topology,3,0,yes,yes,yes,yes,3
+P002,IR070,12,2,telecommunications__006__ring,ring,topology,3,0,yes,yes,yes,yes,3
+P002,IR070,12,3,telecommunications__007__tree,tree,topology,3,0,yes,yes,yes,yes,3
+P002,IR015,13,1,computer-science__008__string,string,data type,0,0,no,yes,no,yes,
+P002,IR015,13,2,computer-science__010__float,float,data type,0,0,no,yes,no,yes,
+P002,IR015,13,3,computer-science__009__character,character,data type,0,0,no,yes,no,yes,
+P002,IR006,14,1,board-games__008__risk,risk,board game,0,0,no,some_extent,no,some_extent,
+P002,IR006,14,2,board-games__007__operation,operation,board game,0,0,yes,yes,yes,yes,
+P002,IR006,14,3,board-games__005__clue,clue,board game,0,0,yes,yes,yes,yes,
+P002,IR004,15,1,beverages__001__punch,punch,beverage,4,0,yes,yes,yes,yes,4
+P002,IR004,15,2,beverages__003__shake,shake,beverage,4,0,yes,yes,yes,yes,4
+P002,IR004,15,3,beverages__002__float,float,beverage,4,0,yes,yes,yes,yes,4
+P002,IR005,16,1,biology__007__stem,stem,plant,0,0,no,yes,no,yes,
+P002,IR005,16,2,biology__008__bark,bark,plant,0,0,yes,yes,yes,yes,
+P002,IR005,16,3,biology__009__root,root,plant,0,0,no,yes,no,yes,
+P003,IR043,1,1,marine-creatures__005__mullet,mullet,fish,0,0,no,no,no,no,
+P003,IR043,1,2,marine-creatures__004__jack,jack,fish,0,0,yes,no,yes,no,
+P003,IR043,1,3,marine-creatures__001__skate,skate,fish,0,0,yes,some_extent,yes,some_extent,
+P003,IR053,2,1,operating-systems__007__tree,tree,data structure,4,0,yes,yes,yes,yes,4
+P003,IR053,2,2,operating-systems__006__stack,stack,data structure,4,0,yes,yes,yes,yes,4
+P003,IR053,2,3,operating-systems__005__queue,queue,data structure,5,0,yes,yes,yes,yes,5
+P003,IR020,3,1,education__003__leaf,leaf,book,0,0,yes,yes,yes,yes,
+P003,IR020,3,2,education__004__plate,plate,book,0,0,yes,no,yes,no,
+P003,IR020,3,3,education__001__spine,spine,book,0,0,yes,yes,yes,yes,
+P003,IR065,4,1,sports__003__driver,driver,golf club,0,0,no,yes,no,yes,
+P003,IR065,4,2,sports__001__iron,iron,golf club,0,0,yes,some_extent,yes,some_extent,
+P003,IR065,4,3,sports__002__wedge,wedge,golf club,0,0,no,some_extent,no,some_extent,
+P003,IR038,5,1,knots__002__hitch,hitch,knot,0,0,no,no,no,no,
+P003,IR038,5,2,knots__001__bow,bow,knot,0,0,yes,yes,yes,yes,
+P003,IR038,5,3,knots__003__bend,bend,knot,0,0,no,no,no,no,
+P003,IR026,6,1,food__005__string,string,cheese,0,0,no,yes,no,yes,
+P003,IR026,6,2,food__004__brick,brick,cheese,0,0,yes,some_extent,yes,some_extent,
+P003,IR026,6,3,food__006__jack,jack,cheese,0,0,yes,yes,yes,yes,
+P003,IR018,7,1,daily-activities__003__iron,iron,cleaning,0,0,no,no,no,no,
+P003,IR018,7,2,daily-activities__002__brush,brush,cleaning,0,0,no,yes,no,yes,
+P003,IR018,7,3,daily-activities__001__sponge,sponge,cleaning,0,0,no,yes,no,yes,
+P003,IR084,8,1,fasteners__009__head,head,screw,0,0,no,some_extent,no,some_extent,
+P003,IR084,8,2,fasteners__008__thread,thread,screw,0,0,yes,no,yes,no,
+P003,IR084,8,3,fasteners__010__shank,shank,screw,0,0,no,no,no,no,
+P003,IR030,9,1,history__002__club,club,weapon,0,0,yes,yes,yes,yes,
+P003,IR030,9,2,history__003__mace,mace,weapon,0,0,no,yes,no,yes,
+P003,IR030,9,3,history__001__pike,pike,weapon,0,0,no,no,no,no,
+P003,IR077,10,1,weapons__003__stock,stock,gun,0,0,no,no,no,no,
+P003,IR077,10,2,weapons__004__magazine,magazine,gun,0,0,yes,yes,yes,yes,
+P003,IR077,10,3,weapons__001__barrel,barrel,gun,0,0,yes,yes,yes,yes,
+P003,IR070,11,1,telecommunications__005__star,star,topology,0,0,yes,some_extent,yes,some_extent,
+P003,IR070,11,2,telecommunications__006__ring,ring,topology,0,0,yes,yes,yes,yes,
+P003,IR070,11,3,telecommunications__007__tree,tree,topology,0,0,yes,yes,yes,yes,
+P003,IR067,12,1,stones__004__princess,princess,gemstone cut,0,0,no,yes,no,yes,
+P003,IR067,12,2,stones__001__cushion,cushion,gemstone cut,0,0,no,yes,no,yes,
+P003,IR067,12,3,stones__003__heart,heart,gemstone cut,0,0,yes,some_extent,yes,some_extent,
+P003,IR041,13,1,law__003__box,box,courtroom,0,0,yes,some_extent,yes,some_extent,
+P003,IR041,13,2,law__001__bar,bar,courtroom,0,0,yes,some_extent,yes,some_extent,
+P003,IR041,13,3,law__005__dock,dock,courtroom,0,0,yes,no,yes,no,
+P003,IR082,14,1,trains__005__tie,tie,track,0,0,yes,no,yes,no,
+P003,IR082,14,2,trains__007__frog,frog,track,0,0,no,no,no,no,
+P003,IR082,14,3,trains__008__switch,switch,track,0,0,yes,some_extent,yes,some_extent,
+P003,IR008,15,1,bones__005__spine,spine,skeleton,0,0,no,yes,no,yes,
+P003,IR008,15,2,bones__007__arch,arch,skeleton,0,0,no,some_extent,no,some_extent,
+P003,IR008,15,3,bones__006__cage,cage,skeleton,0,0,no,some_extent,no,some_extent,
+P003,IR035,16,1,internet-terms__008__worm,worm,malware,0,0,yes,some_extent,yes,some_extent,
+P003,IR035,16,2,internet-terms__007__virus,virus,malware,0,0,no,some_extent,no,some_extent,
+P003,IR035,16,3,internet-terms__009__trojan,trojan,malware,0,0,yes,yes,yes,yes,
+P004,IR076,1,1,vehicles__009__deck,deck,boat,0,0,yes,no,yes,no,
+P004,IR076,1,2,vehicles__010__bow,bow,boat,0,0,yes,yes,yes,yes,
+P004,IR076,1,3,vehicles__011__boom,boom,boat,0,0,no,idk,no,idk,
+P004,IR008,2,1,bones__005__spine,spine,skeleton,0,0,no,yes,no,yes,
+P004,IR008,2,2,bones__007__arch,arch,skeleton,0,0,yes,no,yes,no,
+P004,IR008,2,3,bones__006__cage,cage,skeleton,0,0,yes,no,yes,no,
+P004,IR045,3,1,measurement-units__001__foot,foot,length unit,0,0,yes,yes,yes,yes,
+P004,IR045,3,2,measurement-units__002__yard,yard,length unit,0,0,yes,some_extent,yes,some_extent,
+P004,IR045,3,3,measurement-units__003__link,link,length unit,0,0,no,no,no,no,
+P004,IR019,4,1,dance-styles__001__twist,twist,dance,0,0,no,yes,no,yes,
+P004,IR019,4,2,dance-styles__003__tap,tap,dance,0,0,yes,yes,yes,yes,
+P004,IR019,4,3,dance-styles__004__jig,jig,dance,0,0,no,yes,no,yes,
+P004,IR067,5,1,stones__004__princess,princess,gemstone cut,0,0,yes,some_extent,yes,some_extent,
+P004,IR067,5,2,stones__001__cushion,cushion,gemstone cut,0,0,yes,no,yes,no,
+P004,IR067,5,3,stones__003__heart,heart,gemstone cut,0,0,yes,some_extent,yes,some_extent,
+P004,IR003,6,1,bags__005__clutch,clutch,bag,0,0,yes,no,yes,no,
+P004,IR003,6,2,bags__008__hobo,hobo,bag,0,0,no,no,no,no,
+P004,IR003,6,3,bags__006__messenger,messenger,bag,0,0,yes,no,yes,no,
+P004,IR075,7,1,vehicles__008__horn,horn,car,0,0,yes,yes,yes,yes,
+P004,IR075,7,2,vehicles__007__trunk,trunk,car,0,0,yes,yes,yes,yes,
+P004,IR075,7,3,vehicles__006__boot,boot,car,0,0,yes,yes,yes,yes,
+P004,IR057,8,1,plants__003__lip,lip,flower,0,0,yes,no,yes,no,
+P004,IR057,8,2,plants__001__blade,blade,flower,0,0,yes,no,yes,no,
+P004,IR057,8,3,plants__002__throat,throat,flower,0,0,no,yes,no,yes,
+P004,P054,9,1,mythical-creatures__001__brownie,brownie,mythical creature,0,0,yes,no,yes,no,
+P004,P054,9,2,mythical-creatures__003__siren,siren,mythical creature,0,0,no,some_extent,no,some_extent,
+P004,P054,9,3,mythical-creatures__002__troll,troll,mythical creature,0,0,no,yes,no,yes,
+P004,IR089,10,1,musical-instruments__003__organ,organ,musical instrument,0,0,yes,yes,yes,yes,
+P004,IR089,10,2,musical-instruments__001__triangle,triangle,musical instrument,0,0,yes,yes,yes,yes,
+P004,IR089,10,3,musical-instruments__002__recorder,recorder,musical instrument,0,0,yes,yes,yes,yes,
+P004,IR034,11,1,household__003__spring,spring,bed,0,0,yes,some_extent,yes,some_extent,
+P004,IR034,11,2,household__001__post,post,bed,0,0,yes,yes,yes,yes,
+P004,IR034,11,3,household__002__skirt,skirt,bed,0,0,yes,no,yes,no,
+P004,IR078,12,1,weather-phenomena__004__eye,eye,cyclone,0,0,yes,some_extent,yes,some_extent,
+P004,IR078,12,2,weather-phenomena__005__wall,wall,cyclone,0,0,yes,no,yes,no,
+P004,IR078,12,3,weather-phenomena__006__band,band,cyclone,0,0,yes,no,yes,no,
+P004,IR024,13,1,film-and-tv__002__crane,crane,camera equipment,0,0,yes,no,yes,no,
+P004,IR024,13,2,film-and-tv__003__slider,slider,camera equipment,0,0,no,no,no,no,
+P004,IR024,13,3,film-and-tv__001__dolly,dolly,camera equipment,0,0,yes,no,yes,no,
+P004,IR037,14,1,kitchen-tools__007__pitcher,pitcher,blender,0,0,yes,no,yes,no,
+P004,IR037,14,2,kitchen-tools__009__collar,collar,blender,0,0,yes,no,yes,no,
+P004,IR037,14,3,kitchen-tools__008__blade,blade,blender,0,0,no,yes,no,yes,
+P004,IR058,15,1,politics__003__rose,rose,political party,0,0,yes,no,yes,no,
+P004,IR058,15,2,politics__001__donkey,donkey,political party,0,0,yes,idk,yes,idk,
+P004,IR058,15,3,politics__002__elephant,elephant,political party,0,0,yes,no,yes,no,
+P004,IR020,16,1,education__003__leaf,leaf,book,0,0,no,some_extent,no,some_extent,
+P004,IR020,16,2,education__004__plate,plate,book,0,0,yes,no,yes,no,
+P004,IR020,16,3,education__001__spine,spine,book,0,0,yes,no,yes,no,
+P005,IR072,1,1,trees__003__crown,crown,tree,0,0,yes,no,yes,no,
+P005,IR072,1,2,trees__002__trunk,trunk,tree,0,0,yes,yes,yes,yes,
+P005,IR072,1,3,trees__004__needle,needle,tree,0,0,yes,some_extent,yes,some_extent,
+P005,IR007,2,1,bodies-of-water__003__bed,bed,river,3,0,yes,yes,yes,yes,3
+P005,IR007,2,2,bodies-of-water__001__bank,bank,river,5,0,yes,yes,yes,yes,5
+P005,IR007,2,3,bodies-of-water__002__mouth,mouth,river,2,0,no,no,no,no,2
+P005,IR024,3,1,film-and-tv__002__crane,crane,camera equipment,0,0,no,no,no,no,
+P005,IR024,3,2,film-and-tv__003__slider,slider,camera equipment,0,0,no,no,no,no,
+P005,IR024,3,3,film-and-tv__001__dolly,dolly,camera equipment,0,0,no,no,no,no,
+P005,IR075,4,1,vehicles__008__horn,horn,car,0,0,yes,no,yes,no,
+P005,IR075,4,2,vehicles__007__trunk,trunk,car,0,0,no,no,no,no,
+P005,IR075,4,3,vehicles__006__boot,boot,car,0,0,no,no,no,no,
+P005,IR078,5,1,weather-phenomena__004__eye,eye,cyclone,0,0,yes,no,yes,no,
+P005,IR078,5,2,weather-phenomena__005__wall,wall,cyclone,0,0,yes,no,yes,no,
+P005,IR078,5,3,weather-phenomena__006__band,band,cyclone,0,0,yes,no,yes,no,
+P005,IR071,6,1,toys-and-games__012__heart,heart,suit,0,0,yes,no,yes,no,
+P005,IR071,6,2,toys-and-games__009__club,club,suit,0,0,no,some_extent,no,some_extent,
+P005,IR071,6,3,toys-and-games__011__diamond,diamond,suit,0,0,yes,yes,yes,yes,
+P005,IR017,7,1,console-generations__003__saturn,saturn,console,0,0,yes,no,yes,no,
+P005,IR017,7,2,console-generations__001__switch,switch,console,0,0,yes,yes,yes,yes,
+P005,IR017,7,3,console-generations__002__cube,cube,console,0,0,yes,idk,yes,idk,
+P005,IR016,8,1,computer-science__005__mouse,mouse,computer,4,0,yes,yes,yes,yes,4
+P005,IR016,8,2,computer-science__007__bus,bus,computer,3,0,yes,no,yes,no,3
+P005,IR016,8,3,computer-science__006__fan,fan,computer,4,0,yes,yes,yes,yes,4
+P005,IR083,9,1,bathroom-items__001__tank,tank,toilet,0,0,yes,some_extent,yes,some_extent,
+P005,IR083,9,2,bathroom-items__003__float,float,toilet,0,0,no,no,no,no,
+P005,IR083,9,3,bathroom-items__002__bowl,bowl,toilet,0,0,yes,no,yes,no,
+P005,IR023,10,1,fasteners__001__bolt,bolt,fastener,0,0,no,yes,no,yes,
+P005,IR023,10,2,fasteners__003__staple,staple,fastener,0,0,no,idk,no,idk,
+P005,IR023,10,3,fasteners__004__toggle,toggle,fastener,0,0,yes,idk,yes,idk,
+P005,P007,11,1,boats__010__bark,bark,ship,0,0,yes,idk,yes,idk,
+P005,P007,11,2,boats__008__cutter,cutter,ship,0,0,yes,idk,yes,idk,
+P005,P007,11,3,boats__004__steamer,steamer,ship,0,0,yes,yes,yes,yes,
+P005,IR040,12,1,landforms__007__saddle,saddle,mountain,0,0,yes,idk,yes,idk,
+P005,IR040,12,2,landforms__005__shoulder,shoulder,mountain,0,0,yes,yes,yes,yes,
+P005,IR040,12,3,landforms__006__foot,foot,mountain,0,0,yes,idk,yes,idk,
+P005,IR050,13,1,mythological-gods__003__pan,pan,deity,0,0,yes,idk,yes,idk,
+P005,IR050,13,2,mythological-gods__001__mercury,mercury,deity,0,0,yes,idk,yes,idk,
+P005,IR050,13,3,mythological-gods__002__flora,flora,deity,0,0,no,idk,no,idk,
+P005,IR047,14,1,metals__003__stake,stake,metalworking,0,0,no,idk,no,idk,
+P005,IR047,14,2,metals__001__punch,punch,metalworking,0,0,yes,idk,yes,idk,
+P005,IR047,14,3,metals__004__drift,drift,metalworking,0,0,yes,idk,yes,idk,
+P005,IR031,15,1,hobbies__007__neck,neck,guitar,5,0,yes,yes,yes,yes,5
+P005,IR031,15,2,hobbies__004__bridge,bridge,guitar,5,0,yes,yes,yes,yes,5
+P005,IR031,15,3,hobbies__006__saddle,saddle,guitar,5,0,yes,yes,yes,yes,5
+P005,IR036,16,1,jewelry__005__lobster,lobster,clasp,0,0,yes,idk,yes,idk,
+P005,IR036,16,2,jewelry__007__toggle,toggle,clasp,0,0,yes,idk,yes,idk,
+P005,IR036,16,3,jewelry__006__barrel,barrel,clasp,0,0,yes,idk,yes,idk,
+P006,IR078,1,1,weather-phenomena__004__eye,eye,cyclone,0,0,yes,yes,yes,yes,
+P006,IR078,1,2,weather-phenomena__005__wall,wall,cyclone,0,0,yes,no,yes,no,
+P006,IR078,1,3,weather-phenomena__006__band,band,cyclone,0,0,yes,no,yes,no,
+P006,IR011,2,1,clothing-items__012__mule,mule,shoe,0,0,no,no,no,no,
+P006,IR011,2,2,clothing-items__009__pump,pump,shoe,0,0,yes,some_extent,yes,some_extent,
+P006,IR011,2,3,clothing-items__011__wedge,wedge,shoe,0,0,no,some_extent,no,some_extent,
+P006,IR004,3,1,beverages__001__punch,punch,beverage,0,0,yes,yes,yes,yes,
+P006,IR004,3,2,beverages__003__shake,shake,beverage,0,0,yes,yes,yes,yes,
+P006,IR004,3,3,beverages__002__float,float,beverage,0,0,no,some_extent,no,some_extent,
+P006,IR013,4,1,cocktails__004__grasshopper,grasshopper,cocktail,4,0,yes,yes,yes,yes,4
+P006,IR013,4,2,cocktails__003__sidecar,sidecar,cocktail,4,0,yes,yes,yes,yes,4
+P006,IR013,4,3,cocktails__001__screwdriver,screwdriver,cocktail,4,0,yes,yes,yes,yes,4
+P006,IR071,5,1,toys-and-games__012__heart,heart,suit,0,0,yes,yes,yes,yes,
+P006,IR071,5,2,toys-and-games__009__club,club,suit,0,0,no,yes,no,yes,
+P006,IR071,5,3,toys-and-games__011__diamond,diamond,suit,0,0,yes,no,yes,no,
+P006,IR020,6,1,education__003__leaf,leaf,book,0,0,yes,some_extent,yes,some_extent,
+P006,IR020,6,2,education__004__plate,plate,book,0,0,yes,no,yes,no,
+P006,IR020,6,3,education__001__spine,spine,book,0,0,yes,some_extent,yes,some_extent,
+P006,IR065,7,1,sports__003__driver,driver,golf club,0,0,no,no,no,no,
+P006,IR065,7,2,sports__001__iron,iron,golf club,0,0,yes,no,yes,no,
+P006,IR065,7,3,sports__002__wedge,wedge,golf club,0,0,yes,no,yes,no,
+P006,IR044,8,1,martial-arts__005__hook,hook,strike,0,0,yes,no,yes,no,
+P006,IR044,8,2,martial-arts__004__cross,cross,strike,0,0,yes,no,yes,no,
+P006,IR044,8,3,martial-arts__006__jab,jab,strike,0,0,yes,no,yes,no,
+P006,IR036,9,1,jewelry__005__lobster,lobster,clasp,0,0,yes,no,yes,no,
+P006,IR036,9,2,jewelry__007__toggle,toggle,clasp,0,0,no,no,no,no,
+P006,IR036,9,3,jewelry__006__barrel,barrel,clasp,0,0,yes,no,yes,no,
+P006,IR085,10,1,fasteners__005__teeth,teeth,zipper,0,0,yes,some_extent,yes,some_extent,
+P006,IR085,10,2,fasteners__006__slider,slider,zipper,0,0,yes,no,yes,no,
+P006,IR085,10,3,fasteners__007__tape,tape,zipper,0,0,yes,no,yes,no,
+P006,IR075,11,1,vehicles__008__horn,horn,car,0,0,no,some_extent,no,some_extent,
+P006,IR075,11,2,vehicles__007__trunk,trunk,car,0,0,yes,some_extent,yes,some_extent,
+P006,IR075,11,3,vehicles__006__boot,boot,car,0,0,yes,yes,yes,yes,
+P006,IR059,12,1,programming-languages__007__branch,branch,programming construct,0,0,yes,some_extent,yes,some_extent,
+P006,IR059,12,2,programming-languages__006__switch,switch,programming construct,0,0,yes,some_extent,yes,some_extent,
+P006,IR059,12,3,programming-languages__005__loop,loop,programming construct,0,0,no,yes,no,yes,
+P006,IR029,13,1,grains__001__ear,ear,cereal,0,0,yes,no,yes,no,
+P006,IR029,13,2,grains__002__beard,beard,cereal,0,0,yes,no,yes,no,
+P006,IR029,13,3,grains__003__husk,husk,cereal,0,0,yes,no,yes,no,
+P006,IR006,14,1,board-games__008__risk,risk,board game,0,0,no,some_extent,no,some_extent,
+P006,IR006,14,2,board-games__007__operation,operation,board game,0,0,no,some_extent,no,some_extent,
+P006,IR006,14,3,board-games__005__clue,clue,board game,0,0,no,some_extent,no,some_extent,
+P006,IR037,15,1,kitchen-tools__007__pitcher,pitcher,blender,0,0,yes,no,yes,no,
+P006,IR037,15,2,kitchen-tools__009__collar,collar,blender,0,0,yes,no,yes,no,
+P006,IR037,15,3,kitchen-tools__008__blade,blade,blender,0,0,no,some_extent,no,some_extent,
+P006,IR066,16,1,stitches__003__feather,feather,stitch,0,0,yes,no,yes,no,
+P006,IR066,16,2,stitches__005__chain,chain,stitch,0,0,yes,no,yes,no,
+P006,IR066,16,3,stitches__002__ladder,ladder,stitch,0,0,yes,no,yes,no,
+P007,IR053,1,1,operating-systems__007__tree,tree,data structure,0,0,yes,yes,yes,yes,
+P007,IR053,1,2,operating-systems__006__stack,stack,data structure,0,0,yes,yes,yes,yes,
+P007,IR053,1,3,operating-systems__005__queue,queue,data structure,0,0,yes,yes,yes,yes,
+P007,IR018,2,1,daily-activities__003__iron,iron,cleaning,0,0,no,yes,no,yes,
+P007,IR018,2,2,daily-activities__002__brush,brush,cleaning,0,0,no,some_extent,no,some_extent,
+P007,IR018,2,3,daily-activities__001__sponge,sponge,cleaning,0,0,no,yes,no,yes,
+P007,IR040,3,1,landforms__007__saddle,saddle,mountain,0,0,yes,no,yes,no,
+P007,IR040,3,2,landforms__005__shoulder,shoulder,mountain,0,0,no,some_extent,no,some_extent,
+P007,IR040,3,3,landforms__006__foot,foot,mountain,0,0,yes,no,yes,no,
+P007,IR045,4,1,measurement-units__001__foot,foot,length unit,0,0,yes,yes,yes,yes,
+P007,IR045,4,2,measurement-units__002__yard,yard,length unit,0,0,no,yes,no,yes,
+P007,IR045,4,3,measurement-units__003__link,link,length unit,0,0,yes,no,yes,no,
+P007,IR039,5,1,landforms__004__sound,sound,landform,0,0,yes,some_extent,yes,some_extent,
+P007,IR039,5,2,landforms__003__spit,spit,landform,0,0,yes,no,yes,no,
+P007,IR039,5,3,landforms__002__basin,basin,landform,0,0,no,some_extent,no,some_extent,
+P007,IR064,6,1,social-media__002__story,story,feature,0,0,yes,no,yes,no,
+P007,IR064,6,2,social-media__003__thread,thread,feature,0,0,no,no,no,no,
+P007,IR064,6,3,social-media__004__reel,reel,feature,0,0,no,no,no,no,
+P007,IR017,7,1,console-generations__003__saturn,saturn,console,0,0,yes,no,yes,no,
+P007,IR017,7,2,console-generations__001__switch,switch,console,0,0,yes,yes,yes,yes,
+P007,IR017,7,3,console-generations__002__cube,cube,console,0,0,yes,some_extent,yes,some_extent,
+P007,IR084,8,1,fasteners__009__head,head,screw,0,0,no,no,no,no,
+P007,IR084,8,2,fasteners__008__thread,thread,screw,0,0,no,some_extent,no,some_extent,
+P007,IR084,8,3,fasteners__010__shank,shank,screw,0,0,no,no,no,no,
+P007,IR016,9,1,computer-science__005__mouse,mouse,computer,0,0,yes,yes,yes,yes,
+P007,IR016,9,2,computer-science__007__bus,bus,computer,0,0,yes,no,yes,no,
+P007,IR016,9,3,computer-science__006__fan,fan,computer,0,0,yes,some_extent,yes,some_extent,
+P007,IR033,10,1,household-objects__004__face,face,clock,0,0,yes,some_extent,yes,some_extent,
+P007,IR033,10,2,household-objects__005__hand,hand,clock,0,0,yes,yes,yes,yes,
+P007,IR033,10,3,household-objects__006__crown,crown,clock,0,0,yes,no,yes,no,
+P007,IR049,11,1,music-genres__003__pop,pop,music genre,0,0,no,yes,no,yes,
+P007,IR049,11,2,music-genres__001__rock,rock,music genre,0,0,no,yes,no,yes,
+P007,IR049,11,3,music-genres__002__metal,metal,music genre,0,0,no,yes,no,yes,
+P007,IR008,12,1,bones__005__spine,spine,skeleton,0,0,yes,yes,yes,yes,
+P007,IR008,12,2,bones__007__arch,arch,skeleton,0,0,no,no,no,no,
+P007,IR008,12,3,bones__006__cage,cage,skeleton,0,0,yes,some_extent,yes,some_extent,
+P007,IR062,13,1,shapes__002__diamond,diamond,shape,0,0,yes,yes,yes,yes,
+P007,IR062,13,2,shapes__001__kite,kite,shape,0,0,yes,no,yes,no,
+P007,IR062,13,3,shapes__003__heart,heart,shape,0,0,yes,some_extent,yes,some_extent,
+P007,IR079,14,1,web-browsers__001__tab,tab,web browser,5,0,yes,yes,yes,yes,5
+P007,IR079,14,2,web-browsers__003__cookie,cookie,web browser,5,0,yes,yes,yes,yes,5
+P007,IR079,14,3,web-browsers__002__bookmark,bookmark,web browser,4,0,no,yes,no,yes,4
+P007,IR027,15,1,food__009__current,current,fruit,1,0,no,yes,no,yes,1
+P007,IR027,15,2,food__008__orange,orange,fruit,5,0,yes,yes,yes,yes,5
+P007,IR027,15,3,food__007__date,date,fruit,5,0,yes,yes,yes,yes,5
+P007,IR051,16,1,office-supplies__002__spring,spring,pen,0,0,no,some_extent,no,some_extent,
+P007,IR051,16,2,office-supplies__001__barrel,barrel,pen,0,0,yes,some_extent,yes,some_extent,
+P007,IR051,16,3,office-supplies__003__ball,ball,pen,0,0,yes,some_extent,yes,some_extent,
+P008,IR077,1,1,weapons__003__stock,stock,gun,4,0,yes,yes,yes,yes,4
+P008,IR077,1,2,weapons__004__magazine,magazine,gun,5,0,yes,yes,yes,yes,5
+P008,IR077,1,3,weapons__001__barrel,barrel,gun,5,0,yes,yes,yes,yes,5
+P008,IR057,2,1,plants__003__lip,lip,flower,0,0,yes,some_extent,yes,some_extent,
+P008,IR057,2,2,plants__001__blade,blade,flower,0,0,yes,some_extent,yes,some_extent,
+P008,IR057,2,3,plants__002__throat,throat,flower,0,0,yes,no,yes,no,
+P008,IR019,3,1,dance-styles__001__twist,twist,dance,4,0,yes,yes,yes,yes,4
+P008,IR019,3,2,dance-styles__003__tap,tap,dance,4,0,yes,yes,yes,yes,4
+P008,IR019,3,3,dance-styles__004__jig,jig,dance,2,0,no,some_extent,no,some_extent,2
+P008,IR010,4,1,clothing-items__001__slip,slip,garment,4,0,yes,yes,yes,yes,4
+P008,IR010,4,2,clothing-items__004__jumper,jumper,garment,4,0,yes,yes,yes,yes,4
+P008,IR010,4,3,clothing-items__002__tank,tank,garment,3,0,yes,yes,yes,yes,3
+P008,IR043,5,1,marine-creatures__005__mullet,mullet,fish,4,0,yes,yes,yes,yes,4
+P008,IR043,5,2,marine-creatures__004__jack,jack,fish,2,0,no,some_extent,no,some_extent,2
+P008,IR043,5,3,marine-creatures__001__skate,skate,fish,3,0,yes,some_extent,yes,some_extent,3
+P008,IR014,6,1,cocktails__008__foot,foot,glass,4,0,yes,yes,yes,yes,4
+P008,IR014,6,2,cocktails__006__stem,stem,glass,4,0,yes,yes,yes,yes,4
+P008,IR014,6,3,cocktails__007__rim,rim,glass,4,0,yes,yes,yes,yes,4
+P008,IR042,7,1,mammals__004__seal,seal,mammal,5,0,yes,yes,yes,yes,5
+P008,IR042,7,2,mammals__002__ram,ram,mammal,5,0,yes,yes,yes,yes,5
+P008,IR042,7,3,mammals__001__bat,bat,mammal,5,0,yes,yes,yes,yes,5
+P008,IR009,8,1,breads__001__roll,roll,bread,5,0,yes,yes,yes,yes,5
+P008,IR009,8,2,breads__002__twist,twist,bread,5,0,yes,yes,yes,yes,5
+P008,IR009,8,3,breads__004__loaf,loaf,bread,5,0,yes,yes,yes,yes,5
+P008,IR003,9,1,bags__005__clutch,clutch,bag,0,0,yes,yes,yes,yes,
+P008,IR003,9,2,bags__008__hobo,hobo,bag,0,0,no,some_extent,no,some_extent,
+P008,IR003,9,3,bags__006__messenger,messenger,bag,0,0,yes,yes,yes,yes,
+P008,IR060,10,1,punctuation__002__colon,colon,punctuation mark,5,0,yes,yes,yes,yes,5
+P008,IR060,10,2,punctuation__003__dash,dash,punctuation mark,5,0,yes,yes,yes,yes,5
+P008,IR060,10,3,punctuation__004__bracket,bracket,punctuation mark,5,0,yes,yes,yes,yes,5
+P008,IR054,11,1,pasta-shapes__003__shell,shell,pasta,3,0,yes,some_extent,yes,some_extent,3
+P008,IR054,11,2,pasta-shapes__002__elbow,elbow,pasta,4,0,yes,some_extent,yes,some_extent,4
+P008,IR054,11,3,pasta-shapes__004__wheel,wheel,pasta,5,0,yes,yes,yes,yes,5
+P008,IR069,12,1,sweets-and-desserts__003__danish,danish,pastry,5,0,yes,yes,yes,yes,5
+P008,IR069,12,2,sweets-and-desserts__002__horn,horn,pastry,4,0,yes,yes,yes,yes,4
+P008,IR069,12,3,sweets-and-desserts__004__bear-claw,bear claw,pastry,4,0,yes,yes,yes,yes,4
+P008,IR028,13,1,games__002__bishop,bishop,chess piece,5,0,yes,yes,yes,yes,5
+P008,IR028,13,2,games__004__rook,rook,chess piece,5,0,no,yes,no,yes,5
+P008,IR028,13,3,games__001__knight,knight,chess piece,5,0,yes,yes,yes,yes,5
+P008,P027,14,1,finance__009__buck,buck,money,5,0,yes,yes,yes,yes,5
+P008,P027,14,2,finance__011__nickel,nickel,money,5,0,yes,yes,yes,yes,5
+P008,P027,14,3,finance__007__bills,bills,money,5,0,yes,yes,yes,yes,5
+P008,P007,15,1,boats__010__bark,bark,ship,0,0,yes,yes,yes,yes,
+P008,P007,15,2,boats__008__cutter,cutter,ship,0,0,yes,some_extent,yes,some_extent,
+P008,P007,15,3,boats__004__steamer,steamer,ship,0,0,no,yes,no,yes,
+P008,IR047,16,1,metals__003__stake,stake,metalworking,0,0,yes,yes,yes,yes,
+P008,IR047,16,2,metals__001__punch,punch,metalworking,0,0,yes,no,yes,no,
+P008,IR047,16,3,metals__004__drift,drift,metalworking,0,0,yes,some_extent,yes,some_extent,
+P009,IR040,1,1,landforms__007__saddle,saddle,mountain,0,0,yes,no,yes,no,
+P009,IR040,1,2,landforms__005__shoulder,shoulder,mountain,0,0,yes,no,yes,no,
+P009,IR040,1,3,landforms__006__foot,foot,mountain,0,0,yes,some_extent,yes,some_extent,
+P009,IR001,2,1,accessories__004__ring,ring,jewelry,0,0,yes,yes,yes,yes,
+P009,IR001,2,2,accessories__006__choker,choker,jewelry,0,0,no,yes,no,yes,
+P009,IR001,2,3,accessories__005__charm,charm,jewelry,0,0,no,yes,no,yes,
+P009,IR079,3,1,web-browsers__001__tab,tab,web browser,3,0,no,yes,no,yes,3
+P009,IR079,3,2,web-browsers__003__cookie,cookie,web browser,5,0,yes,yes,yes,yes,5
+P009,IR079,3,3,web-browsers__002__bookmark,bookmark,web browser,5,0,yes,yes,yes,yes,5
+P009,IR044,4,1,martial-arts__005__hook,hook,strike,0,0,yes,idk,yes,idk,
+P009,IR044,4,2,martial-arts__004__cross,cross,strike,0,0,yes,idk,yes,idk,
+P009,IR044,4,3,martial-arts__006__jab,jab,strike,0,0,yes,some_extent,yes,some_extent,
+P009,IR046,5,1,metals__005__lead,lead,metal,3,0,no,yes,no,yes,3
+P009,IR046,5,2,metals__006__iron,iron,metal,5,0,yes,yes,yes,yes,5
+P009,IR046,5,3,metals__007__tin,tin,metal,5,0,yes,yes,yes,yes,5
+P009,P007,6,1,boats__010__bark,bark,ship,0,0,yes,idk,yes,idk,
+P009,P007,6,2,boats__008__cutter,cutter,ship,0,0,yes,idk,yes,idk,
+P009,P007,6,3,boats__004__steamer,steamer,ship,0,0,yes,idk,yes,idk,
+P009,IR021,7,1,entertainment__001__wing,wing,stage,0,0,yes,some_extent,yes,some_extent,
+P009,IR021,7,2,entertainment__002__apron,apron,stage,0,0,yes,idk,yes,idk,
+P009,IR021,7,3,entertainment__003__trap,trap,stage,0,0,yes,idk,yes,idk,
+P009,IR047,8,1,metals__003__stake,stake,metalworking,0,0,no,idk,no,idk,
+P009,IR047,8,2,metals__001__punch,punch,metalworking,0,0,yes,idk,yes,idk,
+P009,IR047,8,3,metals__004__drift,drift,metalworking,0,0,yes,idk,yes,idk,
+P009,IR036,9,1,jewelry__005__lobster,lobster,clasp,0,0,yes,yes,yes,yes,
+P009,IR036,9,2,jewelry__007__toggle,toggle,clasp,0,0,no,idk,no,idk,
+P009,IR036,9,3,jewelry__006__barrel,barrel,clasp,0,0,yes,idk,yes,idk,
+P009,IR037,10,1,kitchen-tools__007__pitcher,pitcher,blender,0,0,yes,idk,yes,idk,
+P009,IR037,10,2,kitchen-tools__009__collar,collar,blender,0,0,yes,idk,yes,idk,
+P009,IR037,10,3,kitchen-tools__008__blade,blade,blender,0,0,no,yes,no,yes,
+P009,IR043,11,1,marine-creatures__005__mullet,mullet,fish,0,0,no,yes,no,yes,
+P009,IR043,11,2,marine-creatures__004__jack,jack,fish,0,0,yes,yes,yes,yes,
+P009,IR043,11,3,marine-creatures__001__skate,skate,fish,0,0,yes,idk,yes,idk,
+P009,IR076,12,1,vehicles__009__deck,deck,boat,0,0,yes,yes,yes,yes,
+P009,IR076,12,2,vehicles__010__bow,bow,boat,0,0,yes,some_extent,yes,some_extent,
+P009,IR076,12,3,vehicles__011__boom,boom,boat,0,0,yes,idk,yes,idk,
+P009,IR019,13,1,dance-styles__001__twist,twist,dance,4,0,yes,yes,yes,yes,4
+P009,IR019,13,2,dance-styles__003__tap,tap,dance,5,0,yes,yes,yes,yes,5
+P009,IR019,13,3,dance-styles__004__jig,jig,dance,4,0,yes,yes,yes,yes,4
+P009,IR033,14,1,household-objects__004__face,face,clock,0,0,yes,some_extent,yes,some_extent,
+P009,IR033,14,2,household-objects__005__hand,hand,clock,0,0,yes,yes,yes,yes,
+P009,IR033,14,3,household-objects__006__crown,crown,clock,0,0,yes,idk,yes,idk,
+P009,IR085,15,1,fasteners__005__teeth,teeth,zipper,0,0,yes,some_extent,yes,some_extent,
+P009,IR085,15,2,fasteners__006__slider,slider,zipper,0,0,yes,yes,yes,yes,
+P009,IR085,15,3,fasteners__007__tape,tape,zipper,0,0,yes,idk,yes,idk,
+P009,IR026,16,1,food__005__string,string,cheese,5,0,yes,yes,yes,yes,5
+P009,IR026,16,2,food__004__brick,brick,cheese,5,0,yes,yes,yes,yes,5
+P009,IR026,16,3,food__006__jack,jack,cheese,4,0,yes,yes,yes,yes,4
+P010,IR001,1,1,accessories__004__ring,ring,jewelry,0,0,yes,yes,yes,yes,
+P010,IR001,1,2,accessories__006__choker,choker,jewelry,0,0,no,yes,no,yes,
+P010,IR001,1,3,accessories__005__charm,charm,jewelry,0,0,yes,some_extent,yes,some_extent,
+P010,IR037,2,1,kitchen-tools__007__pitcher,pitcher,blender,0,0,yes,no,yes,no,
+P010,IR037,2,2,kitchen-tools__009__collar,collar,blender,0,0,yes,no,yes,no,
+P010,IR037,2,3,kitchen-tools__008__blade,blade,blender,0,0,yes,no,yes,no,
+P010,IR046,3,1,metals__005__lead,lead,metal,0,0,yes,some_extent,yes,some_extent,
+P010,IR046,3,2,metals__006__iron,iron,metal,0,0,yes,yes,yes,yes,
+P010,IR046,3,3,metals__007__tin,tin,metal,0,0,yes,yes,yes,yes,
+P010,IR083,4,1,bathroom-items__001__tank,tank,toilet,4,0,yes,some_extent,yes,some_extent,4
+P010,IR083,4,2,bathroom-items__003__float,float,toilet,4,0,yes,yes,yes,yes,4
+P010,IR083,4,3,bathroom-items__002__bowl,bowl,toilet,3,0,yes,some_extent,yes,some_extent,3
+P010,IR030,5,1,history__002__club,club,weapon,3,0,yes,some_extent,yes,some_extent,3
+P010,IR030,5,2,history__003__mace,mace,weapon,4,0,yes,yes,yes,yes,4
+P010,IR030,5,3,history__001__pike,pike,weapon,4,0,yes,yes,yes,yes,4
+P010,IR066,6,1,stitches__003__feather,feather,stitch,3,0,yes,some_extent,yes,some_extent,3
+P010,IR066,6,2,stitches__005__chain,chain,stitch,4,0,yes,yes,yes,yes,4
+P010,IR066,6,3,stitches__002__ladder,ladder,stitch,3,0,yes,no,yes,no,3
+P010,IR054,7,1,pasta-shapes__003__shell,shell,pasta,4,0,yes,yes,yes,yes,4
+P010,IR054,7,2,pasta-shapes__002__elbow,elbow,pasta,2,0,no,idk,no,idk,2
+P010,IR054,7,3,pasta-shapes__004__wheel,wheel,pasta,3,0,yes,yes,yes,yes,3
+P010,IR079,8,1,web-browsers__001__tab,tab,web browser,0,0,yes,yes,yes,yes,
+P010,IR079,8,2,web-browsers__003__cookie,cookie,web browser,0,0,yes,yes,yes,yes,
+P010,IR079,8,3,web-browsers__002__bookmark,bookmark,web browser,0,0,yes,yes,yes,yes,
+P010,IR065,9,1,sports__003__driver,driver,golf club,4,0,yes,yes,yes,yes,4
+P010,IR065,9,2,sports__001__iron,iron,golf club,4,0,yes,yes,yes,yes,4
+P010,IR065,9,3,sports__002__wedge,wedge,golf club,3,0,no,yes,no,yes,3
+P010,IR060,10,1,punctuation__002__colon,colon,punctuation mark,0,0,no,yes,no,yes,
+P010,IR060,10,2,punctuation__003__dash,dash,punctuation mark,0,0,yes,yes,yes,yes,
+P010,IR060,10,3,punctuation__004__bracket,bracket,punctuation mark,0,0,no,yes,no,yes,
+P010,P007,11,1,boats__010__bark,bark,ship,3,0,yes,idk,yes,idk,3
+P010,P007,11,2,boats__008__cutter,cutter,ship,3,0,yes,no,yes,no,3
+P010,P007,11,3,boats__004__steamer,steamer,ship,4,0,yes,yes,yes,yes,4
+P010,IR077,12,1,weapons__003__stock,stock,gun,2,0,yes,some_extent,yes,some_extent,2
+P010,IR077,12,2,weapons__004__magazine,magazine,gun,4,0,yes,yes,yes,yes,4
+P010,IR077,12,3,weapons__001__barrel,barrel,gun,4,0,yes,yes,yes,yes,4
+P010,IR007,13,1,bodies-of-water__003__bed,bed,river,3,0,yes,idk,yes,idk,3
+P010,IR007,13,2,bodies-of-water__001__bank,bank,river,4,0,yes,yes,yes,yes,4
+P010,IR007,13,3,bodies-of-water__002__mouth,mouth,river,4,0,yes,yes,yes,yes,4
+P010,IR062,14,1,shapes__002__diamond,diamond,shape,5,0,yes,yes,yes,yes,5
+P010,IR062,14,2,shapes__001__kite,kite,shape,2,0,yes,no,yes,no,2
+P010,IR062,14,3,shapes__003__heart,heart,shape,5,0,yes,yes,yes,yes,5
+P010,IR040,15,1,landforms__007__saddle,saddle,mountain,2,0,yes,no,yes,no,2
+P010,IR040,15,2,landforms__005__shoulder,shoulder,mountain,3,0,yes,idk,yes,idk,3
+P010,IR040,15,3,landforms__006__foot,foot,mountain,4,0,yes,yes,yes,yes,4
+P010,IR033,16,1,household-objects__004__face,face,clock,0,0,yes,yes,yes,yes,
+P010,IR033,16,2,household-objects__005__hand,hand,clock,0,0,yes,some_extent,yes,some_extent,
+P010,IR033,16,3,household-objects__006__crown,crown,clock,0,0,yes,no,yes,no,
+P011,IR003,1,1,bags__005__clutch,clutch,bag,0,0,no,some_extent,no,some_extent,
+P011,IR003,1,2,bags__008__hobo,hobo,bag,0,0,no,idk,no,idk,
+P011,IR003,1,3,bags__006__messenger,messenger,bag,0,0,yes,no,yes,no,
+P011,IR021,2,1,entertainment__001__wing,wing,stage,0,0,no,idk,no,idk,
+P011,IR021,2,2,entertainment__002__apron,apron,stage,0,0,no,idk,no,idk,
+P011,IR021,2,3,entertainment__003__trap,trap,stage,0,0,yes,yes,yes,yes,
+P011,IR029,3,1,grains__001__ear,ear,cereal,0,0,yes,no,yes,no,
+P011,IR029,3,2,grains__002__beard,beard,cereal,0,0,no,no,no,no,
+P011,IR029,3,3,grains__003__husk,husk,cereal,0,0,no,idk,no,idk,
+P011,IR046,4,1,metals__005__lead,lead,metal,1,0,no,yes,no,yes,1
+P011,IR046,4,2,metals__006__iron,iron,metal,5,0,yes,yes,yes,yes,5
+P011,IR046,4,3,metals__007__tin,tin,metal,5,0,yes,yes,yes,yes,5
+P011,IR006,5,1,board-games__008__risk,risk,board game,0,0,yes,some_extent,yes,some_extent,
+P011,IR006,5,2,board-games__007__operation,operation,board game,0,0,yes,no,yes,no,
+P011,IR006,5,3,board-games__005__clue,clue,board game,0,0,no,yes,no,yes,
+P011,IR005,6,1,biology__007__stem,stem,plant,0,0,no,yes,no,yes,
+P011,IR005,6,2,biology__008__bark,bark,plant,0,0,yes,yes,yes,yes,
+P011,IR005,6,3,biology__009__root,root,plant,0,0,no,yes,no,yes,
+P011,IR039,7,1,landforms__004__sound,sound,landform,0,0,yes,idk,yes,idk,
+P011,IR039,7,2,landforms__003__spit,spit,landform,0,0,no,idk,no,idk,
+P011,IR039,7,3,landforms__002__basin,basin,landform,0,0,yes,idk,yes,idk,
+P011,IR056,8,1,plants__008__box,box,tree,0,0,yes,no,yes,no,
+P011,IR056,8,2,plants__007__ash,ash,tree,0,0,no,some_extent,no,some_extent,
+P011,IR056,8,3,plants__009__plane,plane,tree,0,0,yes,no,yes,no,
+P011,IR004,9,1,beverages__001__punch,punch,beverage,0,0,yes,some_extent,yes,some_extent,
+P011,IR004,9,2,beverages__003__shake,shake,beverage,0,0,yes,some_extent,yes,some_extent,
+P011,IR004,9,3,beverages__002__float,float,beverage,0,0,no,some_extent,no,some_extent,
+P011,IR027,10,1,food__009__current,current,fruit,0,0,no,some_extent,no,some_extent,
+P011,IR027,10,2,food__008__orange,orange,fruit,0,0,yes,yes,yes,yes,
+P011,IR027,10,3,food__007__date,date,fruit,0,0,no,yes,no,yes,
+P011,IR089,11,1,musical-instruments__003__organ,organ,musical instrument,0,0,yes,yes,yes,yes,
+P011,IR089,11,2,musical-instruments__001__triangle,triangle,musical instrument,0,0,yes,yes,yes,yes,
+P011,IR089,11,3,musical-instruments__002__recorder,recorder,musical instrument,0,0,yes,yes,yes,yes,
+P011,IR054,12,1,pasta-shapes__003__shell,shell,pasta,0,0,yes,yes,yes,yes,
+P011,IR054,12,2,pasta-shapes__002__elbow,elbow,pasta,0,0,yes,idk,yes,idk,
+P011,IR054,12,3,pasta-shapes__004__wheel,wheel,pasta,0,0,yes,idk,yes,idk,
+P011,IR062,13,1,shapes__002__diamond,diamond,shape,0,0,yes,yes,yes,yes,
+P011,IR062,13,2,shapes__001__kite,kite,shape,0,0,yes,some_extent,yes,some_extent,
+P011,IR062,13,3,shapes__003__heart,heart,shape,0,0,yes,some_extent,yes,some_extent,
+P011,IR048,14,1,movies__002__trailer,trailer,film,0,0,yes,yes,yes,yes,
+P011,IR048,14,2,movies__001__frame,frame,film,0,0,yes,yes,yes,yes,
+P011,IR048,14,3,movies__003__credits,credits,film,0,0,no,yes,no,yes,
+P011,IR060,15,1,punctuation__002__colon,colon,punctuation mark,0,0,no,yes,no,yes,
+P011,IR060,15,2,punctuation__003__dash,dash,punctuation mark,0,0,no,some_extent,no,some_extent,
+P011,IR060,15,3,punctuation__004__bracket,bracket,punctuation mark,0,0,no,no,no,no,
+P011,P027,16,1,finance__009__buck,buck,money,0,0,no,yes,no,yes,
+P011,P027,16,2,finance__011__nickel,nickel,money,0,0,no,yes,no,yes,
+P011,P027,16,3,finance__007__bills,bills,money,0,0,no,yes,no,yes,
+P012,IR009,1,1,breads__001__roll,roll,bread,0,0,yes,some_extent,yes,some_extent,
+P012,IR009,1,2,breads__002__twist,twist,bread,0,0,no,no,no,no,
+P012,IR009,1,3,breads__004__loaf,loaf,bread,0,0,no,yes,no,yes,
+P012,IR057,2,1,plants__003__lip,lip,flower,0,0,yes,no,yes,no,
+P012,IR057,2,2,plants__001__blade,blade,flower,0,0,yes,no,yes,no,
+P012,IR057,2,3,plants__002__throat,throat,flower,0,0,yes,no,yes,no,
+P012,IR014,3,1,cocktails__008__foot,foot,glass,0,0,yes,no,yes,no,
+P012,IR014,3,2,cocktails__006__stem,stem,glass,0,0,yes,no,yes,no,
+P012,IR014,3,3,cocktails__007__rim,rim,glass,0,0,yes,some_extent,yes,some_extent,
+P012,IR020,4,1,education__003__leaf,leaf,book,0,0,yes,some_extent,yes,some_extent,
+P012,IR020,4,2,education__004__plate,plate,book,0,0,yes,no,yes,no,
+P012,IR020,4,3,education__001__spine,spine,book,0,0,yes,some_extent,yes,some_extent,
+P012,IR007,5,1,bodies-of-water__003__bed,bed,river,5,0,yes,yes,yes,yes,5
+P012,IR007,5,2,bodies-of-water__001__bank,bank,river,5,0,yes,yes,yes,yes,5
+P012,IR007,5,3,bodies-of-water__002__mouth,mouth,river,5,0,yes,some_extent,yes,some_extent,5
+P012,IR011,6,1,clothing-items__012__mule,mule,shoe,0,0,no,some_extent,no,some_extent,
+P012,IR011,6,2,clothing-items__009__pump,pump,shoe,0,0,no,yes,no,yes,
+P012,IR011,6,3,clothing-items__011__wedge,wedge,shoe,0,0,yes,some_extent,yes,some_extent,
+P012,IR065,7,1,sports__003__driver,driver,golf club,0,0,yes,no,yes,no,
+P012,IR065,7,2,sports__001__iron,iron,golf club,0,0,yes,no,yes,no,
+P012,IR065,7,3,sports__002__wedge,wedge,golf club,0,0,yes,no,yes,no,
+P012,IR069,8,1,sweets-and-desserts__003__danish,danish,pastry,0,0,no,some_extent,no,some_extent,
+P012,IR069,8,2,sweets-and-desserts__002__horn,horn,pastry,0,0,yes,no,yes,no,
+P012,IR069,8,3,sweets-and-desserts__004__bear-claw,bear claw,pastry,0,0,yes,no,yes,no,
+P012,P027,9,1,finance__009__buck,buck,money,0,0,no,some_extent,no,some_extent,
+P012,P027,9,2,finance__011__nickel,nickel,money,0,0,yes,yes,yes,yes,
+P012,P027,9,3,finance__007__bills,bills,money,0,0,no,yes,no,yes,
+P012,IR045,10,1,measurement-units__001__foot,foot,length unit,0,0,yes,yes,yes,yes,
+P012,IR045,10,2,measurement-units__002__yard,yard,length unit,0,0,yes,yes,yes,yes,
+P012,IR045,10,3,measurement-units__003__link,link,length unit,0,0,no,idk,no,idk,
+P012,IR051,11,1,office-supplies__002__spring,spring,pen,0,0,yes,no,yes,no,
+P012,IR051,11,2,office-supplies__001__barrel,barrel,pen,0,0,yes,no,yes,no,
+P012,IR051,11,3,office-supplies__003__ball,ball,pen,0,0,yes,no,yes,no,
+P012,IR048,12,1,movies__002__trailer,trailer,film,0,0,no,some_extent,no,some_extent,
+P012,IR048,12,2,movies__001__frame,frame,film,0,0,yes,no,yes,no,
+P012,IR048,12,3,movies__003__credits,credits,film,0,0,yes,no,yes,no,
+P012,IR008,13,1,bones__005__spine,spine,skeleton,0,0,yes,yes,yes,yes,
+P012,IR008,13,2,bones__007__arch,arch,skeleton,0,0,yes,no,yes,no,
+P012,IR008,13,3,bones__006__cage,cage,skeleton,0,0,yes,no,yes,no,
+P012,IR028,14,1,games__002__bishop,bishop,chess piece,0,0,no,yes,no,yes,
+P012,IR028,14,2,games__004__rook,rook,chess piece,0,0,no,yes,no,yes,
+P012,IR028,14,3,games__001__knight,knight,chess piece,0,0,yes,some_extent,yes,some_extent,
+P012,IR062,15,1,shapes__002__diamond,diamond,shape,4,0,yes,yes,yes,yes,4
+P012,IR062,15,2,shapes__001__kite,kite,shape,4,0,yes,yes,yes,yes,4
+P012,IR062,15,3,shapes__003__heart,heart,shape,4,0,yes,yes,yes,yes,4
+P012,IR024,16,1,film-and-tv__002__crane,crane,camera equipment,0,0,no,no,no,no,
+P012,IR024,16,2,film-and-tv__003__slider,slider,camera equipment,0,0,yes,no,yes,no,
+P012,IR024,16,3,film-and-tv__001__dolly,dolly,camera equipment,0,0,no,no,no,no,
+P013,IR058,1,1,politics__003__rose,rose,political party,3,0,yes,some_extent,yes,some_extent,3
+P013,IR058,1,2,politics__001__donkey,donkey,political party,1,0,yes,some_extent,yes,some_extent,1
+P013,IR058,1,3,politics__002__elephant,elephant,political party,3,0,yes,some_extent,yes,some_extent,3
+P013,IR076,2,1,vehicles__009__deck,deck,boat,0,0,yes,yes,yes,yes,
+P013,IR076,2,2,vehicles__010__bow,bow,boat,0,0,yes,no,yes,no,
+P013,IR076,2,3,vehicles__011__boom,boom,boat,0,0,no,no,no,no,
+P013,IR052,3,1,operating-systems__004__driver,driver,operating system,0,0,no,yes,no,yes,
+P013,IR052,3,2,operating-systems__002__shell,shell,operating system,0,0,yes,yes,yes,yes,
+P013,IR052,3,3,operating-systems__003__pipe,pipe,operating system,0,0,yes,yes,yes,yes,
+P013,IR023,4,1,fasteners__001__bolt,bolt,fastener,0,0,yes,no,yes,no,
+P013,IR023,4,2,fasteners__003__staple,staple,fastener,0,0,yes,no,yes,no,
+P013,IR023,4,3,fasteners__004__toggle,toggle,fastener,0,0,yes,some_extent,yes,some_extent,
+P013,IR021,5,1,entertainment__001__wing,wing,stage,0,0,yes,no,yes,no,
+P013,IR021,5,2,entertainment__002__apron,apron,stage,0,0,yes,no,yes,no,
+P013,IR021,5,3,entertainment__003__trap,trap,stage,0,0,yes,no,yes,no,
+P013,IR005,6,1,biology__007__stem,stem,plant,0,0,no,yes,no,yes,
+P013,IR005,6,2,biology__008__bark,bark,plant,0,0,yes,yes,yes,yes,
+P013,IR005,6,3,biology__009__root,root,plant,0,0,no,yes,no,yes,
+P013,IR072,7,1,trees__003__crown,crown,tree,4,0,yes,yes,yes,yes,4
+P013,IR072,7,2,trees__002__trunk,trunk,tree,2,0,no,yes,no,yes,2
+P013,IR072,7,3,trees__004__needle,needle,tree,3,0,yes,some_extent,yes,some_extent,3
+P013,IR041,8,1,law__003__box,box,courtroom,3,0,yes,some_extent,yes,some_extent,3
+P013,IR041,8,2,law__001__bar,bar,courtroom,4,0,yes,yes,yes,yes,4
+P013,IR041,8,3,law__005__dock,dock,courtroom,3,0,yes,some_extent,yes,some_extent,3
+P013,IR068,9,1,sweets-and-desserts__012__sheet,sheet,cake,0,0,yes,no,yes,no,
+P013,IR068,9,2,sweets-and-desserts__010__pound,pound,cake,0,0,yes,some_extent,yes,some_extent,
+P013,IR068,9,3,sweets-and-desserts__011__lava,lava,cake,0,0,yes,some_extent,yes,some_extent,
+P013,IR067,10,1,stones__004__princess,princess,gemstone cut,2,0,yes,some_extent,yes,some_extent,2
+P013,IR067,10,2,stones__001__cushion,cushion,gemstone cut,4,0,yes,yes,yes,yes,4
+P013,IR067,10,3,stones__003__heart,heart,gemstone cut,1,0,yes,no,yes,no,1
+P013,IR083,11,1,bathroom-items__001__tank,tank,toilet,3,0,yes,some_extent,yes,some_extent,3
+P013,IR083,11,2,bathroom-items__003__float,float,toilet,3,0,yes,some_extent,yes,some_extent,3
+P013,IR083,11,3,bathroom-items__002__bowl,bowl,toilet,2,0,yes,no,yes,no,2
+P013,IR056,12,1,plants__008__box,box,tree,0,0,yes,no,yes,no,
+P013,IR056,12,2,plants__007__ash,ash,tree,0,0,yes,some_extent,yes,some_extent,
+P013,IR056,12,3,plants__009__plane,plane,tree,0,0,yes,no,yes,no,
+P013,IR007,13,1,bodies-of-water__003__bed,bed,river,1,0,yes,no,yes,no,1
+P013,IR007,13,2,bodies-of-water__001__bank,bank,river,3,0,yes,some_extent,yes,some_extent,3
+P013,IR007,13,3,bodies-of-water__002__mouth,mouth,river,3,0,yes,some_extent,yes,some_extent,3
+P013,P054,14,1,mythical-creatures__001__brownie,brownie,mythical creature,1,0,yes,no,yes,no,1
+P013,P054,14,2,mythical-creatures__003__siren,siren,mythical creature,3,0,yes,some_extent,yes,some_extent,3
+P013,P054,14,3,mythical-creatures__002__troll,troll,mythical creature,3,0,yes,yes,yes,yes,3
+P013,IR030,15,1,history__002__club,club,weapon,4,0,yes,some_extent,yes,some_extent,4
+P013,IR030,15,2,history__003__mace,mace,weapon,4,0,yes,yes,yes,yes,4
+P013,IR030,15,3,history__001__pike,pike,weapon,4,0,yes,some_extent,yes,some_extent,4
+P013,IR026,16,1,food__005__string,string,cheese,4,0,yes,some_extent,yes,some_extent,4
+P013,IR026,16,2,food__004__brick,brick,cheese,4,0,yes,yes,yes,yes,4
+P013,IR026,16,3,food__006__jack,jack,cheese,3,0,yes,some_extent,yes,some_extent,3
+P014,IR079,1,1,web-browsers__001__tab,tab,web browser,0,0,no,some_extent,no,some_extent,
+P014,IR079,1,2,web-browsers__003__cookie,cookie,web browser,0,0,yes,yes,yes,yes,
+P014,IR079,1,3,web-browsers__002__bookmark,bookmark,web browser,0,0,yes,some_extent,yes,some_extent,
+P014,IR021,2,1,entertainment__001__wing,wing,stage,0,0,yes,no,yes,no,
+P014,IR021,2,2,entertainment__002__apron,apron,stage,0,0,yes,no,yes,no,
+P014,IR021,2,3,entertainment__003__trap,trap,stage,0,0,yes,no,yes,no,
+P014,IR017,3,1,console-generations__003__saturn,saturn,console,0,0,yes,no,yes,no,
+P014,IR017,3,2,console-generations__001__switch,switch,console,0,0,yes,some_extent,yes,some_extent,
+P014,IR017,3,3,console-generations__002__cube,cube,console,0,0,yes,no,yes,no,
+P014,IR069,4,1,sweets-and-desserts__003__danish,danish,pastry,0,0,yes,no,yes,no,
+P014,IR069,4,2,sweets-and-desserts__002__horn,horn,pastry,0,0,yes,no,yes,no,
+P014,IR069,4,3,sweets-and-desserts__004__bear-claw,bear claw,pastry,0,0,yes,no,yes,no,
+P014,IR048,5,1,movies__002__trailer,trailer,film,0,0,no,yes,no,yes,
+P014,IR048,5,2,movies__001__frame,frame,film,0,0,yes,no,yes,no,
+P014,IR048,5,3,movies__003__credits,credits,film,0,0,no,some_extent,no,some_extent,
+P014,IR054,6,1,pasta-shapes__003__shell,shell,pasta,0,0,yes,no,yes,no,
+P014,IR054,6,2,pasta-shapes__002__elbow,elbow,pasta,0,0,yes,no,yes,no,
+P014,IR054,6,3,pasta-shapes__004__wheel,wheel,pasta,0,0,yes,no,yes,no,
+P014,IR018,7,1,daily-activities__003__iron,iron,cleaning,0,0,no,no,no,no,
+P014,IR018,7,2,daily-activities__002__brush,brush,cleaning,0,0,no,no,no,no,
+P014,IR018,7,3,daily-activities__001__sponge,sponge,cleaning,0,0,yes,yes,yes,yes,
+P014,IR052,8,1,operating-systems__004__driver,driver,operating system,0,0,no,some_extent,no,some_extent,
+P014,IR052,8,2,operating-systems__002__shell,shell,operating system,0,0,yes,yes,yes,yes,
+P014,IR052,8,3,operating-systems__003__pipe,pipe,operating system,0,0,yes,no,yes,no,
+P014,IR014,9,1,cocktails__008__foot,foot,glass,3,0,yes,some_extent,yes,some_extent,3
+P014,IR014,9,2,cocktails__006__stem,stem,glass,5,0,yes,yes,yes,yes,5
+P014,IR014,9,3,cocktails__007__rim,rim,glass,5,0,yes,yes,yes,yes,5
+P014,IR035,10,1,internet-terms__008__worm,worm,malware,4,0,yes,yes,yes,yes,4
+P014,IR035,10,2,internet-terms__007__virus,virus,malware,5,0,yes,yes,yes,yes,5
+P014,IR035,10,3,internet-terms__009__trojan,trojan,malware,5,0,yes,yes,yes,yes,5
+P014,IR042,11,1,mammals__004__seal,seal,mammal,0,0,no,yes,no,yes,
+P014,IR042,11,2,mammals__002__ram,ram,mammal,0,0,yes,no,yes,no,
+P014,IR042,11,3,mammals__001__bat,bat,mammal,0,0,yes,some_extent,yes,some_extent,
+P014,IR009,12,1,breads__001__roll,roll,bread,0,0,no,yes,no,yes,
+P014,IR009,12,2,breads__002__twist,twist,bread,0,0,no,no,no,no,
+P014,IR009,12,3,breads__004__loaf,loaf,bread,0,0,no,no,no,no,
+P014,IR036,13,1,jewelry__005__lobster,lobster,clasp,0,0,yes,no,yes,no,
+P014,IR036,13,2,jewelry__007__toggle,toggle,clasp,0,0,no,no,no,no,
+P014,IR036,13,3,jewelry__006__barrel,barrel,clasp,0,0,yes,no,yes,no,
+P014,IR031,14,1,hobbies__007__neck,neck,guitar,0,0,no,no,no,no,
+P014,IR031,14,2,hobbies__004__bridge,bridge,guitar,0,0,yes,no,yes,no,
+P014,IR031,14,3,hobbies__006__saddle,saddle,guitar,0,0,yes,no,yes,no,
+P014,IR085,15,1,fasteners__005__teeth,teeth,zipper,0,0,yes,some_extent,yes,some_extent,
+P014,IR085,15,2,fasteners__006__slider,slider,zipper,0,0,yes,some_extent,yes,some_extent,
+P014,IR085,15,3,fasteners__007__tape,tape,zipper,0,0,yes,no,yes,no,
+P014,IR056,16,1,plants__008__box,box,tree,0,0,yes,no,yes,no,
+P014,IR056,16,2,plants__007__ash,ash,tree,0,0,no,no,no,no,
+P014,IR056,16,3,plants__009__plane,plane,tree,0,0,yes,no,yes,no,
+P015,IR055,1,1,planes__007__gate,gate,airport,0,0,yes,no,yes,no,
+P015,IR055,1,2,planes__006__apron,apron,airport,0,0,no,no,no,no,
+P015,IR055,1,3,planes__008__carousel,carousel,airport,0,0,no,no,no,no,
+P015,IR010,2,1,clothing-items__001__slip,slip,garment,0,0,no,no,no,no,
+P015,IR010,2,2,clothing-items__004__jumper,jumper,garment,0,0,yes,no,yes,no,
+P015,IR010,2,3,clothing-items__002__tank,tank,garment,0,0,yes,no,yes,no,
+P015,IR045,3,1,measurement-units__001__foot,foot,length unit,0,0,yes,no,yes,no,
+P015,IR045,3,2,measurement-units__002__yard,yard,length unit,0,0,no,no,no,no,
+P015,IR045,3,3,measurement-units__003__link,link,length unit,0,0,yes,no,yes,no,
+P015,IR034,4,1,household__003__spring,spring,bed,0,0,yes,no,yes,no,
+P015,IR034,4,2,household__001__post,post,bed,0,0,yes,no,yes,no,
+P015,IR034,4,3,household__002__skirt,skirt,bed,0,0,yes,no,yes,no,
+P015,IR063,5,1,snacks__001__chip,chip,snack,0,0,yes,no,yes,no,
+P015,IR063,5,2,snacks__003__cracker,cracker,snack,0,0,no,idk,no,idk,
+P015,IR063,5,3,snacks__002__pretzel,pretzel,snack,0,0,no,idk,no,idk,
+P015,IR013,6,1,cocktails__004__grasshopper,grasshopper,cocktail,0,0,no,no,no,no,
+P015,IR013,6,2,cocktails__003__sidecar,sidecar,cocktail,0,0,no,no,no,no,
+P015,IR013,6,3,cocktails__001__screwdriver,screwdriver,cocktail,0,0,yes,no,yes,no,
+P015,IR015,7,1,computer-science__008__string,string,data type,0,0,yes,no,yes,no,
+P015,IR015,7,2,computer-science__010__float,float,data type,0,0,no,no,no,no,
+P015,IR015,7,3,computer-science__009__character,character,data type,0,0,no,no,no,no,
+P015,IR009,8,1,breads__001__roll,roll,bread,0,0,no,no,no,no,
+P015,IR009,8,2,breads__002__twist,twist,bread,0,0,no,no,no,no,
+P015,IR009,8,3,breads__004__loaf,loaf,bread,0,0,no,no,no,no,
+P015,IR019,9,1,dance-styles__001__twist,twist,dance,0,0,no,no,no,no,
+P015,IR019,9,2,dance-styles__003__tap,tap,dance,0,0,no,no,no,no,
+P015,IR019,9,3,dance-styles__004__jig,jig,dance,0,0,no,no,no,no,
+P015,IR044,10,1,martial-arts__005__hook,hook,strike,0,0,yes,no,yes,no,
+P015,IR044,10,2,martial-arts__004__cross,cross,strike,0,0,yes,no,yes,no,
+P015,IR044,10,3,martial-arts__006__jab,jab,strike,0,0,yes,no,yes,no,
+P015,IR042,11,1,mammals__004__seal,seal,mammal,0,0,no,no,no,no,
+P015,IR042,11,2,mammals__002__ram,ram,mammal,0,0,no,no,no,no,
+P015,IR042,11,3,mammals__001__bat,bat,mammal,0,0,no,no,no,no,
+P015,IR001,12,1,accessories__004__ring,ring,jewelry,0,0,yes,no,yes,no,
+P015,IR001,12,2,accessories__006__choker,choker,jewelry,0,0,no,no,no,no,
+P015,IR001,12,3,accessories__005__charm,charm,jewelry,0,0,no,no,no,no,
+P015,IR014,13,1,cocktails__008__foot,foot,glass,0,0,yes,no,yes,no,
+P015,IR014,13,2,cocktails__006__stem,stem,glass,0,0,no,no,no,no,
+P015,IR014,13,3,cocktails__007__rim,rim,glass,0,0,no,no,no,no,
+P015,IR051,14,1,office-supplies__002__spring,spring,pen,0,0,yes,no,yes,no,
+P015,IR051,14,2,office-supplies__001__barrel,barrel,pen,0,0,yes,no,yes,no,
+P015,IR051,14,3,office-supplies__003__ball,ball,pen,0,0,yes,no,yes,no,
+P015,IR066,15,1,stitches__003__feather,feather,stitch,0,0,yes,no,yes,no,
+P015,IR066,15,2,stitches__005__chain,chain,stitch,0,0,yes,no,yes,no,
+P015,IR066,15,3,stitches__002__ladder,ladder,stitch,0,0,yes,no,yes,no,
+P015,IR085,16,1,fasteners__005__teeth,teeth,zipper,0,0,yes,no,yes,no,
+P015,IR085,16,2,fasteners__006__slider,slider,zipper,0,0,no,no,no,no,
+P015,IR085,16,3,fasteners__007__tape,tape,zipper,0,0,yes,no,yes,no,
+P016,IR034,1,1,household__003__spring,spring,bed,0,0,yes,yes,yes,yes,
+P016,IR034,1,2,household__001__post,post,bed,0,0,no,no,no,no,
+P016,IR034,1,3,household__002__skirt,skirt,bed,0,0,yes,some_extent,yes,some_extent,
+P016,IR067,2,1,stones__004__princess,princess,gemstone cut,0,0,no,some_extent,no,some_extent,
+P016,IR067,2,2,stones__001__cushion,cushion,gemstone cut,0,0,yes,yes,yes,yes,
+P016,IR067,2,3,stones__003__heart,heart,gemstone cut,0,0,yes,some_extent,yes,some_extent,
+P016,IR015,3,1,computer-science__008__string,string,data type,0,0,yes,yes,yes,yes,
+P016,IR015,3,2,computer-science__010__float,float,data type,0,0,yes,yes,yes,yes,
+P016,IR015,3,3,computer-science__009__character,character,data type,0,0,no,yes,no,yes,
+P016,IR023,4,1,fasteners__001__bolt,bolt,fastener,0,0,no,yes,no,yes,
+P016,IR023,4,2,fasteners__003__staple,staple,fastener,0,0,yes,yes,yes,yes,
+P016,IR023,4,3,fasteners__004__toggle,toggle,fastener,0,0,yes,no,yes,no,
+P016,IR068,5,1,sweets-and-desserts__012__sheet,sheet,cake,0,0,yes,yes,yes,yes,
+P016,IR068,5,2,sweets-and-desserts__010__pound,pound,cake,0,0,no,yes,no,yes,
+P016,IR068,5,3,sweets-and-desserts__011__lava,lava,cake,0,0,yes,no,yes,no,
+P016,IR078,6,1,weather-phenomena__004__eye,eye,cyclone,5,0,yes,yes,yes,yes,5
+P016,IR078,6,2,weather-phenomena__005__wall,wall,cyclone,4,0,yes,yes,yes,yes,4
+P016,IR078,6,3,weather-phenomena__006__band,band,cyclone,4,0,yes,some_extent,yes,some_extent,4
+P016,IR050,7,1,mythological-gods__003__pan,pan,deity,0,0,yes,yes,yes,yes,
+P016,IR050,7,2,mythological-gods__001__mercury,mercury,deity,0,0,no,some_extent,no,some_extent,
+P016,IR050,7,3,mythological-gods__002__flora,flora,deity,0,0,yes,some_extent,yes,some_extent,
+P016,IR042,8,1,mammals__004__seal,seal,mammal,4,0,yes,yes,yes,yes,4
+P016,IR042,8,2,mammals__002__ram,ram,mammal,3,0,yes,yes,yes,yes,3
+P016,IR042,8,3,mammals__001__bat,bat,mammal,5,0,yes,yes,yes,yes,5
+P016,IR045,9,1,measurement-units__001__foot,foot,length unit,4,0,yes,yes,yes,yes,4
+P016,IR045,9,2,measurement-units__002__yard,yard,length unit,4,0,yes,yes,yes,yes,4
+P016,IR045,9,3,measurement-units__003__link,link,length unit,3,0,no,idk,no,idk,3
+P016,IR055,10,1,planes__007__gate,gate,airport,3,0,yes,yes,yes,yes,3
+P016,IR055,10,2,planes__006__apron,apron,airport,2,0,no,idk,no,idk,2
+P016,IR055,10,3,planes__008__carousel,carousel,airport,4,0,yes,yes,yes,yes,4
+P016,IR010,11,1,clothing-items__001__slip,slip,garment,0,0,no,yes,no,yes,
+P016,IR010,11,2,clothing-items__004__jumper,jumper,garment,0,0,no,yes,no,yes,
+P016,IR010,11,3,clothing-items__002__tank,tank,garment,0,0,yes,yes,yes,yes,
+P016,IR084,12,1,fasteners__009__head,head,screw,1,0,yes,yes,yes,yes,1
+P016,IR084,12,2,fasteners__008__thread,thread,screw,1,0,yes,yes,yes,yes,1
+P016,IR084,12,3,fasteners__010__shank,shank,screw,2,0,no,some_extent,no,some_extent,2
+P016,IR059,13,1,programming-languages__007__branch,branch,programming construct,4,0,yes,yes,yes,yes,4
+P016,IR059,13,2,programming-languages__006__switch,switch,programming construct,5,0,yes,yes,yes,yes,5
+P016,IR059,13,3,programming-languages__005__loop,loop,programming construct,4,0,yes,yes,yes,yes,4
+P016,IR029,14,1,grains__001__ear,ear,cereal,3,0,yes,some_extent,yes,some_extent,3
+P016,IR029,14,2,grains__002__beard,beard,cereal,4,0,yes,yes,yes,yes,4
+P016,IR029,14,3,grains__003__husk,husk,cereal,5,0,yes,yes,yes,yes,5
+P016,IR058,15,1,politics__003__rose,rose,political party,0,0,yes,idk,yes,idk,
+P016,IR058,15,2,politics__001__donkey,donkey,political party,0,0,yes,idk,yes,idk,
+P016,IR058,15,3,politics__002__elephant,elephant,political party,0,0,yes,idk,yes,idk,
+P016,IR051,16,1,office-supplies__002__spring,spring,pen,0,0,yes,idk,yes,idk,
+P016,IR051,16,2,office-supplies__001__barrel,barrel,pen,0,0,yes,idk,yes,idk,
+P016,IR051,16,3,office-supplies__003__ball,ball,pen,0,0,yes,idk,yes,idk,
+P017,IR086,1,1,birds__003__cardinal,cardinal,bird,0,0,yes,no,yes,no,
+P017,IR086,1,2,birds__001__kite,kite,bird,0,0,yes,yes,yes,yes,
+P017,IR086,1,3,birds__002__crane,crane,bird,0,0,yes,no,yes,no,
+P017,IR062,2,1,shapes__002__diamond,diamond,shape,0,0,yes,no,yes,no,
+P017,IR062,2,2,shapes__001__kite,kite,shape,0,0,yes,no,yes,no,
+P017,IR062,2,3,shapes__003__heart,heart,shape,0,0,yes,no,yes,no,
+P017,IR046,3,1,metals__005__lead,lead,metal,0,0,no,no,no,no,
+P017,IR046,3,2,metals__006__iron,iron,metal,0,0,no,some_extent,no,some_extent,
+P017,IR046,3,3,metals__007__tin,tin,metal,0,0,yes,yes,yes,yes,
+P017,IR026,4,1,food__005__string,string,cheese,0,0,yes,no,yes,no,
+P017,IR026,4,2,food__004__brick,brick,cheese,0,0,yes,no,yes,no,
+P017,IR026,4,3,food__006__jack,jack,cheese,0,0,yes,no,yes,no,
+P017,IR004,5,1,beverages__001__punch,punch,beverage,0,0,yes,no,yes,no,
+P017,IR004,5,2,beverages__003__shake,shake,beverage,0,0,yes,no,yes,no,
+P017,IR004,5,3,beverages__002__float,float,beverage,0,0,yes,no,yes,no,
+P017,IR072,6,1,trees__003__crown,crown,tree,0,0,yes,no,yes,no,
+P017,IR072,6,2,trees__002__trunk,trunk,tree,0,0,yes,no,yes,no,
+P017,IR072,6,3,trees__004__needle,needle,tree,0,0,yes,no,yes,no,
+P017,IR060,7,1,punctuation__002__colon,colon,punctuation mark,5,0,yes,yes,yes,yes,5
+P017,IR060,7,2,punctuation__003__dash,dash,punctuation mark,4,0,yes,yes,yes,yes,4
+P017,IR060,7,3,punctuation__004__bracket,bracket,punctuation mark,4,0,yes,yes,yes,yes,4
+P017,IR059,8,1,programming-languages__007__branch,branch,programming construct,0,0,yes,no,yes,no,
+P017,IR059,8,2,programming-languages__006__switch,switch,programming construct,0,0,yes,yes,yes,yes,
+P017,IR059,8,3,programming-languages__005__loop,loop,programming construct,0,0,yes,yes,yes,yes,
+P017,IR077,9,1,weapons__003__stock,stock,gun,0,0,yes,no,yes,no,
+P017,IR077,9,2,weapons__004__magazine,magazine,gun,0,0,yes,no,yes,no,
+P017,IR077,9,3,weapons__001__barrel,barrel,gun,0,0,yes,no,yes,no,
+P017,IR038,10,1,knots__002__hitch,hitch,knot,0,0,yes,some_extent,yes,some_extent,
+P017,IR038,10,2,knots__001__bow,bow,knot,0,0,yes,yes,yes,yes,
+P017,IR038,10,3,knots__003__bend,bend,knot,0,0,yes,some_extent,yes,some_extent,
+P017,IR015,11,1,computer-science__008__string,string,data type,0,0,yes,yes,yes,yes,
+P017,IR015,11,2,computer-science__010__float,float,data type,0,0,yes,yes,yes,yes,
+P017,IR015,11,3,computer-science__009__character,character,data type,0,0,yes,yes,yes,yes,
+P017,IR082,12,1,trains__005__tie,tie,track,0,0,yes,no,yes,no,
+P017,IR082,12,2,trains__007__frog,frog,track,0,0,yes,no,yes,no,
+P017,IR082,12,3,trains__008__switch,switch,track,0,0,yes,no,yes,no,
+P017,IR066,13,1,stitches__003__feather,feather,stitch,0,0,yes,yes,yes,yes,
+P017,IR066,13,2,stitches__005__chain,chain,stitch,0,0,yes,yes,yes,yes,
+P017,IR066,13,3,stitches__002__ladder,ladder,stitch,0,0,yes,no,yes,no,
+P017,IR049,14,1,music-genres__003__pop,pop,music genre,5,0,yes,yes,yes,yes,5
+P017,IR049,14,2,music-genres__001__rock,rock,music genre,5,0,yes,yes,yes,yes,5
+P017,IR049,14,3,music-genres__002__metal,metal,music genre,5,0,yes,yes,yes,yes,5
+P017,IR028,15,1,games__002__bishop,bishop,chess piece,4,0,yes,yes,yes,yes,4
+P017,IR028,15,2,games__004__rook,rook,chess piece,4,0,yes,yes,yes,yes,4
+P017,IR028,15,3,games__001__knight,knight,chess piece,5,0,yes,yes,yes,yes,5
+P017,IR071,16,1,toys-and-games__012__heart,heart,suit,4,0,yes,yes,yes,yes,4
+P017,IR071,16,2,toys-and-games__009__club,club,suit,4,0,yes,yes,yes,yes,4
+P017,IR071,16,3,toys-and-games__011__diamond,diamond,suit,5,0,yes,yes,yes,yes,5
+P018,IR050,1,1,mythological-gods__003__pan,pan,deity,0,0,yes,no,yes,no,
+P018,IR050,1,2,mythological-gods__001__mercury,mercury,deity,0,0,no,idk,no,idk,
+P018,IR050,1,3,mythological-gods__002__flora,flora,deity,0,0,no,no,no,no,
+P018,IR029,2,1,grains__001__ear,ear,cereal,0,0,no,no,no,no,
+P018,IR029,2,2,grains__002__beard,beard,cereal,0,0,no,no,no,no,
+P018,IR029,2,3,grains__003__husk,husk,cereal,0,0,no,some_extent,no,some_extent,
+P018,IR089,3,1,musical-instruments__003__organ,organ,musical instrument,0,0,yes,some_extent,yes,some_extent,
+P018,IR089,3,2,musical-instruments__001__triangle,triangle,musical instrument,0,0,no,some_extent,no,some_extent,
+P018,IR089,3,3,musical-instruments__002__recorder,recorder,musical instrument,0,0,no,no,no,no,
+P018,IR017,4,1,console-generations__003__saturn,saturn,console,0,0,yes,idk,yes,idk,
+P018,IR017,4,2,console-generations__001__switch,switch,console,0,0,yes,some_extent,yes,some_extent,
+P018,IR017,4,3,console-generations__002__cube,cube,console,0,0,no,no,no,no,
+P018,IR013,5,1,cocktails__004__grasshopper,grasshopper,cocktail,0,0,no,idk,no,idk,
+P018,IR013,5,2,cocktails__003__sidecar,sidecar,cocktail,0,0,yes,idk,yes,idk,
+P018,IR013,5,3,cocktails__001__screwdriver,screwdriver,cocktail,0,0,yes,idk,yes,idk,
+P018,IR054,6,1,pasta-shapes__003__shell,shell,pasta,0,0,yes,no,yes,no,
+P018,IR054,6,2,pasta-shapes__002__elbow,elbow,pasta,0,0,yes,no,yes,no,
+P018,IR054,6,3,pasta-shapes__004__wheel,wheel,pasta,0,0,yes,no,yes,no,
+P018,IR077,7,1,weapons__003__stock,stock,gun,0,0,no,no,no,no,
+P018,IR077,7,2,weapons__004__magazine,magazine,gun,0,0,yes,some_extent,yes,some_extent,
+P018,IR077,7,3,weapons__001__barrel,barrel,gun,0,0,no,idk,no,idk,
+P018,IR034,8,1,household__003__spring,spring,bed,0,0,yes,some_extent,yes,some_extent,
+P018,IR034,8,2,household__001__post,post,bed,0,0,no,idk,no,idk,
+P018,IR034,8,3,household__002__skirt,skirt,bed,0,0,yes,no,yes,no,
+P018,IR018,9,1,daily-activities__003__iron,iron,cleaning,0,0,no,some_extent,no,some_extent,
+P018,IR018,9,2,daily-activities__002__brush,brush,cleaning,0,0,yes,some_extent,yes,some_extent,
+P018,IR018,9,3,daily-activities__001__sponge,sponge,cleaning,0,0,no,some_extent,no,some_extent,
+P018,IR059,10,1,programming-languages__007__branch,branch,programming construct,0,0,yes,some_extent,yes,some_extent,
+P018,IR059,10,2,programming-languages__006__switch,switch,programming construct,0,0,yes,no,yes,no,
+P018,IR059,10,3,programming-languages__005__loop,loop,programming construct,0,0,no,some_extent,no,some_extent,
+P018,IR052,11,1,operating-systems__004__driver,driver,operating system,0,0,no,some_extent,no,some_extent,
+P018,IR052,11,2,operating-systems__002__shell,shell,operating system,0,0,yes,some_extent,yes,some_extent,
+P018,IR052,11,3,operating-systems__003__pipe,pipe,operating system,0,0,no,some_extent,no,some_extent,
+P018,IR049,12,1,music-genres__003__pop,pop,music genre,0,0,no,yes,no,yes,
+P018,IR049,12,2,music-genres__001__rock,rock,music genre,0,0,yes,yes,yes,yes,
+P018,IR049,12,3,music-genres__002__metal,metal,music genre,0,0,no,yes,no,yes,
+P018,IR027,13,1,food__009__current,current,fruit,0,0,no,no,no,no,
+P018,IR027,13,2,food__008__orange,orange,fruit,0,0,yes,some_extent,yes,some_extent,
+P018,IR027,13,3,food__007__date,date,fruit,0,0,no,some_extent,no,some_extent,
+P018,IR066,14,1,stitches__003__feather,feather,stitch,0,0,no,no,no,no,
+P018,IR066,14,2,stitches__005__chain,chain,stitch,0,0,yes,no,yes,no,
+P018,IR066,14,3,stitches__002__ladder,ladder,stitch,0,0,yes,no,yes,no,
+P018,IR063,15,1,snacks__001__chip,chip,snack,0,0,yes,yes,yes,yes,
+P018,IR063,15,2,snacks__003__cracker,cracker,snack,0,0,no,idk,no,idk,
+P018,IR063,15,3,snacks__002__pretzel,pretzel,snack,0,0,no,idk,no,idk,
+P018,IR064,16,1,social-media__002__story,story,feature,0,0,no,no,no,no,
+P018,IR064,16,2,social-media__003__thread,thread,feature,0,0,no,idk,no,idk,
+P018,IR064,16,3,social-media__004__reel,reel,feature,0,0,no,idk,no,idk,
+P019,IR041,1,1,law__003__box,box,courtroom,0,0,yes,idk,yes,idk,
+P019,IR041,1,2,law__001__bar,bar,courtroom,0,0,yes,idk,yes,idk,
+P019,IR041,1,3,law__005__dock,dock,courtroom,0,0,yes,idk,yes,idk,
+P019,IR027,2,1,food__009__current,current,fruit,0,0,no,yes,no,yes,
+P019,IR027,2,2,food__008__orange,orange,fruit,0,0,yes,yes,yes,yes,
+P019,IR027,2,3,food__007__date,date,fruit,0,0,yes,yes,yes,yes,
+P019,IR063,3,1,snacks__001__chip,chip,snack,3,0,yes,yes,yes,yes,3
+P019,IR063,3,2,snacks__003__cracker,cracker,snack,3,0,no,yes,no,yes,3
+P019,IR063,3,3,snacks__002__pretzel,pretzel,snack,3,0,yes,yes,yes,yes,3
+P019,IR068,4,1,sweets-and-desserts__012__sheet,sheet,cake,5,0,yes,idk,yes,idk,5
+P019,IR068,4,2,sweets-and-desserts__010__pound,pound,cake,5,0,yes,yes,yes,yes,5
+P019,IR068,4,3,sweets-and-desserts__011__lava,lava,cake,5,0,yes,yes,yes,yes,5
+P019,IR070,5,1,telecommunications__005__star,star,topology,0,0,yes,idk,yes,idk,
+P019,IR070,5,2,telecommunications__006__ring,ring,topology,0,0,yes,idk,yes,idk,
+P019,IR070,5,3,telecommunications__007__tree,tree,topology,0,0,yes,idk,yes,idk,
+P019,IR083,6,1,bathroom-items__001__tank,tank,toilet,0,0,yes,idk,yes,idk,
+P019,IR083,6,2,bathroom-items__003__float,float,toilet,0,0,yes,idk,yes,idk,
+P019,IR083,6,3,bathroom-items__002__bowl,bowl,toilet,0,0,yes,idk,yes,idk,
+P019,IR039,7,1,landforms__004__sound,sound,landform,0,0,yes,idk,yes,idk,
+P019,IR039,7,2,landforms__003__spit,spit,landform,0,0,no,idk,no,idk,
+P019,IR039,7,3,landforms__002__basin,basin,landform,0,0,yes,idk,yes,idk,
+P019,IR016,8,1,computer-science__005__mouse,mouse,computer,5,0,yes,yes,yes,yes,5
+P019,IR016,8,2,computer-science__007__bus,bus,computer,5,0,yes,yes,yes,yes,5
+P019,IR016,8,3,computer-science__006__fan,fan,computer,5,0,yes,yes,yes,yes,5
+P019,IR044,9,1,martial-arts__005__hook,hook,strike,0,0,yes,idk,yes,idk,
+P019,IR044,9,2,martial-arts__004__cross,cross,strike,0,0,yes,idk,yes,idk,
+P019,IR044,9,3,martial-arts__006__jab,jab,strike,0,0,no,idk,no,idk,
+P019,IR006,10,1,board-games__008__risk,risk,board game,0,0,yes,idk,yes,idk,
+P019,IR006,10,2,board-games__007__operation,operation,board game,0,0,yes,idk,yes,idk,
+P019,IR006,10,3,board-games__005__clue,clue,board game,0,0,yes,idk,yes,idk,
+P019,P027,11,1,finance__009__buck,buck,money,4,0,yes,yes,yes,yes,4
+P019,P027,11,2,finance__011__nickel,nickel,money,4,0,no,yes,no,yes,4
+P019,P027,11,3,finance__007__bills,bills,money,4,0,yes,yes,yes,yes,4
+P019,IR005,12,1,biology__007__stem,stem,plant,0,0,yes,yes,yes,yes,
+P019,IR005,12,2,biology__008__bark,bark,plant,0,0,yes,yes,yes,yes,
+P019,IR005,12,3,biology__009__root,root,plant,0,0,yes,yes,yes,yes,
+P019,IR007,13,1,bodies-of-water__003__bed,bed,river,5,0,yes,yes,yes,yes,5
+P019,IR007,13,2,bodies-of-water__001__bank,bank,river,5,0,yes,yes,yes,yes,5
+P019,IR007,13,3,bodies-of-water__002__mouth,mouth,river,5,0,yes,yes,yes,yes,5
+P019,IR064,14,1,social-media__002__story,story,feature,0,0,no,idk,no,idk,
+P019,IR064,14,2,social-media__003__thread,thread,feature,0,0,yes,idk,yes,idk,
+P019,IR064,14,3,social-media__004__reel,reel,feature,0,0,yes,idk,yes,idk,
+P019,IR040,15,1,landforms__007__saddle,saddle,mountain,0,0,yes,idk,yes,idk,
+P019,IR040,15,2,landforms__005__shoulder,shoulder,mountain,0,0,yes,idk,yes,idk,
+P019,IR040,15,3,landforms__006__foot,foot,mountain,0,0,yes,idk,yes,idk,
+P019,IR010,16,1,clothing-items__001__slip,slip,garment,0,0,yes,idk,yes,idk,
+P019,IR010,16,2,clothing-items__004__jumper,jumper,garment,0,0,no,idk,no,idk,
+P019,IR010,16,3,clothing-items__002__tank,tank,garment,0,0,yes,idk,yes,idk,
+P020,IR057,1,1,plants__003__lip,lip,flower,0,0,yes,yes,yes,yes,
+P020,IR057,1,2,plants__001__blade,blade,flower,0,0,no,yes,no,yes,
+P020,IR057,1,3,plants__002__throat,throat,flower,0,0,yes,yes,yes,yes,
+P020,IR037,2,1,kitchen-tools__007__pitcher,pitcher,blender,0,0,yes,yes,yes,yes,
+P020,IR037,2,2,kitchen-tools__009__collar,collar,blender,0,0,yes,idk,yes,idk,
+P020,IR037,2,3,kitchen-tools__008__blade,blade,blender,0,0,no,yes,no,yes,
+P020,IR059,3,1,programming-languages__007__branch,branch,programming construct,0,0,yes,some_extent,yes,some_extent,
+P020,IR059,3,2,programming-languages__006__switch,switch,programming construct,0,0,yes,some_extent,yes,some_extent,
+P020,IR059,3,3,programming-languages__005__loop,loop,programming construct,0,0,yes,some_extent,yes,some_extent,
+P020,IR069,4,1,sweets-and-desserts__003__danish,danish,pastry,5,0,yes,yes,yes,yes,5
+P020,IR069,4,2,sweets-and-desserts__002__horn,horn,pastry,3,0,yes,some_extent,yes,some_extent,3
+P020,IR069,4,3,sweets-and-desserts__004__bear-claw,bear claw,pastry,5,0,yes,yes,yes,yes,5
+P020,IR028,5,1,games__002__bishop,bishop,chess piece,5,0,yes,yes,yes,yes,5
+P020,IR028,5,2,games__004__rook,rook,chess piece,4,0,no,yes,no,yes,4
+P020,IR028,5,3,games__001__knight,knight,chess piece,5,0,yes,yes,yes,yes,5
+P020,IR011,6,1,clothing-items__012__mule,mule,shoe,0,0,no,yes,no,yes,
+P020,IR011,6,2,clothing-items__009__pump,pump,shoe,0,0,yes,yes,yes,yes,
+P020,IR011,6,3,clothing-items__011__wedge,wedge,shoe,0,0,no,yes,no,yes,
+P020,P054,7,1,mythical-creatures__001__brownie,brownie,mythical creature,5,0,yes,yes,yes,yes,5
+P020,P054,7,2,mythical-creatures__003__siren,siren,mythical creature,4,0,yes,yes,yes,yes,4
+P020,P054,7,3,mythical-creatures__002__troll,troll,mythical creature,5,0,yes,yes,yes,yes,5
+P020,IR064,8,1,social-media__002__story,story,feature,0,0,no,some_extent,no,some_extent,
+P020,IR064,8,2,social-media__003__thread,thread,feature,0,0,yes,some_extent,yes,some_extent,
+P020,IR064,8,3,social-media__004__reel,reel,feature,0,0,yes,some_extent,yes,some_extent,
+P020,IR049,9,1,music-genres__003__pop,pop,music genre,5,0,yes,yes,yes,yes,5
+P020,IR049,9,2,music-genres__001__rock,rock,music genre,5,0,yes,yes,yes,yes,5
+P020,IR049,9,3,music-genres__002__metal,metal,music genre,5,0,yes,yes,yes,yes,5
+P020,IR033,10,1,household-objects__004__face,face,clock,5,0,yes,yes,yes,yes,5
+P020,IR033,10,2,household-objects__005__hand,hand,clock,5,0,yes,yes,yes,yes,5
+P020,IR033,10,3,household-objects__006__crown,crown,clock,4,0,yes,yes,yes,yes,4
+P020,IR052,11,1,operating-systems__004__driver,driver,operating system,0,0,no,some_extent,no,some_extent,
+P020,IR052,11,2,operating-systems__002__shell,shell,operating system,0,0,no,yes,no,yes,
+P020,IR052,11,3,operating-systems__003__pipe,pipe,operating system,0,0,yes,some_extent,yes,some_extent,
+P020,IR076,12,1,vehicles__009__deck,deck,boat,0,0,yes,yes,yes,yes,
+P020,IR076,12,2,vehicles__010__bow,bow,boat,0,0,yes,yes,yes,yes,
+P020,IR076,12,3,vehicles__011__boom,boom,boat,0,0,no,some_extent,no,some_extent,
+P020,IR058,13,1,politics__003__rose,rose,political party,4,0,yes,yes,yes,yes,4
+P020,IR058,13,2,politics__001__donkey,donkey,political party,5,0,yes,yes,yes,yes,5
+P020,IR058,13,3,politics__002__elephant,elephant,political party,5,0,yes,yes,yes,yes,5
+P020,IR079,14,1,web-browsers__001__tab,tab,web browser,3,0,no,yes,no,yes,3
+P020,IR079,14,2,web-browsers__003__cookie,cookie,web browser,5,0,yes,yes,yes,yes,5
+P020,IR079,14,3,web-browsers__002__bookmark,bookmark,web browser,5,0,yes,yes,yes,yes,5
+P020,IR086,15,1,birds__003__cardinal,cardinal,bird,0,0,no,idk,no,idk,
+P020,IR086,15,2,birds__001__kite,kite,bird,0,0,yes,yes,yes,yes,
+P020,IR086,15,3,birds__002__crane,crane,bird,0,0,yes,yes,yes,yes,
+P020,IR068,16,1,sweets-and-desserts__012__sheet,sheet,cake,0,0,yes,yes,yes,yes,
+P020,IR068,16,2,sweets-and-desserts__010__pound,pound,cake,0,0,no,yes,no,yes,
+P020,IR068,16,3,sweets-and-desserts__011__lava,lava,cake,0,0,yes,yes,yes,yes,
+P021,IR070,1,1,telecommunications__005__star,star,topology,0,0,yes,some_extent,yes,some_extent,
+P021,IR070,1,2,telecommunications__006__ring,ring,topology,0,0,yes,yes,yes,yes,
+P021,IR070,1,3,telecommunications__007__tree,tree,topology,0,0,yes,some_extent,yes,some_extent,
+P021,IR038,2,1,knots__002__hitch,hitch,knot,3,0,yes,idk,yes,idk,3
+P021,IR038,2,2,knots__001__bow,bow,knot,4,0,yes,some_extent,yes,some_extent,4
+P021,IR038,2,3,knots__003__bend,bend,knot,4,0,yes,yes,yes,yes,4
+P021,IR082,3,1,trains__005__tie,tie,track,0,0,yes,idk,yes,idk,
+P021,IR082,3,2,trains__007__frog,frog,track,0,0,yes,idk,yes,idk,
+P021,IR082,3,3,trains__008__switch,switch,track,0,0,yes,yes,yes,yes,
+P021,IR031,4,1,hobbies__007__neck,neck,guitar,5,0,yes,yes,yes,yes,5
+P021,IR031,4,2,hobbies__004__bridge,bridge,guitar,5,0,yes,yes,yes,yes,5
+P021,IR031,4,3,hobbies__006__saddle,saddle,guitar,5,0,yes,yes,yes,yes,5
+P021,IR086,5,1,birds__003__cardinal,cardinal,bird,0,0,yes,idk,yes,idk,
+P021,IR086,5,2,birds__001__kite,kite,bird,0,0,yes,idk,yes,idk,
+P021,IR086,5,3,birds__002__crane,crane,bird,0,0,yes,yes,yes,yes,
+P021,IR050,6,1,mythological-gods__003__pan,pan,deity,0,0,yes,no,yes,no,
+P021,IR050,6,2,mythological-gods__001__mercury,mercury,deity,0,0,yes,yes,yes,yes,
+P021,IR050,6,3,mythological-gods__002__flora,flora,deity,0,0,no,some_extent,no,some_extent,
+P021,IR034,7,1,household__003__spring,spring,bed,5,0,yes,yes,yes,yes,5
+P021,IR034,7,2,household__001__post,post,bed,4,0,yes,some_extent,yes,some_extent,4
+P021,IR034,7,3,household__002__skirt,skirt,bed,5,0,yes,yes,yes,yes,5
+P021,IR055,8,1,planes__007__gate,gate,airport,4,0,yes,yes,yes,yes,4
+P021,IR055,8,2,planes__006__apron,apron,airport,3,0,yes,some_extent,yes,some_extent,3
+P021,IR055,8,3,planes__008__carousel,carousel,airport,5,0,yes,yes,yes,yes,5
+P021,IR015,9,1,computer-science__008__string,string,data type,4,0,yes,yes,yes,yes,4
+P021,IR015,9,2,computer-science__010__float,float,data type,4,0,yes,yes,yes,yes,4
+P021,IR015,9,3,computer-science__009__character,character,data type,3,0,yes,some_extent,yes,some_extent,3
+P021,IR046,10,1,metals__005__lead,lead,metal,2,0,no,some_extent,no,some_extent,2
+P021,IR046,10,2,metals__006__iron,iron,metal,5,0,yes,yes,yes,yes,5
+P021,IR046,10,3,metals__007__tin,tin,metal,5,0,yes,yes,yes,yes,5
+P021,IR063,11,1,snacks__001__chip,chip,snack,0,0,yes,yes,yes,yes,
+P021,IR063,11,2,snacks__003__cracker,cracker,snack,0,0,yes,yes,yes,yes,
+P021,IR063,11,3,snacks__002__pretzel,pretzel,snack,0,0,no,idk,no,idk,
+P021,IR035,12,1,internet-terms__008__worm,worm,malware,0,0,yes,yes,yes,yes,
+P021,IR035,12,2,internet-terms__007__virus,virus,malware,0,0,yes,yes,yes,yes,
+P021,IR035,12,3,internet-terms__009__trojan,trojan,malware,0,0,yes,yes,yes,yes,
+P021,IR001,13,1,accessories__004__ring,ring,jewelry,0,0,yes,yes,yes,yes,
+P021,IR001,13,2,accessories__006__choker,choker,jewelry,0,0,no,some_extent,no,some_extent,
+P021,IR001,13,3,accessories__005__charm,charm,jewelry,0,0,no,some_extent,no,some_extent,
+P021,IR048,14,1,movies__002__trailer,trailer,film,5,0,yes,yes,yes,yes,5
+P021,IR048,14,2,movies__001__frame,frame,film,5,0,yes,yes,yes,yes,5
+P021,IR048,14,3,movies__003__credits,credits,film,5,0,yes,yes,yes,yes,5
+P021,IR089,15,1,musical-instruments__003__organ,organ,musical instrument,0,0,yes,yes,yes,yes,
+P021,IR089,15,2,musical-instruments__001__triangle,triangle,musical instrument,0,0,no,some_extent,no,some_extent,
+P021,IR089,15,3,musical-instruments__002__recorder,recorder,musical instrument,0,0,yes,some_extent,yes,some_extent,
+P021,IR024,16,1,film-and-tv__002__crane,crane,camera equipment,0,0,yes,some_extent,yes,some_extent,
+P021,IR024,16,2,film-and-tv__003__slider,slider,camera equipment,0,0,yes,some_extent,yes,some_extent,
+P021,IR024,16,3,film-and-tv__001__dolly,dolly,camera equipment,0,0,yes,yes,yes,yes,
+P022,IR029,1,1,grains__001__ear,ear,cereal,0,0,yes,yes,yes,yes,
+P022,IR029,1,2,grains__002__beard,beard,cereal,0,0,yes,yes,yes,yes,
+P022,IR029,1,3,grains__003__husk,husk,cereal,0,0,yes,yes,yes,yes,
+P022,IR055,2,1,planes__007__gate,gate,airport,5,0,yes,yes,yes,yes,5
+P022,IR055,2,2,planes__006__apron,apron,airport,5,0,yes,yes,yes,yes,5
+P022,IR055,2,3,planes__008__carousel,carousel,airport,5,0,yes,yes,yes,yes,5
+P022,P007,3,1,boats__010__bark,bark,ship,5,0,yes,yes,yes,yes,5
+P022,P007,3,2,boats__008__cutter,cutter,ship,5,0,yes,yes,yes,yes,5
+P022,P007,3,3,boats__004__steamer,steamer,ship,5,0,yes,yes,yes,yes,5
+P022,IR011,4,1,clothing-items__012__mule,mule,shoe,5,0,yes,yes,yes,yes,5
+P022,IR011,4,2,clothing-items__009__pump,pump,shoe,5,0,yes,yes,yes,yes,5
+P022,IR011,4,3,clothing-items__011__wedge,wedge,shoe,5,0,yes,yes,yes,yes,5
+P022,IR023,5,1,fasteners__001__bolt,bolt,fastener,5,0,yes,yes,yes,yes,5
+P022,IR023,5,2,fasteners__003__staple,staple,fastener,5,0,yes,yes,yes,yes,5
+P022,IR023,5,3,fasteners__004__toggle,toggle,fastener,5,0,yes,yes,yes,yes,5
+P022,IR051,6,1,office-supplies__002__spring,spring,pen,5,0,yes,yes,yes,yes,5
+P022,IR051,6,2,office-supplies__001__barrel,barrel,pen,5,0,yes,yes,yes,yes,5
+P022,IR051,6,3,office-supplies__003__ball,ball,pen,5,0,yes,yes,yes,yes,5
+P022,IR084,7,1,fasteners__009__head,head,screw,5,0,yes,yes,yes,yes,5
+P022,IR084,7,2,fasteners__008__thread,thread,screw,5,0,yes,yes,yes,yes,5
+P022,IR084,7,3,fasteners__010__shank,shank,screw,5,0,yes,yes,yes,yes,5
+P022,IR047,8,1,metals__003__stake,stake,metalworking,0,0,no,yes,no,yes,
+P022,IR047,8,2,metals__001__punch,punch,metalworking,0,0,no,yes,no,yes,
+P022,IR047,8,3,metals__004__drift,drift,metalworking,0,0,no,yes,no,yes,
+P022,IR001,9,1,accessories__004__ring,ring,jewelry,0,0,no,yes,no,yes,
+P022,IR001,9,2,accessories__006__choker,choker,jewelry,0,0,no,yes,no,yes,
+P022,IR001,9,3,accessories__005__charm,charm,jewelry,0,0,no,yes,no,yes,
+P022,IR030,10,1,history__002__club,club,weapon,0,0,no,yes,no,yes,
+P022,IR030,10,2,history__003__mace,mace,weapon,0,0,no,yes,no,yes,
+P022,IR030,10,3,history__001__pike,pike,weapon,0,0,no,yes,no,yes,
+P022,IR033,11,1,household-objects__004__face,face,clock,0,0,no,yes,no,yes,
+P022,IR033,11,2,household-objects__005__hand,hand,clock,0,0,no,yes,no,yes,
+P022,IR033,11,3,household-objects__006__crown,crown,clock,0,0,no,yes,no,yes,
+P022,IR043,12,1,marine-creatures__005__mullet,mullet,fish,0,0,yes,yes,yes,yes,
+P022,IR043,12,2,marine-creatures__004__jack,jack,fish,0,0,yes,yes,yes,yes,
+P022,IR043,12,3,marine-creatures__001__skate,skate,fish,0,0,yes,yes,yes,yes,
+P022,IR013,13,1,cocktails__004__grasshopper,grasshopper,cocktail,0,0,yes,yes,yes,yes,
+P022,IR013,13,2,cocktails__003__sidecar,sidecar,cocktail,0,0,yes,yes,yes,yes,
+P022,IR013,13,3,cocktails__001__screwdriver,screwdriver,cocktail,0,0,yes,yes,yes,yes,
+P022,IR053,14,1,operating-systems__007__tree,tree,data structure,0,0,yes,yes,yes,yes,
+P022,IR053,14,2,operating-systems__006__stack,stack,data structure,0,0,yes,yes,yes,yes,
+P022,IR053,14,3,operating-systems__005__queue,queue,data structure,0,0,yes,yes,yes,yes,
+P022,IR050,15,1,mythological-gods__003__pan,pan,deity,0,0,yes,yes,yes,yes,
+P022,IR050,15,2,mythological-gods__001__mercury,mercury,deity,0,0,yes,yes,yes,yes,
+P022,IR050,15,3,mythological-gods__002__flora,flora,deity,0,0,yes,yes,yes,yes,
+P022,IR065,16,1,sports__003__driver,driver,golf club,0,0,yes,yes,yes,yes,
+P022,IR065,16,2,sports__001__iron,iron,golf club,0,0,yes,yes,yes,yes,
+P022,IR065,16,3,sports__002__wedge,wedge,golf club,0,0,yes,yes,yes,yes,
+P023,IR048,1,1,movies__002__trailer,trailer,film,0,0,no,no,no,no,
+P023,IR048,1,2,movies__001__frame,frame,film,0,0,yes,no,yes,no,
+P023,IR048,1,3,movies__003__credits,credits,film,0,0,yes,no,yes,no,
+P023,IR057,2,1,plants__003__lip,lip,flower,0,0,yes,no,yes,no,
+P023,IR057,2,2,plants__001__blade,blade,flower,0,0,yes,no,yes,no,
+P023,IR057,2,3,plants__002__throat,throat,flower,0,0,no,no,no,no,
+P023,IR089,3,1,musical-instruments__003__organ,organ,musical instrument,0,0,yes,no,yes,no,
+P023,IR089,3,2,musical-instruments__001__triangle,triangle,musical instrument,0,0,no,no,no,no,
+P023,IR089,3,3,musical-instruments__002__recorder,recorder,musical instrument,0,0,no,no,no,no,
+P023,IR047,4,1,metals__003__stake,stake,metalworking,0,0,no,no,no,no,
+P023,IR047,4,2,metals__001__punch,punch,metalworking,0,0,yes,no,yes,no,
+P023,IR047,4,3,metals__004__drift,drift,metalworking,0,0,yes,no,yes,no,
+P023,P027,5,1,finance__009__buck,buck,money,0,0,yes,yes,yes,yes,
+P023,P027,5,2,finance__011__nickel,nickel,money,0,0,yes,yes,yes,yes,
+P023,P027,5,3,finance__007__bills,bills,money,0,0,no,yes,no,yes,
+P023,IR003,6,1,bags__005__clutch,clutch,bag,0,0,no,yes,no,yes,
+P023,IR003,6,2,bags__008__hobo,hobo,bag,0,0,no,idk,no,idk,
+P023,IR003,6,3,bags__006__messenger,messenger,bag,0,0,no,no,no,no,
+P023,IR064,7,1,social-media__002__story,story,feature,0,0,no,no,no,no,
+P023,IR064,7,2,social-media__003__thread,thread,feature,0,0,yes,no,yes,no,
+P023,IR064,7,3,social-media__004__reel,reel,feature,0,0,no,no,no,no,
+P023,IR021,8,1,entertainment__001__wing,wing,stage,0,0,no,no,no,no,
+P023,IR021,8,2,entertainment__002__apron,apron,stage,0,0,no,no,no,no,
+P023,IR021,8,3,entertainment__003__trap,trap,stage,0,0,yes,no,yes,no,
+P023,IR028,9,1,games__002__bishop,bishop,chess piece,0,0,no,yes,no,yes,
+P023,IR028,9,2,games__004__rook,rook,chess piece,0,0,no,yes,no,yes,
+P023,IR028,9,3,games__001__knight,knight,chess piece,0,0,yes,yes,yes,yes,
+P023,IR006,10,1,board-games__008__risk,risk,board game,0,0,yes,no,yes,no,
+P023,IR006,10,2,board-games__007__operation,operation,board game,0,0,yes,no,yes,no,
+P023,IR006,10,3,board-games__005__clue,clue,board game,0,0,no,no,no,no,
+P023,IR036,11,1,jewelry__005__lobster,lobster,clasp,0,0,yes,some_extent,yes,some_extent,
+P023,IR036,11,2,jewelry__007__toggle,toggle,clasp,0,0,no,no,no,no,
+P023,IR036,11,3,jewelry__006__barrel,barrel,clasp,0,0,yes,no,yes,no,
+P023,IR052,12,1,operating-systems__004__driver,driver,operating system,0,0,no,idk,no,idk,
+P023,IR052,12,2,operating-systems__002__shell,shell,operating system,0,0,yes,some_extent,yes,some_extent,
+P023,IR052,12,3,operating-systems__003__pipe,pipe,operating system,0,0,yes,some_extent,yes,some_extent,
+P023,IR039,13,1,landforms__004__sound,sound,landform,0,0,yes,no,yes,no,
+P023,IR039,13,2,landforms__003__spit,spit,landform,0,0,no,no,no,no,
+P023,IR039,13,3,landforms__002__basin,basin,landform,0,0,yes,some_extent,yes,some_extent,
+P023,IR005,14,1,biology__007__stem,stem,plant,0,0,no,yes,no,yes,
+P023,IR005,14,2,biology__008__bark,bark,plant,0,0,yes,yes,yes,yes,
+P023,IR005,14,3,biology__009__root,root,plant,0,0,no,yes,no,yes,
+P023,IR071,15,1,toys-and-games__012__heart,heart,suit,0,0,yes,yes,yes,yes,
+P023,IR071,15,2,toys-and-games__009__club,club,suit,0,0,no,yes,no,yes,
+P023,IR071,15,3,toys-and-games__011__diamond,diamond,suit,0,0,yes,yes,yes,yes,
+P023,IR035,16,1,internet-terms__008__worm,worm,malware,4,0,yes,yes,yes,yes,4
+P023,IR035,16,2,internet-terms__007__virus,virus,malware,5,0,yes,yes,yes,yes,5
+P023,IR035,16,3,internet-terms__009__trojan,trojan,malware,5,0,yes,yes,yes,yes,5
+P024,IR038,1,1,knots__002__hitch,hitch,knot,0,0,no,some_extent,no,some_extent,
+P024,IR038,1,2,knots__001__bow,bow,knot,0,0,yes,some_extent,yes,some_extent,
+P024,IR038,1,3,knots__003__bend,bend,knot,0,0,yes,some_extent,yes,some_extent,
+P024,IR078,2,1,weather-phenomena__004__eye,eye,cyclone,0,0,yes,some_extent,yes,some_extent,
+P024,IR078,2,2,weather-phenomena__005__wall,wall,cyclone,0,0,yes,no,yes,no,
+P024,IR078,2,3,weather-phenomena__006__band,band,cyclone,0,0,yes,idk,yes,idk,
+P024,IR068,3,1,sweets-and-desserts__012__sheet,sheet,cake,0,0,no,yes,no,yes,
+P024,IR068,3,2,sweets-and-desserts__010__pound,pound,cake,0,0,yes,yes,yes,yes,
+P024,IR068,3,3,sweets-and-desserts__011__lava,lava,cake,0,0,yes,yes,yes,yes,
+P024,IR060,4,1,punctuation__002__colon,colon,punctuation mark,0,0,no,yes,no,yes,
+P024,IR060,4,2,punctuation__003__dash,dash,punctuation mark,0,0,no,yes,no,yes,
+P024,IR060,4,3,punctuation__004__bracket,bracket,punctuation mark,0,0,no,yes,no,yes,
+P024,IR003,5,1,bags__005__clutch,clutch,bag,0,0,yes,some_extent,yes,some_extent,
+P024,IR003,5,2,bags__008__hobo,hobo,bag,0,0,no,idk,no,idk,
+P024,IR003,5,3,bags__006__messenger,messenger,bag,0,0,no,idk,no,idk,
+P024,IR084,6,1,fasteners__009__head,head,screw,0,0,yes,yes,yes,yes,
+P024,IR084,6,2,fasteners__008__thread,thread,screw,0,0,yes,some_extent,yes,some_extent,
+P024,IR084,6,3,fasteners__010__shank,shank,screw,0,0,no,idk,no,idk,
+P024,IR056,7,1,plants__008__box,box,tree,0,0,yes,some_extent,yes,some_extent,
+P024,IR056,7,2,plants__007__ash,ash,tree,0,0,no,some_extent,no,some_extent,
+P024,IR056,7,3,plants__009__plane,plane,tree,0,0,yes,some_extent,yes,some_extent,
+P024,IR058,8,1,politics__003__rose,rose,political party,0,0,yes,idk,yes,idk,
+P024,IR058,8,2,politics__001__donkey,donkey,political party,0,0,yes,yes,yes,yes,
+P024,IR058,8,3,politics__002__elephant,elephant,political party,0,0,yes,yes,yes,yes,
+P024,IR053,9,1,operating-systems__007__tree,tree,data structure,0,0,yes,yes,yes,yes,
+P024,IR053,9,2,operating-systems__006__stack,stack,data structure,0,0,yes,yes,yes,yes,
+P024,IR053,9,3,operating-systems__005__queue,queue,data structure,0,0,yes,yes,yes,yes,
+P024,IR031,10,1,hobbies__007__neck,neck,guitar,0,0,yes,idk,yes,idk,
+P024,IR031,10,2,hobbies__004__bridge,bridge,guitar,0,0,yes,idk,yes,idk,
+P024,IR031,10,3,hobbies__006__saddle,saddle,guitar,0,0,yes,idk,yes,idk,
+P024,IR072,11,1,trees__003__crown,crown,tree,0,0,yes,idk,yes,idk,
+P024,IR072,11,2,trees__002__trunk,trunk,tree,0,0,no,yes,no,yes,
+P024,IR072,11,3,trees__004__needle,needle,tree,0,0,yes,some_extent,yes,some_extent,
+P024,IR010,12,1,clothing-items__001__slip,slip,garment,0,0,no,some_extent,no,some_extent,
+P024,IR010,12,2,clothing-items__004__jumper,jumper,garment,0,0,no,some_extent,no,some_extent,
+P024,IR010,12,3,clothing-items__002__tank,tank,garment,0,0,yes,yes,yes,yes,
+P024,IR082,13,1,trains__005__tie,tie,track,0,0,yes,idk,yes,idk,
+P024,IR082,13,2,trains__007__frog,frog,track,0,0,yes,idk,yes,idk,
+P024,IR082,13,3,trains__008__switch,switch,track,0,0,yes,some_extent,yes,some_extent,
+P024,IR071,14,1,toys-and-games__012__heart,heart,suit,0,0,yes,yes,yes,yes,
+P024,IR071,14,2,toys-and-games__009__club,club,suit,0,0,yes,yes,yes,yes,
+P024,IR071,14,3,toys-and-games__011__diamond,diamond,suit,0,0,yes,yes,yes,yes,
+P024,P054,15,1,mythical-creatures__001__brownie,brownie,mythical creature,0,0,yes,no,yes,no,
+P024,P054,15,2,mythical-creatures__003__siren,siren,mythical creature,0,0,yes,yes,yes,yes,
+P024,P054,15,3,mythical-creatures__002__troll,troll,mythical creature,0,0,yes,yes,yes,yes,
+P024,IR016,16,1,computer-science__005__mouse,mouse,computer,0,0,yes,yes,yes,yes,
+P024,IR016,16,2,computer-science__007__bus,bus,computer,0,0,yes,some_extent,yes,some_extent,
+P024,IR016,16,3,computer-science__006__fan,fan,computer,0,0,yes,some_extent,yes,some_extent,
+P025,IR075,1,1,vehicles__008__horn,horn,car,0,0,yes,yes,yes,yes,
+P025,IR075,1,2,vehicles__007__trunk,trunk,car,0,0,yes,yes,yes,yes,
+P025,IR075,1,3,vehicles__006__boot,boot,car,0,0,yes,idk,yes,idk,
+P025,IR070,2,1,telecommunications__005__star,star,topology,0,0,yes,no,yes,no,
+P025,IR070,2,2,telecommunications__006__ring,ring,topology,0,0,yes,some_extent,yes,some_extent,
+P025,IR070,2,3,telecommunications__007__tree,tree,topology,0,0,yes,no,yes,no,
+P025,IR053,3,1,operating-systems__007__tree,tree,data structure,4,0,yes,yes,yes,yes,4
+P025,IR053,3,2,operating-systems__006__stack,stack,data structure,3,0,yes,yes,yes,yes,3
+P025,IR053,3,3,operating-systems__005__queue,queue,data structure,5,0,yes,yes,yes,yes,5
+P025,P054,4,1,mythical-creatures__001__brownie,brownie,mythical creature,0,0,yes,idk,yes,idk,
+P025,P054,4,2,mythical-creatures__003__siren,siren,mythical creature,0,0,yes,yes,yes,yes,
+P025,P054,4,3,mythical-creatures__002__troll,troll,mythical creature,0,0,no,yes,no,yes,
+P025,IR020,5,1,education__003__leaf,leaf,book,0,0,yes,some_extent,yes,some_extent,
+P025,IR020,5,2,education__004__plate,plate,book,0,0,yes,idk,yes,idk,
+P025,IR020,5,3,education__001__spine,spine,book,0,0,yes,some_extent,yes,some_extent,
+P025,IR069,6,1,sweets-and-desserts__003__danish,danish,pastry,0,0,yes,yes,yes,yes,
+P025,IR069,6,2,sweets-and-desserts__002__horn,horn,pastry,0,0,no,idk,no,idk,
+P025,IR069,6,3,sweets-and-desserts__004__bear-claw,bear claw,pastry,0,0,no,idk,no,idk,
+P025,IR031,7,1,hobbies__007__neck,neck,guitar,0,0,yes,some_extent,yes,some_extent,
+P025,IR031,7,2,hobbies__004__bridge,bridge,guitar,0,0,yes,idk,yes,idk,
+P025,IR031,7,3,hobbies__006__saddle,saddle,guitar,0,0,yes,idk,yes,idk,
+P025,IR014,8,1,cocktails__008__foot,foot,glass,0,0,yes,idk,yes,idk,
+P025,IR014,8,2,cocktails__006__stem,stem,glass,0,0,no,idk,no,idk,
+P025,IR014,8,3,cocktails__007__rim,rim,glass,0,0,no,idk,no,idk,
+P025,IR072,9,1,trees__003__crown,crown,tree,0,0,yes,yes,yes,yes,
+P025,IR072,9,2,trees__002__trunk,trunk,tree,0,0,no,yes,no,yes,
+P025,IR072,9,3,trees__004__needle,needle,tree,0,0,yes,no,yes,no,
+P025,IR018,10,1,daily-activities__003__iron,iron,cleaning,0,0,no,no,no,no,
+P025,IR018,10,2,daily-activities__002__brush,brush,cleaning,0,0,no,yes,no,yes,
+P025,IR018,10,3,daily-activities__001__sponge,sponge,cleaning,0,0,yes,yes,yes,yes,
+P025,IR011,11,1,clothing-items__012__mule,mule,shoe,0,0,no,idk,no,idk,
+P025,IR011,11,2,clothing-items__009__pump,pump,shoe,0,0,no,idk,no,idk,
+P025,IR011,11,3,clothing-items__011__wedge,wedge,shoe,0,0,no,idk,no,idk,
+P025,IR017,12,1,console-generations__003__saturn,saturn,console,0,0,yes,idk,yes,idk,
+P025,IR017,12,2,console-generations__001__switch,switch,console,0,0,yes,idk,yes,idk,
+P025,IR017,12,3,console-generations__002__cube,cube,console,0,0,yes,idk,yes,idk,
+P025,IR004,13,1,beverages__001__punch,punch,beverage,0,0,no,yes,no,yes,
+P025,IR004,13,2,beverages__003__shake,shake,beverage,0,0,yes,yes,yes,yes,
+P025,IR004,13,3,beverages__002__float,float,beverage,0,0,no,yes,no,yes,
+P025,IR027,14,1,food__009__current,current,fruit,0,0,yes,idk,yes,idk,
+P025,IR027,14,2,food__008__orange,orange,fruit,0,0,yes,yes,yes,yes,
+P025,IR027,14,3,food__007__date,date,fruit,0,0,yes,yes,yes,yes,
+P025,IR038,15,1,knots__002__hitch,hitch,knot,0,0,no,idk,no,idk,
+P025,IR038,15,2,knots__001__bow,bow,knot,0,0,no,idk,no,idk,
+P025,IR038,15,3,knots__003__bend,bend,knot,0,0,no,idk,no,idk,
+P025,IR044,16,1,martial-arts__005__hook,hook,strike,0,0,yes,idk,yes,idk,
+P025,IR044,16,2,martial-arts__004__cross,cross,strike,0,0,yes,idk,yes,idk,
+P025,IR044,16,3,martial-arts__006__jab,jab,strike,0,0,yes,idk,yes,idk,

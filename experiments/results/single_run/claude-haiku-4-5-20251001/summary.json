@@ -1,0 +1,179 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "scopes": {
+    "all155": {
+      "word_recognition": {
+        "trials": 465,
+        "metrics": {
+          "top1": {
+            "correct": 144,
+            "total": 465,
+            "accuracy": 0.3096774193548387
+          },
+          "top5": {
+            "correct": 237,
+            "total": 465,
+            "accuracy": 0.5096774193548387
+          }
+        }
+      },
+      "concept:zeroshot": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 6,
+            "total": 155,
+            "accuracy": 0.03870967741935484
+          }
+        }
+      },
+      "concept:detailed": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 2,
+            "total": 155,
+            "accuracy": 0.012903225806451613
+          }
+        }
+      },
+      "concept:stepwise": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 0,
+            "total": 155,
+            "accuracy": 0.0
+          }
+        }
+      },
+      "concept:text_only": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 79,
+            "total": 155,
+            "accuracy": 0.5096774193548387
+          }
+        }
+      },
+      "concept:two_shot": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 27,
+            "total": 155,
+            "accuracy": 0.17419354838709677
+          }
+        }
+      },
+      "word_with_cues:1": {
+        "trials": 930,
+        "metrics": {
+          "word_correct": {
+            "correct": 446,
+            "total": 930,
+            "accuracy": 0.47956989247311826
+          }
+        }
+      },
+      "word_with_cues:2": {
+        "trials": 465,
+        "metrics": {
+          "word_correct": {
+            "correct": 222,
+            "total": 465,
+            "accuracy": 0.4774193548387097
+          }
+        }
+      }
+    },
+    "human80": {
+      "word_recognition": {
+        "trials": 240,
+        "metrics": {
+          "top1": {
+            "correct": 80,
+            "total": 240,
+            "accuracy": 0.3333333333333333
+          },
+          "top5": {
+            "correct": 115,
+            "total": 240,
+            "accuracy": 0.4791666666666667
+          }
+        }
+      },
+      "concept:zeroshot": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 4,
+            "total": 80,
+            "accuracy": 0.05
+          }
+        }
+      },
+      "concept:detailed": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 2,
+            "total": 80,
+            "accuracy": 0.025
+          }
+        }
+      },
+      "concept:stepwise": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 0,
+            "total": 80,
+            "accuracy": 0.0
+          }
+        }
+      },
+      "concept:text_only": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 48,
+            "total": 80,
+            "accuracy": 0.6
+          }
+        }
+      },
+      "concept:two_shot": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 21,
+            "total": 80,
+            "accuracy": 0.2625
+          }
+        }
+      },
+      "word_with_cues:1": {
+        "trials": 480,
+        "metrics": {
+          "word_correct": {
+            "correct": 247,
+            "total": 480,
+            "accuracy": 0.5145833333333333
+          }
+        }
+      },
+      "word_with_cues:2": {
+        "trials": 240,
+        "metrics": {
+          "word_correct": {
+            "correct": 121,
+            "total": 240,
+            "accuracy": 0.5041666666666667
+          }
+        }
+      }
+    }
+  }
+}

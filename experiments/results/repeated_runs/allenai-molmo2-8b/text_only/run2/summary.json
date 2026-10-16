@@ -1,0 +1,29 @@
+{
+  "model": "allenai/Molmo2-8B",
+  "scopes": {
+    "all155": {
+      "concept:text_only": {
+        "trials": 155,
+        "metrics": {
+          "concept_correct": {
+            "correct": 42,
+            "total": 155,
+            "accuracy": 0.2709677419354839
+          }
+        }
+      }
+    },
+    "human80": {
+      "concept:text_only": {
+        "trials": 80,
+        "metrics": {
+          "concept_correct": {
+            "correct": 33,
+            "total": 80,
+            "accuracy": 0.4125
+          }
+        }
+      }
+    }
+  }
+}

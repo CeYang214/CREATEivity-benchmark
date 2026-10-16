@@ -1,0 +1,82 @@
+{
+  "examples": [
+    {
+      "answer": "snakes",
+      "images": [
+        {
+          "label": "grass",
+          "photo_url": "https://images.unsplash.com/photo-1567621301854-85b95d32bbf3?auto=format&fit=crop&w=940&q=80",
+          "alt": "green grass field"
+        },
+        {
+          "label": "corn",
+          "photo_url": "https://images.unsplash.com/photo-1634467524884-897d0af5e104?auto=format&fit=crop&w=940&q=80",
+          "alt": "corn on the cob"
+        },
+        {
+          "label": "Python code",
+          "photo_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=940&q=80",
+          "alt": "computer screen with code"
+        }
+      ],
+      "words": [
+        "grass",
+        "corn",
+        "python"
+      ],
+      "explanation": "The common concept is \"snakes\": grass snake, corn snake, and python are all snakes."
+    },
+    {
+      "answer": "capital cities",
+      "images": [
+        {
+          "label": "Brussels sprouts",
+          "photo_url": "https://images.unsplash.com/photo-1607189760730-a330bf941e9c?auto=format&fit=crop&w=940&q=80",
+          "alt": "Brussels sprouts"
+        },
+        {
+          "label": "sole",
+          "photo_url": "https://images.pexels.com/photos/1625620/pexels-photo-1625620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "shoe sole"
+        },
+        {
+          "label": "deli",
+          "photo_url": "https://images.pexels.com/photos/35023463/pexels-photo-35023463.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "deli shop"
+        }
+      ],
+      "words": [
+        "Brussels",
+        "Seoul",
+        "Delhi"
+      ],
+      "explanation": "The common concept is \"capital cities\": Brussels, Seoul, and Delhi are all capital cities."
+    },
+    {
+      "answer": "berries",
+      "images": [
+        {
+          "label": "goose",
+          "photo_url": "https://images.pexels.com/photos/36000885/pexels-photo-36000885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "goose"
+        },
+        {
+          "label": "blue",
+          "photo_url": "https://images.unsplash.com/photo-1589859762194-eaae75c61f64?auto=format&fit=crop&w=940&q=80",
+          "alt": "blue textured background"
+        },
+        {
+          "label": "straw",
+          "photo_url": "https://images.unsplash.com/photo-1615723093586-1ad38d59056b?auto=format&fit=crop&w=940&q=80",
+          "alt": "plastic straws"
+        }
+      ],
+      "words": [
+        "goose",
+        "blue",
+        "straw"
+      ],
+      "explanation": "The common concept is \"berries\": gooseberry, blueberry, and strawberry are all berries."
+    }
+  ]
+}
