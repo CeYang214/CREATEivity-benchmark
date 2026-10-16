@@ -34,7 +34,7 @@ case "${1:-}" in
 esac
 manifest=experiments/manifests/final155_manifest.jsonl
 if [[ ! -f "$manifest" ]]; then
-  "${PYTHON_BIN:-python3}" -B experiments/scripts/prepare_eval.py --final-dataset-jsonl final_dataset/final_dataset_155/final_puzzles.jsonl --output-jsonl "$manifest"
+  "${PYTHON_BIN:-python3}" -B experiments/scripts/prepare_eval.py --final-dataset-jsonl final_dataset/final_puzzles.jsonl --output-jsonl "$manifest"
 fi
 command=("${PYTHON_BIN:-python3}" -B experiments/scripts/model_evaluation.py --manifest "$manifest" --provider "$provider" --model "$model" --limit-puzzles "$limit" --timeout 600 --output-jsonl "$output" --resume)
 if (( ${#settings[@]} )); then command+=("${settings[@]}"); fi

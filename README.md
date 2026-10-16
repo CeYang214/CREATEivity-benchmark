@@ -2,7 +2,7 @@
 
 - `generation/`: generation, filtering, repair, and image-selection data/scripts.
 - `experiments/`: evaluation scripts and saved results.
-- `final_dataset/final_dataset_155/`: 155 puzzles and 465 images.
+- `final_dataset/`: 155 puzzles and 465 images.
 - `80_human_study_puzzles/`: 80 study puzzles and 240 images.
 - `human_study_responses/`: anonymized answers, ratings, and structured surveys.
 

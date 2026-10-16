@@ -135,7 +135,7 @@ def download_selected(puzzle_id, index, word, output, local_files):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "final_dataset/final_dataset_155")
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "final_dataset")
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--curated-dir", type=Path, required=True, help="Directory containing original_puzzles.jsonl and expanded_puzzles.jsonl.")
     args = parser.parse_args()
@@ -155,7 +155,7 @@ def main():
         assert all(w.get("selected_image") and w["selected_image"].get("page_url") for w in puzzle["words"]), "Missing selected photo"
         puzzle["puzzle_id"] = puzzle.get("image_ready_id") or puzzle["final_id"]
     (output / "images").mkdir(parents=True, exist_ok=True)
-    local_files = [p for directory in (ROOT / "generation/data/manual_pics", ROOT / "80_human_study_puzzles/images", ROOT / "final_dataset/final_dataset_155/images") if directory.exists()
+    local_files = [p for directory in (ROOT / "generation/data/manual_pics", ROOT / "80_human_study_puzzles/images", ROOT / "final_dataset/images") if directory.exists()
                    for p in directory.rglob("*") if p.is_file()]
     records = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
