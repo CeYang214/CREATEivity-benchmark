@@ -215,7 +215,7 @@ def call_model(parts: list[dict[str, Any]], provider: str, model: str, endpoint:
 
 
 def malformed_task3_retry_keys(rows: list[dict[str, Any]], puzzles_by_id: dict[str, dict[str, Any]]) -> set[str]:
-    """Select only single-attempt malformed Task 3 cases; never retry successes or retry loops."""
+    """Select malformed cue responses with no prior retry."""
     by_case: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         task_data = row.get("task") or {}
@@ -230,7 +230,7 @@ def malformed_task3_retry_keys(rows: list[dict[str, Any]], puzzles_by_id: dict[s
 
 
 def failed_task3_retry_keys(rows: list[dict[str, Any]], puzzles_by_id: dict[str, dict[str, Any]]) -> set[str]:
-    """Select only single-attempt failed Task 3 requests; do not retry malformed outputs or loops."""
+    """Select failed cue requests with no prior retry."""
     by_case: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         task_data = row.get("task") or {}

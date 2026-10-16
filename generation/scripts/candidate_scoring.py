@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Stage 2: annotate Stage 1 candidates with free local numeric scores."""
+"""Score candidate frequency, imageability, and meaning similarity."""
 
 import argparse
 import csv
@@ -92,7 +92,7 @@ class ZipfScorer:
 
 
 class ImageabilityScorer:
-    """Same expected-class-score readout as the ConceptNet pipeline scorer."""
+    """Compute probability-weighted imageability."""
 
     def __init__(self, model_name: str, device: str = "auto", max_length: int = 32) -> None:
         import torch
@@ -135,8 +135,7 @@ class ImageabilityScorer:
 
 
 class GlossEmbedder:
-    """Mean-pooled sentence embeddings via plain transformers (no
-    sentence_transformers dependency)."""
+    """Mean-pool transformer embeddings."""
 
     def __init__(self, model_name: str, device: str = "auto", max_length: int = 64) -> None:
         import torch

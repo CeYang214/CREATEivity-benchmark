@@ -1,4 +1,4 @@
-"""Reporting diagnostics; these functions do not expand accepted exact-match labels."""
+"""Compute exact-match and overlap metrics."""
 from __future__ import annotations
 
 import re
@@ -163,7 +163,7 @@ def label_diagnostics(parsed: dict[str, Any] | None, puzzle: dict[str, Any], ali
 
 
 def lexical_metrics(prediction: Any, gold: str) -> dict[str, Any]:
-    """Multiset token overlap and unstemmed ROUGE-1/L on normalized labels."""
+    """Compute token overlap and unstemmed ROUGE-1/L."""
     predicted = re.findall(r"[a-z0-9]+", normalize_label(prediction)) if isinstance(prediction, str) else []
     target = re.findall(r"[a-z0-9]+", normalize_label(gold))
     overlap = sum((Counter(predicted) & Counter(target)).values())

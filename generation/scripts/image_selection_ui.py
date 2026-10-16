@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Review fetched stock-photo candidates and select one image per puzzle word."""
+"""Select one image per cue word."""
 
 import argparse
 import json

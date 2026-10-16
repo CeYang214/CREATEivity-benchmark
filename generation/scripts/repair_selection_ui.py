@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Review generated repair candidates for already-reviewed puzzle targets."""
+"""Review repair candidates."""
 
 import argparse
 import json

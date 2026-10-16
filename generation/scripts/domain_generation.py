@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Generate new candidate domains with Gemini."""
+"""Generate domains with Gemini."""
 
 import argparse
 import json
@@ -154,7 +154,7 @@ def parse_domain_payload(raw_text: str) -> dict[str, Any]:
 
 
 def response_text_candidates(response_json: dict[str, Any]) -> list[str]:
-    """Return possible output text strings from Gemini response shapes."""
+    """Extract Gemini response text."""
     candidates: list[str] = []
     for key in ("output_text", "outputText"):
         value = response_json.get(key)

@@ -1,4 +1,4 @@
-"""Combine curated puzzles and materialize their exact selected photographs."""
+"""Combine puzzles and copy selected images."""
 from __future__ import annotations
 
 import argparse

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Stage 1 candidate generation with Gemini."""
+"""Generate cue candidates with Gemini."""
 
 import argparse
 import json
@@ -80,7 +80,7 @@ CANDIDATE_RESPONSE_SCHEMA: Dict[str, Any] = {
 
 
 def extract_gemini_output_text(response_json: Dict[str, Any]) -> str:
-    """Extract text from current and older Gemini REST response shapes."""
+    """Extract Gemini response text."""
     for key in ("output_text", "outputText"):
         value = response_json.get(key)
         if isinstance(value, str) and value.strip():

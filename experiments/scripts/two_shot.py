@@ -1,4 +1,4 @@
-"""Fixed practice examples and explicit nine-image capability checks."""
+"""Load practice examples and check nine-image support."""
 import base64
 import hashlib
 import json

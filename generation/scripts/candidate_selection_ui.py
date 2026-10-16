@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Fast draft-review UI: one auto-assembled puzzle per screen."""
+"""Review draft puzzles."""
 
 import argparse
 import json

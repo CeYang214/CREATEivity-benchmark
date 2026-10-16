@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Fetch stock-photo candidates for final puzzle words from Unsplash/Pexels."""
+"""Find candidate images on Unsplash and Pexels."""
 
 import argparse
 import csv

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Generate extra candidates for human-reviewed Gemini targets."""
+"""Generate repair candidates with Gemini."""
 
 import argparse
 import json

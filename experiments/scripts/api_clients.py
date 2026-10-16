@@ -1,4 +1,4 @@
-"""OpenAI Responses and Anthropic Messages adapters for fixed puzzle prompts."""
+"""OpenAI and Anthropic API clients."""
 import base64
 import io
 

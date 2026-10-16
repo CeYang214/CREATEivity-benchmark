@@ -1,4 +1,4 @@
-"""Shared candidate prompts and normalization; no provider SDK dependency."""
+"""Candidate prompts and normalization."""
 from __future__ import annotations
 
 import argparse

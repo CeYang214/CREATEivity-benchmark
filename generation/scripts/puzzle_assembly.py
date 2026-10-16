@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Group and rank candidates to assemble puzzles without model calls."""
+"""Group and rank puzzle candidates."""
 
 import argparse
 import json
@@ -144,7 +144,7 @@ def group_summaries(groups: List[Dict[str, Any]], limit: int = 8) -> List[Dict[s
 
 
 def make_ranker(labels_path: str, key_path: str):
-    """Fit the human-labeled logistic ranker."""
+    """Fit the logistic ranker."""
     import numpy as np
     from sklearn.linear_model import LogisticRegression
     labels = json.loads(Path(labels_path).read_text())["labels"]

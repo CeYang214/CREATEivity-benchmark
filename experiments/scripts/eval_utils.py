@@ -27,7 +27,7 @@ def append_jsonl(path: Path, row: dict[str, Any]) -> None:
 
 
 def final_dataset_manifest(source: Path, collection: str = "all") -> list[dict[str, Any]]:
-    """Use the finalized three clues in stored order; never rank or reselect them."""
+    """Load the three final clues in stored order."""
     if collection not in {"all", "expanded", "original"}:
         raise ValueError(f"Unknown collection: {collection}")
     rows = read_jsonl(source)
@@ -92,7 +92,7 @@ def task_key(task: dict[str, Any]) -> str:
 
 
 def task3_case(task: dict[str, Any], puzzle: dict[str, Any]) -> dict[str, Any]:
-    """Return stable image-level identity while retaining the actual prompt cue order."""
+    """Build image-level keys without changing cue order."""
     images = puzzle["images"]
     cue_ids = [str(images[slot].get("image_id", slot)) for slot in task["cue_slots"]]
     target_id = str(images[task["target_slot"]].get("image_id", task["target_slot"]))
@@ -102,7 +102,7 @@ def task3_case(task: dict[str, Any], puzzle: dict[str, Any]) -> dict[str, Any]:
 
 
 def result_task_key(row: dict[str, Any], puzzles_by_id: dict[str, dict[str, Any]]) -> str:
-    """Map result records to image-level identity."""
+    """Build image-level result keys."""
     task = row.get("task") or {}
     if row.get("task_case_key"):
         return row["task_case_key"]
