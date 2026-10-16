@@ -33,6 +33,9 @@ def final_dataset_manifest(source: Path, collection: str = "all") -> list[dict[s
     rows = read_jsonl(source)
     if not rows:
         raise ValueError(f"Empty final dataset: {source}")
+    image_root = source.resolve().parent
+    if image_root == ROOT / "final_dataset/detail":
+        image_root = image_root.parent
     manifest = []
     seen = set()
     for puzzle in rows:
@@ -51,7 +54,7 @@ def final_dataset_manifest(source: Path, collection: str = "all") -> list[dict[s
             relative = Path(word["local_image_path"])
             if relative.is_absolute() or ".." in relative.parts:
                 raise ValueError(f"Invalid local image path: {pid}/{relative}")
-            path = (source.resolve().parent / relative).resolve()
+            path = (image_root / relative).resolve()
             if not path.is_relative_to(ROOT) or not path.is_file():
                 raise FileNotFoundError(path)
             if not word.get("word") or not word.get("domain_sense_gloss") or not word.get("alternative_sense_gloss"):

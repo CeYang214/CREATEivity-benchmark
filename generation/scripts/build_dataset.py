@@ -189,8 +189,10 @@ def main():
                "puzzles_with_all_three_local_photos": sum(all(w["local_photo_status"] == "ok" for w in p["words"]) for p in rows),
                "all_puzzles_have_three_candidates": True, "all_photos_local": not failures,
                "live_study_modified": False, "output_dir": str(output)}
-    (output / "final_puzzles.jsonl").write_text("".join(json.dumps(p, ensure_ascii=False) + "\n" for p in rows), encoding="utf-8")
-    (output / "final_puzzles.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+    detail = output / "detail"
+    detail.mkdir(exist_ok=True)
+    (detail / "final_puzzles.jsonl").write_text("".join(json.dumps(p, ensure_ascii=False) + "\n" for p in rows), encoding="utf-8")
+    (detail / "final_puzzles.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
     (output / "download_report.json").write_text(json.dumps({"summary": summary, "photos": records}, ensure_ascii=False, indent=2), encoding="utf-8")
     (output / "failed_photos.json").write_text(json.dumps(failures, ensure_ascii=False, indent=2), encoding="utf-8")
     (output / "failed_photos.txt").write_text("".join(f"{r['puzzle_id']} slot {r['slot']}: {r['word']}\n{r['page_url']}\n\n" for r in failures), encoding="utf-8")

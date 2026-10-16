@@ -11,7 +11,7 @@ score_subset() {
   shift
   local command=("${PYTHON_BIN:-python3}" -B experiments/scripts/llm_judge.py
     --manifest experiments/manifests/final155_manifest.jsonl
-    --puzzles-jsonl final_dataset/final_puzzles.jsonl
+    --puzzles-jsonl final_dataset/detail/final_puzzles.jsonl
     --results-jsonl "$results"
     --semantic-concepts --output-dir "experiments/results/scored/${stem}_${subset}")
   if [[ "$subset" == human80 ]]; then
