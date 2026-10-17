@@ -1,13 +1,12 @@
 # CREATEivity-benchmark
 
 - `generation/`: generation, filtering, repair, and image-selection data/scripts.
-- `experiments/`: evaluation scripts and saved results.
-- `final_dataset/`: 155 puzzles and 465 images.
-- `80_human_study_puzzles/`: 80 study puzzles and 240 images.
-- `human_study_responses/`: anonymized answers, ratings, and structured surveys.
+- `experiments/`: evaluation scripts and results.
+- `final_dataset/`: 155 puzzles.
+- `80_human_study_puzzles/`: 80 human study puzzles.
+- `human_study_responses/`: anonymized answers, ratings, and surveys.
 
-Install `requirements.txt` for local processing or `requirements-vllm.txt` in a separate GPU environment.
-Git LFS is required to download the large frequency-data file.
+
 Run generation scripts from `generation/`. Experiment commands run from the package root.
 Replace `MODEL` with a launcher alias (e.g., `qwen9b`), `MODEL_ID` with its checkpoint ID,
 and `OUTPUT` with your output folder. Adjust GPU settings for your model.
