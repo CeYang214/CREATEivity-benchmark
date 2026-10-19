@@ -33,3 +33,19 @@ for name in words zeroshot detailed stepwise two_shot text_only cues; do
   bash experiments/score_final155_eval.sh "OUTPUT/$name.jsonl"
 done
 ```
+
+## Citation
+
+If you use the code or data from this repository, please consider citing our work:
+
+```bibtex
+@misc{yang2026create,
+  title = {{CREATE}: Creativity Evaluation of {VLMs} using the Visual Remote Associates Test},
+  author = {Ziqing Yang and Anubhav Jangra and Smaranda Muresan},
+  year = {2026},
+  eprint = {2610.18569},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  url = {https://arxiv.org/abs/2610.18569}
+}
+```
